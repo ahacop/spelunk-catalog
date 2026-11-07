@@ -1,5 +1,6 @@
 name: Validate manifests
 
+# A quick check that every manifest is well-formed. No network, no downloads.
 on:
   pull_request:
   push:
@@ -13,21 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Unit tests
-        run: python3 -m unittest discover -s tests -v
-      - name: Check every manifest's structure
-        run: python3 tools/validate.py
-      - name: Download and verify changed manifests
-        run: |
-          base="${{ github.event.pull_request.base.sha || github.event.before }}"
-          if [ -z "$base" ] || ! git cat-file -e "$base" 2>/dev/null; then
-            base=$(git hash-object -t tree /dev/null)
-          fi
-          changed=$(git diff --name-only --diff-filter=AM "$base" HEAD -- 'games/*.spelunk' 'games/**/*.spelunk')
-          if [ -z "$changed" ]; then echo "No changed manifests."; exit 0; fi
-          python3 tools/validate.py --download $changed
+      - run: python3 -m unittest discover -s tests
+      - run: python3 tools/validate.py

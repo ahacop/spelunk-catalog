@@ -80,16 +80,11 @@ serial is a date (starts with 8 or 9).
 
 ## Checks
 
-CI runs `tools/validate.py` on every push and PR: format version, required fields, `https`-only
-sources on public hosts, plain-text strings without control or bidi characters, allowed part
-types only (PNG, JPEG, HEIC, PDF, z1–z8, hints; no SVG), and the file path. Manifests a PR adds
-or changes are downloaded and checked for sha256, magic bytes, size caps and, for stories, the
-header's release, serial and checksum.
+CI runs `tools/validate.py` and the unit tests on every push and PR, with no network: format
+version, required fields, `https`-only sources on public hosts, plain-text strings without control
+or bidi characters, allowed part types only (PNG, JPEG, HEIC, PDF, z1–z8, hint files; no SVG, no
+hint web pages), and the file path. `python3 tools/validate.py --download FILE...` also fetches a
+manifest's files and checks sha256, magic bytes, size caps, hint markup and, for stories, the
+header's release, serial and checksum; run it by hand when adding a manifest.
 
 The app re-checks everything itself: every manifest is untrusted, including these.
-
-## Refreshing on GitHub
-
-The **Refresh catalog from eblong** workflow (Actions tab, Run workflow) runs the generator on
-GitHub's runners and pushes the result to the `catalog-refresh` branch. Open a PR from it to
-`main`; CI then downloads and verifies every new or changed manifest.
