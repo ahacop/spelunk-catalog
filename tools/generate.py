@@ -284,7 +284,7 @@ def main() -> int:
             continue
         m = manifest_for(url, ident, s["bytes"], game)
         if game["tuid"] not in game_extras:
-            stem = re.sub(r"-r\d+.*$", "", Path(urlsplit(url).path).stem).lower()
+            stem = Path(urlsplit(url).path).stem.split("-")[0].lower()  # zork1-mac-r22-... -> zork1
             game_extras[game["tuid"]] = extras.for_game(stem, game.get("links") or [])
             save(DATA / "extras.json", extras_cache)
         problems = validate_manifest(m)
