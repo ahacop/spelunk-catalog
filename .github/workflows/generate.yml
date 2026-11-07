@@ -42,8 +42,8 @@ jobs:
         run: |
           git add -A games data
           if git diff --cached --quiet; then echo "No changes."; exit 0; fi
-          git -c user.name="github-actions[bot]" \
-              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+          git -c user.name="Ara Hacopian" \
+              -c user.email="ara@hacopian.de" \
               commit -m "Refresh manifests from eblong.com/infocom"
           git push --force origin HEAD:catalog-refresh
           echo "Pushed. Open a PR from catalog-refresh to main to review." >> "$GITHUB_STEP_SUMMARY"
