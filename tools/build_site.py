@@ -121,15 +121,22 @@ def contents(m: dict) -> str:
     return ", ".join(bits)
 
 
-def first_serial(paths: list[str]) -> str:
-    """The earliest YYMMDD serial among a game's releases, to order games
-    released in the same year (Infocom's serials are build dates)."""
-    serials = []
-    for p in paths:
-        serial = json.loads((ROOT / p).read_text())["story"]["serial"]
-        if serial.isdigit() and serial[0] in "789":
-            serials.append(serial)
-    return min(serials, default="999999")
+MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
+
+
+def released(tuid: str, g: dict, dates: dict) -> tuple[int, int]:
+    """(year, month) of first release: data/release-dates.json (the Infocom
+    Fact Sheet), else IFDB's year with month 0 (unknown), else (9999, 0)."""
+    r = dates.get(tuid, {}).get("released", "")
+    if r:
+        y, _, m = r.partition("-")
+        return int(y), int(m or 0)
+    return int(g.get("published") or 9999), 0
+
+
+def when(ym: tuple[int, int]) -> str:
+    y, m = ym
+    return "" if y == 9999 else (f"{MONTHS[m - 1]} {y}" if m else str(y))
 
 
 def views(current: str) -> str:
@@ -141,6 +148,7 @@ def views(current: str) -> str:
 
 def main() -> int:
     index = json.loads((ROOT / "data" / "index.json").read_text())
+    dates = json.loads((ROOT / "data" / "release-dates.json").read_text())["games"]
     if OUT.exists():
         shutil.rmtree(OUT)
     (OUT / "games").mkdir(parents=True)
@@ -175,13 +183,13 @@ def main() -> int:
 <div>{cover_img(default, g["title"])}</div>
 <div>
 <h1>{esc(g["title"])}</h1>
-<p class="sub">{f"{esc(g['published'])} · " if g.get("published") else ""}{len(g["releases"])} release{'s' if len(g["releases"]) != 1 else ''}{f' · <a href="{esc(ifdb)}">IFDB</a>' if ifdb else ''}</p>
+<p class="sub">{f"Released {esc(when(released(tuid, g, dates)))} · " if when(released(tuid, g, dates)) else ""}{len(g["releases"])} release{'s' if len(g["releases"]) != 1 else ''}{f' · <a href="{esc(ifdb)}">IFDB</a>' if ifdb else ''}</p>
 {first}
 {more}
 </div>
 </div>"""
         (OUT / "games" / tuid / "index.html").write_text(page(g["title"], body, 2))
-        year = g.get("published")
+        year = when(released(tuid, g, dates))
         cards[tuid] = (f"""<li><a href="games/{esc(tuid)}/index.html">{cover_img(default, g["title"])}
 <div class="t">{esc(g["title"])}</div>
 <div class="n">{f"{year} · " if year else ""}{len(g["releases"])} release{'s' if len(g["releases"]) != 1 else ''}</div></a></li>""")
@@ -194,16 +202,14 @@ def main() -> int:
 </ul>"""
     (OUT / "index.html").write_text(page("Spelunk catalog", body, 0))
 
-    # Chronological: by IFDB's first-published year, then earliest serial.
-    # A game IFDB has no year for goes by its earliest build (serial 84xxxx: 1984).
-    def year_of(g: dict) -> str:
-        serial = first_serial([r["path"] for r in g["releases"]])
-        return str(g.get("published") or (f"19{serial[:2]}" if serial != "999999" else "Year unknown"))
+    # Chronological: by release month (games with only a year go last in it).
+    order = {t: i for i, t in enumerate(dates)}  # the Fact Sheet's order breaks ties
     by_year: dict[str, list[str]] = {}
     for tuid, g in sorted(index.items(), key=lambda kv: (
-            year_of(kv[1]), first_serial([r["path"] for r in kv[1]["releases"]]),
-            kv[1]["title"].lower())):
-        by_year.setdefault(year_of(g), []).append(cards[tuid])
+            released(kv[0], kv[1], dates)[0], released(kv[0], kv[1], dates)[1] or 13,
+            order.get(kv[0], len(order)), kv[1]["title"].lower())):
+        y = released(tuid, g, dates)[0]
+        by_year.setdefault("Year unknown" if y == 9999 else str(y), []).append(cards[tuid])
     sections = "".join(f'<h2 class="year">{esc(y)}</h2>\n<ul class="grid">\n{"".join(c)}\n</ul>\n'
                        for y, c in by_year.items())
     body = f"""<h1>Spelunk catalog</h1>

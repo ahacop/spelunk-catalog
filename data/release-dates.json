@@ -1,0 +1,157 @@
+{
+  "_source": "Release month (or year) of first publication, from Paul David Doherty's Infocom Fact Sheet 4.95 (https://ifarchive.org/if-archive/infocom/info/fact-sheet.txt), sections X (Chronology) and I. Games not listed fall back to IFDB's first-published year. Listed in the Fact Sheet's order, which breaks ties within a month.",
+  "games": {
+    "0dbnusxunq7fw5ro": {
+      "title": "Zork I",
+      "released": "1980-11"
+    },
+    "yzzm4puxyjakk8c4": {
+      "title": "Zork II",
+      "released": "1981-11"
+    },
+    "p976o7x5ies9ltdh": {
+      "title": "Deadline",
+      "released": "1982-04"
+    },
+    "vrsot1zgy1wfcdru": {
+      "title": "Zork III",
+      "released": "1982-09"
+    },
+    "y42oje3ryqi6lohn": {
+      "title": "Starcross",
+      "released": "1982-09"
+    },
+    "t47hei9uq10xoar8": {
+      "title": "Suspended",
+      "released": "1983-03"
+    },
+    "6963a47vqgms8wi0": {
+      "title": "The Witness",
+      "released": "1983-06"
+    },
+    "xe6kb3cuqwie2q38": {
+      "title": "Planetfall",
+      "released": "1983-08"
+    },
+    "vu4xhul3abknifcr": {
+      "title": "Enchanter",
+      "released": "1983-09"
+    },
+    "anu79a4n1jedg5mm": {
+      "title": "Infidel",
+      "released": "1983-11"
+    },
+    "lidg5nx9ig0bwk55": {
+      "title": "Sorcerer",
+      "released": "1984-03"
+    },
+    "56wb8hflec2isvzm": {
+      "title": "Seastalker",
+      "released": "1984-06"
+    },
+    "4ao65o1u0xuvj8jf": {
+      "title": "Cutthroats",
+      "released": "1984-09"
+    },
+    "ouv80gvsl32xlion": {
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "released": "1984-10"
+    },
+    "tdbss1ekrp4ua7h4": {
+      "title": "Suspect",
+      "released": "1984-11"
+    },
+    "wa8crlfz82pra14i": {
+      "title": "Four-In-One Sampler I",
+      "released": "1984"
+    },
+    "z02joykzh66wfhcl": {
+      "title": "Wishbringer",
+      "released": "1985-06"
+    },
+    "4h62dvooeg9ajtfa": {
+      "title": "A Mind Forever Voyaging",
+      "released": "1985-09"
+    },
+    "wqsmrahzozosu3r": {
+      "title": "Spellbreaker",
+      "released": "1985-10"
+    },
+    "b0i6bx7g4rkrekgg": {
+      "title": "Ballyhoo",
+      "released": "1986-02"
+    },
+    "j18kjz80hxjtyayw": {
+      "title": "Trinity",
+      "released": "1986-06"
+    },
+    "3p9fdt4fxr2goctw": {
+      "title": "Leather Goddesses of Phobos",
+      "released": "1986-09"
+    },
+    "c66u816v8kx2jzm2": {
+      "title": "Moonmist",
+      "released": "1986-10"
+    },
+    "jnfkbgdgopwfqist": {
+      "title": "Hollywood Hijinx",
+      "released": "1987-02"
+    },
+    "zjyxds3s57pgis3x": {
+      "title": "Bureaucracy",
+      "released": "1987-03"
+    },
+    "9nlbhqnlyb169uge": {
+      "title": "Stationfall",
+      "released": "1987-06"
+    },
+    "jhbd0kja1t57uop": {
+      "title": "The Lurking Horror",
+      "released": "1987-06"
+    },
+    "zxb8pq3qrkvdob4i": {
+      "title": "Nord and Bert Couldn't Make Head or Tail of It",
+      "released": "1987-09"
+    },
+    "ddagftras22bnz8h": {
+      "title": "Plundered Hearts",
+      "released": "1987-09"
+    },
+    "9h6o1charof548ii": {
+      "title": "Beyond Zork",
+      "released": "1987-10"
+    },
+    "7epwz167lgruvm0u": {
+      "title": "Border Zone",
+      "released": "1987-11"
+    },
+    "p00ucaayobrt2paz": {
+      "title": "Four-In-One Sampler II",
+      "released": "1987"
+    },
+    "1rea34vqnz3mtyq1": {
+      "title": "Mini-Zork",
+      "released": "1987"
+    },
+    "j8lmspy4iz73mx26": {
+      "title": "Sherlock: The Riddle of the Crown Jewels",
+      "released": "1988-01"
+    },
+    "17coplfu323xif76": {
+      "title": "Zork Zero: The Revenge of Megaboz",
+      "released": "1988-10"
+    },
+    "w3pz3v8wckaw1wgb": {
+      "title": "Shogun",
+      "released": "1989-03"
+    },
+    "2752o3sh6y05ob1p": {
+      "title": "Journey",
+      "released": "1989-03"
+    },
+    "zoohwv5nqye7up2t": {
+      "title": "Arthur: The Quest for Excalibur",
+      "released": "1989-07"
+    }
+  }
+}
