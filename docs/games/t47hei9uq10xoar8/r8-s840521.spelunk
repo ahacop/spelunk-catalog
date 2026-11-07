@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Suspended",
+  "game": "t47hei9uq10xoar8",
+  "story": {
+    "ifid": "ZCODE-8-840521",
+    "release": 8,
+    "serial": "840521",
+    "checksum": "c123",
+    "label": "Alternate · Release 8 (840521)",
+    "type": "z3",
+    "sha256": "702fe4d04b6a3f7b8ddb02966d2d96e20edc9e2b5270ad2fc23fc0cd2529662d",
+    "bytes": 105584,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/suspended-alt-r8-s840521.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=t47hei9uq10xoar8"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "c619f560875622a1d77026884ba5d0b4041643a0e41d85abebacf4493b95b65f",
+    "bytes": 65385,
+    "sources": [
+      "https://ifdb.org/coverart?id=t47hei9uq10xoar8&version=22"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "a2f71008fc383c9d39ca249ec5891180f3d200dcb9cc1edd98f57ecc276176c9",
+    "bytes": 2580888,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/suspende.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "0eee27c3938cf20171178b69e9c23c63e3d8065601f26c7c840f93a6e207c433",
+      "bytes": 25600,
+      "sources": [
+        "https://infodoc.plover.net/hints/suspende.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "af50b0f383242b083270a93f1781ff8fb32a517224c7ba6a24c8273cc0d77855",
+      "bytes": 238343,
+      "sources": [
+        "https://infodoc.plover.net/maps/suspende.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "f4f3f37c81014652b74945ede2a8ac300c0f734877faadf8f9d25fa8faa7d883",
+      "bytes": 54733,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/suspende.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

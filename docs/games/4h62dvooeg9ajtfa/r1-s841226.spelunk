@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "A Mind Forever Voyaging",
+  "game": "4h62dvooeg9ajtfa",
+  "story": {
+    "ifid": "ZCODE-1-841226",
+    "release": 1,
+    "serial": "841226",
+    "checksum": "766f",
+    "label": "First release · Release 1 (841226)",
+    "type": "z3",
+    "sha256": "e9beb4809e291454e7775fbe2867f30b21acb6d01d6258fb4f6a208d9d0624d6",
+    "bytes": 33536,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/amfv-first-r1-s841226.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=4h62dvooeg9ajtfa"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "b5fa39e92dd8e1d1d1b3fcc83c6189e3f2f5e340082107dd77ae308d1ae915cc",
+    "bytes": 106942,
+    "sources": [
+      "https://ifdb.org/coverart?id=4h62dvooeg9ajtfa&version=35"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "ef555a51c6e649a48b88abd0957aa0808f1c0c5f4750f986ceb4230401a16c06",
+    "bytes": 2816928,
+    "sources": [
+      "https://infodoc.plover.net/manuals/amfv.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "6c1b48e0c0ed6ae308ec12f70cf0f198544c254aa4771dba8271caf14bc1f5bd",
+      "bytes": 37888,
+      "sources": [
+        "https://infodoc.plover.net/hints/amfv.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "f35ea71acc6049f7a31ad0cb0d054f05d1f4d02c3e2f5544bfe0df14b3bd9fab",
+      "bytes": 1862349,
+      "sources": [
+        "https://infodoc.plover.net/maps/amfv.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "81a38f7ce42de93a8b9d68651813e09958351bb61b292dc6a1918e399a708ed5",
+      "bytes": 57783,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/amfv.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

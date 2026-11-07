@@ -2,7 +2,7 @@
   {
     "slot": "manual",
     "url": "https://archive.org/details/Casebook_Deadline_Infocom_Apple",
-    "why": "not cached"
+    "why": "download failed"
   },
   {
     "slot": "hints",
@@ -250,6 +250,26 @@
     "why": "not a hint file (text)"
   },
   {
+    "slot": "hints",
+    "url": "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/hypochon.json",
+    "why": "download failed"
+  },
+  {
+    "slot": "hints",
+    "url": "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/journey.json",
+    "why": "download failed"
+  },
+  {
+    "slot": "hints",
+    "url": "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/minizork.json",
+    "why": "download failed"
+  },
+  {
+    "slot": "hints",
+    "url": "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/sampler.json",
+    "why": "download failed"
+  },
+  {
     "slot": "manual",
     "url": "https://traffic.libsyn.com/monsterfeet/grue_016.mp3",
     "why": "file type .mp3"
@@ -272,7 +292,7 @@
   {
     "slot": "hints",
     "url": "https://www.ifarchive.org/if-archive/solutions/slag/deadlineinv.z5",
-    "why": "not cached"
+    "why": "download failed"
   },
   {
     "slot": "hints",
@@ -287,31 +307,31 @@
   {
     "slot": "manual",
     "url": "https://www.ifwiki.org/Arthur:_The_Quest_for_Excalibur",
-    "why": "not cached"
+    "why": "download failed"
   },
   {
     "slot": "manual",
     "url": "https://www.ifwiki.org/Journey",
-    "why": "not cached"
+    "why": "download failed"
   },
   {
     "slot": "manual",
     "url": "https://www.ifwiki.org/Sherlock:_The_Riddle_of_the_Crown_Jewels",
-    "why": "not cached"
+    "why": "download failed"
   },
   {
     "slot": "manual",
     "url": "https://www.ifwiki.org/Shogun",
-    "why": "not cached"
+    "why": "download failed"
   },
   {
     "slot": "manual",
     "url": "https://www.ifwiki.org/The_Lurking_Horror",
-    "why": "not cached"
+    "why": "download failed"
   },
   {
     "slot": "manual",
     "url": "https://www.ifwiki.org/Zork_Zero",
-    "why": "not cached"
+    "why": "download failed"
   }
 ]

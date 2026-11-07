@@ -42,9 +42,10 @@ def check_file(path: Path) -> tuple[list[str], dict | None]:
     rel = path.resolve().relative_to(ROOT)
     if rel.parts[0] == "games" and isinstance(m, dict) and isinstance(m.get("story"), dict):
         s = m["story"]
-        want = Path("games", str(m.get("game")), f"r{s.get('release')}-s{s.get('serial')}.spelunk")
-        if rel != want:
-            errs.append(f"should be at {want}")
+        stem = f"r{s.get('release')}-s{s.get('serial')}"
+        want = [Path("games", str(m.get("game")), f"{stem}{c}.spelunk") for c in ("", f"-c{s.get('checksum')}")]
+        if rel not in want:
+            errs.append(f"should be at {want[0]}")
     return errs, m
 
 

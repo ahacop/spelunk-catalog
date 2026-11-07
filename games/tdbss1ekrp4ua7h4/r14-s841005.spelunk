@@ -6,13 +6,12 @@
     "ifid": "ZCODE-14-841005",
     "release": 14,
     "serial": "841005",
-    "checksum": "d04e",
+    "checksum": "d0ec",
     "label": "Release 14 (841005)",
     "type": "z3",
-    "sha256": "33b220dc262ad38be2bca35534ac33690b4855679299b178abb2c87b598349a2",
+    "sha256": "cdfc32fc1512f2fa89410656d7015204e94efff8aeda93a0c60cbda6eedfc30b",
     "bytes": 118692,
     "sources": [
-      "https://eblong.com/infocom/gamefiles/suspect-atari-r14-s841005.z3",
       "https://eblong.com/infocom/gamefiles/suspect-r14-s841005.z3"
     ]
   },

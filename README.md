@@ -8,6 +8,7 @@ iOS app. Each manifest describes **one release** of a game and points at files h
 
 ```
 games/<ifdb-id>/r<release>-s<serial>.spelunk   one manifest per release, every release on eblong
+                     (-c<checksum> added when two files share release and serial)
 data/index.json      per game: its releases, the default (latest standard release) first
 data/stories.json    cache: each eblong story URL -> sha256, size, header identity
 data/ifdb.json       cache: IFID -> IFDB id, title, author
@@ -78,6 +79,15 @@ collection takes a while on purpose.
 
 IFIDs follow the Treaty of Babel: `ZCODE-<release>-<serial>`, plus `-<checksum>` unless the
 serial is a date (starts with 8 or 9).
+
+## Website
+
+`python3 tools/build_site.py` builds the catalog site into `docs/`: a page of games and one page
+per game with its releases (the recommended one first), each with **Open in Spelunk**
+(`spelunk://import?url=…`) and a download link. The manifests are copied into `docs/games/` so the
+site serves them itself. GitHub Pages serves `docs/` from `main`
+(Settings → Pages → Deploy from a branch → `main` / `/docs`) at
+https://ahacop.github.io/spelunk-catalog/. Rebuild after regenerating manifests.
 
 ## Checks
 

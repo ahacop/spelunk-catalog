@@ -9,10 +9,9 @@
     "checksum": "4235",
     "label": "Atari · Release 17 (850208)",
     "type": "z3",
-    "sha256": "a8fd61017392dd304283c5eac4e21f0fd4a139ac2b82f7175f1aff3e34ff9906",
+    "sha256": "343bcb5640dec9639c38296a6f341b5d32298a6b5298f9a1ab995eeda7add997",
     "bytes": 117180,
     "sources": [
-      "https://eblong.com/infocom/gamefiles/seastalker-nonatari-r17-s850208.z3",
       "https://eblong.com/infocom/gamefiles/seastalker-atari-r17-s850208.z3"
     ]
   },

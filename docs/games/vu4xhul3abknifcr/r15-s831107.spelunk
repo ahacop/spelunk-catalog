@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Enchanter",
+  "game": "vu4xhul3abknifcr",
+  "story": {
+    "ifid": "ZCODE-15-831107",
+    "release": 15,
+    "serial": "831107",
+    "checksum": "5087",
+    "label": "Release 15 (831107)",
+    "type": "z3",
+    "sha256": "aeade3ea1bc7d2860b1d1c0de57013a3d58661cdbe3ba8394a2bcac8c0c26b46",
+    "bytes": 109230,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/enchanter-r15-s831107.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=vu4xhul3abknifcr"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "fbc6e1e11358ab61b46e93e89f76eca7c28a46056f0c67e289786caf44712efa",
+    "bytes": 81962,
+    "sources": [
+      "https://ifdb.org/coverart?id=vu4xhul3abknifcr&version=18"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "bbcf42b180e1d8076e8c2e1d24f7f1083f16825b429b6f03b02dab5051603ce6",
+    "bytes": 4985481,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/enchante.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "e01ea5facf6baed9725f4ae5912cbfdfbef73fa70a98de2b5aa0a4d1ee1db06a",
+      "bytes": 36352,
+      "sources": [
+        "https://infodoc.plover.net/hints/enchante.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "5c72be8ea7d97592c366f62d09d5b40baa5e6c7053bf3e6ab78ce575edb5e29c",
+      "bytes": 7776161,
+      "sources": [
+        "https://infodoc.plover.net/maps/enchante.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "0020c8ebda02ccacba1d6157f5a34fa10336ff458e42d503e4dfed6685b91e34",
+      "bytes": 77544,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/enchante.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

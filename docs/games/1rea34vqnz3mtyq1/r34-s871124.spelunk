@@ -1,0 +1,30 @@
+{
+  "spelunk": 1,
+  "title": "Mini-Zork",
+  "game": "1rea34vqnz3mtyq1",
+  "story": {
+    "ifid": "ZCODE-34-871124",
+    "release": 34,
+    "serial": "871124",
+    "checksum": "d870",
+    "label": "Release 34 (871124)",
+    "type": "z3",
+    "sha256": "c74f01a232e8df4b05d7ebcba14870143f49b3c9a25f194f7a7d2c69e31ea4a6",
+    "bytes": 52216,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/minizork-r34-s871124.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=1rea34vqnz3mtyq1"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "bcd440d2d18a31c5be15b2aea9108a3ecd0f35471d3af28c803b548782a57bcc",
+    "bytes": 94416,
+    "sources": [
+      "https://ifdb.org/coverart?id=1rea34vqnz3mtyq1&version=7"
+    ],
+    "credit": "Cover art from IFDB"
+  }
+}

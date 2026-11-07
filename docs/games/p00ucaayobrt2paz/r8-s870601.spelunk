@@ -1,0 +1,30 @@
+{
+  "spelunk": 1,
+  "title": "Four-In-One Sampler II",
+  "game": "p00ucaayobrt2paz",
+  "story": {
+    "ifid": "ZCODE-8-870601",
+    "release": 8,
+    "serial": "870601",
+    "checksum": "f199",
+    "label": "2zt · Release 8 (870601)",
+    "type": "z3",
+    "sha256": "37411ba2f001f943dd1dea22468dd31bcda6da96581d6fcea4e29fd050419c55",
+    "bytes": 106094,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/sampler-2zt-r8-s870601.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=p00ucaayobrt2paz"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "93508589be40bd08e13673a75a45709ebf7a10e062b19546c9cfcdd5f2b4b8e6",
+    "bytes": 82020,
+    "sources": [
+      "https://ifdb.org/coverart?id=p00ucaayobrt2paz&version=6"
+    ],
+    "credit": "Cover art from IFDB"
+  }
+}

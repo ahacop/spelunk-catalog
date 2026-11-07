@@ -6,13 +6,12 @@
     "ifid": "ZCODE-366-890323",
     "release": 366,
     "serial": "890323",
-    "checksum": "c5cd",
+    "checksum": "c5ce",
     "label": "Demo · Release 366 (890323)",
     "type": "z6",
-    "sha256": "14a37267399b41f1217ef526dd7a19e76f559acfdc9d83998961688164ba6bcd",
+    "sha256": "b4722041698529cad7f1a272bf901fed190dfb5eb29bad9d4f50c08561a3055c",
     "bytes": 296376,
     "sources": [
-      "https://eblong.com/infocom/gamefiles/zork0-r366-s890323.z6",
       "https://eblong.com/infocom/gamefiles/zork0-demo-r366-s890323.z6"
     ]
   },

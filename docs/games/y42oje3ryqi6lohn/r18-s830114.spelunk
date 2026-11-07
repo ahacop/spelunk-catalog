@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Starcross",
+  "game": "y42oje3ryqi6lohn",
+  "story": {
+    "ifid": "ZCODE-18-830114",
+    "release": 18,
+    "serial": "830114",
+    "checksum": "a459",
+    "label": "Release 18 (830114)",
+    "type": "z3",
+    "sha256": "c7dac463c3a51170f82d68e389202a9ab7cc385ebf2239b83e721986e9522768",
+    "bytes": 84740,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/starcross-r18-s830114.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=y42oje3ryqi6lohn"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "215ff62e05f751a471ebc697e05794c44e7745d50e534c87cbc9fb7a86a10107",
+    "bytes": 63466,
+    "sources": [
+      "https://ifdb.org/coverart?id=y42oje3ryqi6lohn&version=15"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "99f423bc965bd1d737cb93a18eb40851f6160d5e8a16eaaa5b096828b1f1da08",
+    "bytes": 3118411,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/starcros.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "fc88412d93969aafea82e37eb4f31f59aaba1975fd490ae3a7ec4ba6f7793d26",
+      "bytes": 36864,
+      "sources": [
+        "https://infodoc.plover.net/hints/starcros.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "b54fdc530e580feff932f601709531753a14724a0b4cd967c991120cffda5358",
+      "bytes": 93315,
+      "sources": [
+        "https://infodoc.plover.net/maps/starcros.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "5203e46fd00c03c330126c5415542147e95912467a55094ff4a56898095c9ca8",
+      "bytes": 75679,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/starcros.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

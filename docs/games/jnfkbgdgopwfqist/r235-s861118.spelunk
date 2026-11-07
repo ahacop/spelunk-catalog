@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Hollywood Hijinx",
+  "game": "jnfkbgdgopwfqist",
+  "story": {
+    "ifid": "ZCODE-235-861118",
+    "release": 235,
+    "serial": "861118",
+    "checksum": "69db",
+    "label": "Gamma · Release 235 (861118)",
+    "type": "z3",
+    "sha256": "76dee4f03b68d700b5e0f0282b9f8e512ae347baea92994bb2ba5c6650d3ede5",
+    "bytes": 118626,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/hollywoodhijinx-gamma-r235-s861118.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=jnfkbgdgopwfqist"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "ff5bbb9b4bb68d6daf8c2ab3c3eca1c6a2d6d61b0b711413e527a3c16f756717",
+    "bytes": 141969,
+    "sources": [
+      "https://ifdb.org/coverart?id=jnfkbgdgopwfqist&version=15"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "33a47f21d687c369e5e742b51535737cdc21f3f2e827a9956bc500b43ad6b2bc",
+    "bytes": 3178377,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/hollywoo.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "2b37d07a3a05c3303b5e6f65a4fc9ba6613da46a347f34333539c8b8547fd9b7",
+      "bytes": 32768,
+      "sources": [
+        "https://infodoc.plover.net/hints/hollywoo.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "a83ec6a5a833bdab88f952d14240be70e95a34f056ef4245ae8a2e57b278822c",
+      "bytes": 2279972,
+      "sources": [
+        "https://infodoc.plover.net/maps/hollywoo.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "0b149d1d847c7e23d4030c0011ae0251691b13b8462f0e1794dcdc6782535b3b",
+      "bytes": 58699,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/hollywoo.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

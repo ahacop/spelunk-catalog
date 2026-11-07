@@ -1,0 +1,59 @@
+{
+  "spelunk": 1,
+  "title": "Seastalker",
+  "game": "56wb8hflec2isvzm",
+  "story": {
+    "ifid": "ZCODE-16-850603",
+    "release": 16,
+    "serial": "850603",
+    "checksum": "5890",
+    "label": "Regular · Release 16 (850603)",
+    "type": "z3",
+    "sha256": "f17bddf0f767150c727c082c086df4ffb0788d02d28dda77fa5298ad8d5ae692",
+    "bytes": 117762,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/seastalker-reg-r16-s850603.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=56wb8hflec2isvzm"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "610eecc2edc938c97d1c6f94f706721639f33be20d86ade025bab7fa95f48a71",
+    "bytes": 206367,
+    "sources": [
+      "https://ifdb.org/coverart?id=56wb8hflec2isvzm&version=12"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "729e775149e957f49ac8bcf5797b0c4388e4837cd3519b68477754c521b597c6",
+    "bytes": 6515944,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/seastalk.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "6f3340948acb62edb6d976d05bd4621482da6dfee627262f60b57f9c42817945",
+      "bytes": 27136,
+      "sources": [
+        "https://infodoc.plover.net/hints/seastalk.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "eb9d75239ea10c74abe3dbb4e3459bcdee824c0da989f99fe2ebfd206f960f10",
+      "bytes": 49014,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/seastalk.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

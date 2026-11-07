@@ -9,10 +9,9 @@
     "checksum": "c123",
     "label": "Alternate · Release 8 (840521)",
     "type": "z3",
-    "sha256": "7deefcd1e4f335dfd7b446f0d6a1dd7e8cd40d71f135fe7c5b788ecbd4749b19",
+    "sha256": "702fe4d04b6a3f7b8ddb02966d2d96e20edc9e2b5270ad2fc23fc0cd2529662d",
     "bytes": 105584,
     "sources": [
-      "https://eblong.com/infocom/gamefiles/suspended-mac-r8-s840521.z3",
       "https://eblong.com/infocom/gamefiles/suspended-alt-r8-s840521.z3"
     ]
   },

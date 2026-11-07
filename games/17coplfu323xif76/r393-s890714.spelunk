@@ -6,13 +6,12 @@
     "ifid": "ZCODE-393-890714",
     "release": 393,
     "serial": "890714",
-    "checksum": "791d",
+    "checksum": "791c",
     "label": "Release 393 (890714)",
     "type": "z6",
-    "sha256": "5d5a025ef8540bf30c6f32ddf3873ecde1df51969f32d33a46563dbd886b5deb",
-    "bytes": 299968,
+    "sha256": "a89c38f0072c8b2aaf9d2ce61c613d81ac79fcdec66419dfa92bda8db25affc1",
+    "bytes": 300032,
     "sources": [
-      "https://eblong.com/infocom/gamefiles/zork0-demo-r393-s890714.z6",
       "https://eblong.com/infocom/gamefiles/zork0-r393-s890714.z6"
     ]
   },

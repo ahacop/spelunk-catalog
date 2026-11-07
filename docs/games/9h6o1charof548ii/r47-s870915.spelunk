@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Beyond Zork",
+  "game": "9h6o1charof548ii",
+  "story": {
+    "ifid": "ZCODE-47-870915",
+    "release": 47,
+    "serial": "870915",
+    "checksum": "3ff4",
+    "label": "Release 47 (870915)",
+    "type": "z5",
+    "sha256": "eabd5e7df2cb0cae4d0f3bc163b05f68dc95152cab0b8d989381453b42da4c04",
+    "bytes": 261952,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/beyondzork-r47-s870915.z5"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=9h6o1charof548ii"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "91dcdfb6e62c077af3fa59762a3cef6ddd123998ceaa8a9adb0ec722d29df093",
+    "bytes": 78520,
+    "sources": [
+      "https://ifdb.org/coverart?id=9h6o1charof548ii&version=23"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "8ffac8044c01d31c2c4ec44bcbf0c946a90d6ec52f6667e0c19f537628937285",
+    "bytes": 6427447,
+    "sources": [
+      "https://infodoc.plover.net/manuals/beyondzo.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "06a2bee5ba286fd483b3821200af549af1c7ac056440e9933d30b67186f87cdc",
+      "bytes": 50176,
+      "sources": [
+        "https://infodoc.plover.net/hints/beyondzo.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "e7319b98f2e2f90c4836d4f06b62f306b40becdea5887cbe513b9dbd894ceb5c",
+      "bytes": 319687,
+      "sources": [
+        "https://infodoc.plover.net/maps/beyondzo.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "a8cf8add5170caf8f5e63fe01466f32d0c778f707a45de18a859217fd7f590e3",
+      "bytes": 109340,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/beyondzo.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

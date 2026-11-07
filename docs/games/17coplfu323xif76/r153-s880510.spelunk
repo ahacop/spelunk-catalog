@@ -1,0 +1,59 @@
+{
+  "spelunk": 1,
+  "title": "Zork Zero: The Revenge of Megaboz",
+  "game": "17coplfu323xif76",
+  "story": {
+    "ifid": "ZCODE-153-880510",
+    "release": 153,
+    "serial": "880510",
+    "checksum": "5c68",
+    "label": "Release 153 (880510)",
+    "type": "z5",
+    "sha256": "6bb88124806f55c3bbf407c3085f6f48f6f6057a478aaeb2ec6bad993637f668",
+    "bytes": 245600,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/zork0-r153-s880510.z5"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=17coplfu323xif76"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "5303f91d8d8ef439a5c9ef92b9baccbbfa69602458c9c7bb2beadcf50b3a4a8f",
+    "bytes": 119689,
+    "sources": [
+      "https://ifdb.org/coverart?id=17coplfu323xif76&version=18"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "ad3e28baf0af072ad5576a03a89f65fb76b5370643333e8a44fc3175d3c67088",
+    "bytes": 5709194,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/zork0.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "e597ddfacf8e3d742fc5135f68204fe6e05563e896a7b25f951684489811888a",
+      "bytes": 53248,
+      "sources": [
+        "https://infodoc.plover.net/hints/zork0.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "ef45201fe30592c843bb349c1fa03e76582508256bfed4cbcee0390a3db18083",
+      "bytes": 106739,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/zork0.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

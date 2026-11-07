@@ -1,0 +1,50 @@
+{
+  "spelunk": 1,
+  "title": "Journey",
+  "game": "2752o3sh6y05ob1p",
+  "story": {
+    "ifid": "ZCODE-76-890615",
+    "release": 76,
+    "serial": "890615",
+    "checksum": "a4d3",
+    "label": "Release 76 (890615)",
+    "type": "z6",
+    "sha256": "b4f91a50f10cd1305bddd5597532df8f1d3a450da0de020a3529acb4916ea487",
+    "bytes": 282152,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/journey-r76-s890615.z6"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=2752o3sh6y05ob1p"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "f127757877b3f48b58b951d5c945cb146177b5806525e0703ef8722c693477f2",
+    "bytes": 102327,
+    "sources": [
+      "https://ifdb.org/coverart?id=2752o3sh6y05ob1p&version=14"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "1c1b69042fca4ed716b0f6bf98da0ad93fc63c96b4fb7c3239295fdfea367bb2",
+    "bytes": 3480077,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/journey.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "pdf",
+      "sha256": "c7a807f0aa9a2b7e9f86f4387b7a4f708beadc3bc8a88f453411991f4a7b094a",
+      "bytes": 237726,
+      "sources": [
+        "https://infodoc.plover.net/maps/journey.pdf"
+      ],
+      "title": "InvisiClues map"
+    }
+  ]
+}

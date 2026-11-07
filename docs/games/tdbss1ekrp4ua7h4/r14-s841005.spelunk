@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Suspect",
+  "game": "tdbss1ekrp4ua7h4",
+  "story": {
+    "ifid": "ZCODE-14-841005",
+    "release": 14,
+    "serial": "841005",
+    "checksum": "d0ec",
+    "label": "Release 14 (841005)",
+    "type": "z3",
+    "sha256": "cdfc32fc1512f2fa89410656d7015204e94efff8aeda93a0c60cbda6eedfc30b",
+    "bytes": 118692,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/suspect-r14-s841005.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=tdbss1ekrp4ua7h4"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "e844439f2206aec1021a20dc08650604757cfa72d2970864f4753eacd916d17a",
+    "bytes": 129515,
+    "sources": [
+      "https://ifdb.org/coverart?id=tdbss1ekrp4ua7h4&version=11"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "728c66febba35d476a963baf308b3f8cac8e58f3659056d7bebb29844f90548c",
+    "bytes": 4224635,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/suspect.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "ff3c7ba05701197d8bf35f5f50e283a6c6240cb4a5fc8e69fad9abc3727ab2b5",
+      "bytes": 31232,
+      "sources": [
+        "https://infodoc.plover.net/hints/suspect.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "0e336f81b046cde754804fd4c1e38cc4f65581ac4032fe5643fc457b6edaf0a3",
+      "bytes": 1794120,
+      "sources": [
+        "https://infodoc.plover.net/maps/suspect.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "455599120fe8780bee51a44a7e2a7ec301c1193a632bfc5e0fb05695a377ef4a",
+      "bytes": 52342,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/suspect.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Moonmist",
+  "game": "c66u816v8kx2jzm2",
+  "story": {
+    "ifid": "ZCODE-65-86082?-1E40",
+    "release": 65,
+    "serial": "86082?",
+    "checksum": "1e40",
+    "label": "Beta · Release 65 (86082?)",
+    "type": "z3",
+    "sha256": "7f939a5d85917dacda1975a8ba41da321031a79579266acb60ddbd214ef37ea9",
+    "bytes": 128986,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/moonmist-beta-r65-s86082X.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=c66u816v8kx2jzm2"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "d76884feaba18540789f876613913505c27a69f22e965c9ff188dd7aa28f5516",
+    "bytes": 83524,
+    "sources": [
+      "https://ifdb.org/coverart?id=c66u816v8kx2jzm2&version=13"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "67e9f37f0de8e25615470d49878dc9798e0f886f69f1924c3f740ee93b5503e8",
+    "bytes": 5622431,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/moonmist.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "c58d1f7520195c1b216fb31e2712ac1d5ce8d0f03ae3219b35992250d9164510",
+      "bytes": 28160,
+      "sources": [
+        "https://infodoc.plover.net/hints/moonmist.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "c38febe8198dda5e257b2416b34f29e9190f6e52bd727a960398800ddce22b9b",
+      "bytes": 248557,
+      "sources": [
+        "https://infodoc.plover.net/maps/moonmist.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "9f655acbe66b16f00257bda3d60e8e57dc2ef24d4aa130864a04ed7fc6ecbc51",
+      "bytes": 49064,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/moonmist.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

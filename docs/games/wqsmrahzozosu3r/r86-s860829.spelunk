@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Spellbreaker",
+  "game": "wqsmrahzozosu3r",
+  "story": {
+    "ifid": "ZCODE-86-860829",
+    "release": 86,
+    "serial": "860829",
+    "checksum": "1375",
+    "label": "Release 86 (860829)",
+    "type": "z3",
+    "sha256": "7e2cbab6a7d741f10bf7617bee48aeea1dd08b73806f7861d8d9cb0205d45292",
+    "bytes": 128928,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/spellbreaker-r86-s860829.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=wqsmrahzozosu3r"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "771bcf3c44abdbfde7592a531d1dfe19e1890cb3bc9b76e24a6c5ffcd8ae7a6d",
+    "bytes": 89223,
+    "sources": [
+      "https://ifdb.org/coverart?id=wqsmrahzozosu3r&version=11"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "4228f3f4d9b033bd06ac7c25de0c14b7cd4603d864743c1154683f1fc66bdc1e",
+    "bytes": 7259025,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/spellbre.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "745226bece23359a359416db11a23ce26efa95636832dde4c3f1143c840a2711",
+      "bytes": 55296,
+      "sources": [
+        "https://infodoc.plover.net/hints/spellbre.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "aa18f24c4921fbbad24560ec8e31a545a80dda46b86c55f1dc75f6a7bafb0476",
+      "bytes": 1762954,
+      "sources": [
+        "https://infodoc.plover.net/maps/spellbre.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "908b5f752e747209633267af0b321e24a36f9b225b37dd552676a28ae1ac15d7",
+      "bytes": 113814,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/spellbre.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

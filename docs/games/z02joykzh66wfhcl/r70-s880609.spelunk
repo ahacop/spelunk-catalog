@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Wishbringer",
+  "game": "z02joykzh66wfhcl",
+  "story": {
+    "ifid": "ZCODE-70-880609",
+    "release": 70,
+    "serial": "880609",
+    "checksum": "1823",
+    "label": "Reconstructed · Release 70 (880609)",
+    "type": "z3",
+    "sha256": "8ad5703e1dcefe014056108bd27a0a0bc9b1310796aa2c072f8b4b87afc702de",
+    "bytes": 128540,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/wishbringer-recon-r70-s880609.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=z02joykzh66wfhcl"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "bb13173c767ebbd3cc369370cd68ddbdbd9bf78171e737b21996176618e4bed1",
+    "bytes": 60149,
+    "sources": [
+      "https://ifdb.org/coverart?id=z02joykzh66wfhcl&version=18"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "5de91125a06586524eb7faa47c90b45d82f2a2d31f2fa611fbb94ae189b2e982",
+    "bytes": 3397139,
+    "sources": [
+      "https://infodoc.plover.net/manuals/wishbrin.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "ca43895d4938392e9b8d4d2c1032b32e3cb9763e91b0d20f42e32ac21e443cad",
+      "bytes": 45568,
+      "sources": [
+        "https://infodoc.plover.net/hints/wishbrin.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "1d128d21b3a034736dcbdf59ebaf86cdb5e97bf443aa78d4bcc5bce6f113aa1d",
+      "bytes": 6477915,
+      "sources": [
+        "https://infodoc.plover.net/maps/wishbrin.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "758a78180b6eff20c0383016bbcc04aa85a1d022a583c62e1b472113f23cb3b7",
+      "bytes": 97457,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/wishbrin.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

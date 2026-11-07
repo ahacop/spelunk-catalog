@@ -1,0 +1,59 @@
+{
+  "spelunk": 1,
+  "title": "Border Zone",
+  "game": "7epwz167lgruvm0u",
+  "story": {
+    "ifid": "ZCODE-9-871008",
+    "release": 9,
+    "serial": "871008",
+    "checksum": "2b37",
+    "label": "Release 9 (871008)",
+    "type": "z5",
+    "sha256": "58bee822373119873a42d4a074ebbf495c4834365c27b0426561324ec505897e",
+    "bytes": 178372,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/borderzone-r9-s871008.z5"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=7epwz167lgruvm0u"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "70c09350019d499547c49fe251afdaccfa278540d2693c16fb0fa02bd4cd89a6",
+    "bytes": 83137,
+    "sources": [
+      "https://ifdb.org/coverart?id=7epwz167lgruvm0u&version=13"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "66ba1e98b9513730130a716f4b46342f6aaf65f8f5bdcc8e1b66e2290e824726",
+    "bytes": 12230057,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/borderzo.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "cbdd5b2d3bc0b3ea20f0a5acf44d69ecf8bc47d6e97cbbcc024fce013e5a95c1",
+      "bytes": 23040,
+      "sources": [
+        "https://infodoc.plover.net/hints/borderzo.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "fdbe74a1d5332a8b9879bc46edb7489fe89d1285bc46ea930ed575f431c4b319",
+      "bytes": 32554,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/borderzo.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

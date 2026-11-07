@@ -9,10 +9,9 @@
     "checksum": "5890",
     "label": "Release 16 (850603)",
     "type": "z3",
-    "sha256": "f17bddf0f767150c727c082c086df4ffb0788d02d28dda77fa5298ad8d5ae692",
-    "bytes": 117762,
+    "sha256": "502e5c8e4cb82726ab61683f4d92afbb31f90fcb98b9b3dc3dbd4f97841c5582",
+    "bytes": 117763,
     "sources": [
-      "https://eblong.com/infocom/gamefiles/seastalker-reg-r16-s850603.z3",
       "https://eblong.com/infocom/gamefiles/seastalker-r16-s850603.z3"
     ]
   },

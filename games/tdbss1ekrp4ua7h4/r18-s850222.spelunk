@@ -6,13 +6,12 @@
     "ifid": "ZCODE-18-850222",
     "release": 18,
     "serial": "850222",
-    "checksum": "5d3d",
+    "checksum": "5d3c",
     "label": "I189 · Release 18 (850222)",
     "type": "z3",
-    "sha256": "93653ad7a8097cb0cc96c36709a59e1a4ceefadceb23879e25a002da7819cb28",
+    "sha256": "a971530af1aa27f5ad784003b8290d0b24a17eaf5a0783a0a9eb544e3732cc86",
     "bytes": 118746,
     "sources": [
-      "https://eblong.com/infocom/gamefiles/suspect-i190-r18-s850222.z3",
       "https://eblong.com/infocom/gamefiles/suspect-i189-r18-s850222.z3"
     ]
   },

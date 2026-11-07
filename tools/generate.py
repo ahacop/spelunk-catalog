@@ -398,7 +398,9 @@ def main() -> int:
                 m["story"]["sources"].append(url)
                 Path(path).write_text(json.dumps(m, indent=2, ensure_ascii=False) + "\n")
             continue
-        game = lookup(ident, fetch=False) or stem_game.get(stem_of(url))
+        # The game of the eblong name wins: some early IFIDs (ZCODE-5-------)
+        # are shared by unrelated files.
+        game = stem_game.get(stem_of(url)) or lookup(ident, fetch=False)
         if not game:
             unmatched.append({"url": url, "ifid": ident.ifid, "hint": s.get("hint", "")})
             continue
@@ -412,6 +414,10 @@ def main() -> int:
             log(f"  ! invalid manifest for {url}: {problems}")
             continue
         path = GAMES / game["tuid"] / f"r{ident.release}-s{clean_text(ident.serial)}.spelunk"
+        if path in written:
+            # Two different files with the same release and serial (e.g. a
+            # demo or patched build): tell them apart by header checksum.
+            path = path.with_name(f"{path.stem}-c{ident.checksum}.spelunk")
         if path.exists():
             # Keep hand-added extras, title and links; refresh only the story,
             # keeping any extra mirrors after the eblong source.
