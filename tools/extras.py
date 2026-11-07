@@ -7,6 +7,9 @@ ahacop/spelunk#17, #18 and #22:
 - infocom-hints-html's scraped JSON (github.com/dfabulich/infocom-hints-html),
   pinned to one commit so its hash stays stable.
 
+Hints are files only (hint .z5/.z8 or JSON) for the app's own viewer; hint
+web pages are never added.
+
 Every candidate is downloaded once (cached in data/extras.json), typed by its
 magic bytes and hashed. Anything that isn't PNG, JPEG, HEIC, PDF, a Z-machine
 hint story or hint JSON is skipped and listed in data/skipped-extras.json:
@@ -18,12 +21,20 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import subprocess
+from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
-from spelunklib import CAPS, MAGIC, NotAStory, check_url, clean_text, identify_story
+from spelunklib import (
+    CAPS, MAGIC, NotAStory, check_url, clean_text, hint_markup_problems, identify_story,
+)
 
+OK_EXT = {".pdf", ".png", ".jpg", ".jpeg", ".heic", ".z5", ".z8", ".json"}
 INFODOC_HINT = "https://infodoc.plover.net/hints/{}.z5"
-HINTS_REPO_API = "https://api.github.com/repos/dfabulich/infocom-hints-html"
+HINTS_REPO = "https://github.com/dfabulich/infocom-hints-html"
+# eblong's names -> the 8-character names infodoc and infocom-hints-html use,
+# where cutting to 8 characters isn't enough (beyondzork -> beyondzo works).
+HINT_NAMES = {"hitchhiker": "hhgg", "leathergoddesses": "lgop", "lurkinghorror": "lurking"}
 HINTS_RAW = "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/{sha}/{path}"
 
 HINT_WORDS = re.compile(r"\b(hint|hints|invisiclue|invisiclues|clue ?book)\b", re.I)
@@ -67,7 +78,7 @@ def classify(link: dict) -> str | None:
     """Which slot an IFDB link belongs in, from its title and description."""
     if link.get("isGame"):
         return None
-    text = " ".join(str(link.get(k) or "") for k in ("title", "desc", "fmtname"))
+    text = " ".join(str(link.get(k) or "") for k in ("title", "desc", "format", "fmtname"))
     if SKIP_WORDS.search(text):
         return None
     if HINT_WORDS.search(text):
@@ -85,7 +96,7 @@ class Extras:
     def __init__(self, fetcher, cache: dict, skipped: list, log, offline: bool):
         self.fetcher, self.cache, self.skipped, self.log = fetcher, cache, skipped, log
         self.offline = offline
-        self._hint_index: dict[str, str] | None = None
+        self._hints_commit: str | None = None
 
     # -- downloading -------------------------------------------------------
 
@@ -99,10 +110,13 @@ class Extras:
             self.log(f"GET {url}")
             data = self.fetcher.get(url, cap)
             if data is None:
-                entry = {"error": "not found"}
+                # Not cached, so a dead or blocked host is retried next run.
+                return {"error": "download failed"}
             else:
                 entry = {"type": sniff(data), "sha256": hashlib.sha256(data).hexdigest(),
                          "bytes": len(data)}
+                if entry["type"] == "json":
+                    entry["markup"] = hint_markup_problems(data)
         self.cache[url] = entry
         return entry
 
@@ -111,6 +125,9 @@ class Extras:
         e = self.fetch(url, cap)
         t = e.get("type")
         ok = {"hints": {"z5", "z8", "json"}}.get(slot, {"png", "jpeg", "heic", "pdf"})
+        if e.get("markup"):
+            self.skipped.append({"url": url, "slot": slot, "why": "; ".join(e["markup"])})
+            return None
         if "error" in e or t not in ok:
             self.skipped.append({"url": url, "slot": slot, "why": e.get("error") or f"type {t}"})
             return None
@@ -122,12 +139,13 @@ class Extras:
 
     # -- sources -----------------------------------------------------------
 
-    def hint_index(self) -> dict[str, str]:
-        """Map a short game name (e.g. zork1) to a pinned raw URL of its scraped JSON."""
-        if self._hint_index is not None:
-            return self._hint_index
-        self._hint_index = load_hint_index(self) if not self.offline else {}
-        return self._hint_index
+    def hints_commit(self) -> str:
+        """infocom-hints-html's current commit, so its JSON URLs (and hashes) are pinned."""
+        if self._hints_commit is None:
+            self._hints_commit = "" if self.offline else ls_remote_head(HINTS_REPO)
+            if self._hints_commit:
+                self.log(f"infocom-hints-html @ {self._hints_commit[:7]}")
+        return self._hints_commit
 
     def for_game(self, stem: str, ifdb_links: list[dict]) -> dict:
         """Extras for one game. stem is eblong's short name, e.g. zork1."""
@@ -139,8 +157,13 @@ class Extras:
                 continue
             url = https(url)
             if slot == "hints" and not re.search(r"\.(z5|z8|json)$", urlsplit(url).path, re.I):
-                if not check_url(url):
-                    out["hints"].append({"type": "page", "url": url})
+                # Hints are files the app shows in its own viewer; no web pages.
+                self.skipped.append({"url": url, "slot": slot, "why": f"not a hint file ({link.get('format')})"})
+                continue
+            ext = Path(urlsplit(url).path).suffix.lower()
+            if ext and ext not in OK_EXT:
+                # Don't download what can't go in a manifest anyway.
+                self.skipped.append({"url": url, "slot": slot, "why": f"file type {ext}"})
                 continue
             p = self.part(url, slot, link.get("title") or "")
             if not p:
@@ -150,12 +173,14 @@ class Extras:
             else:
                 out[slot].append(p)
         if stem:
-            p = self.part(INFODOC_HINT.format(stem), "hints", "InvisiClues")
+            name = HINT_NAMES.get(stem, stem[:8])
+            p = self.part(INFODOC_HINT.format(name), "hints", "InvisiClues")
             if p:
                 out["hints"].append(p)
-            raw = self.hint_index().get(stem)
-            if raw:
-                p = self.part(raw, "hints", "InvisiClues")
+            sha = self.hints_commit()
+            if sha:
+                p = self.part(HINTS_RAW.format(sha=sha, path=f"scraped-json/{name}.json"),
+                              "hints", "InvisiClues")
                 if p:
                     out["hints"].append(p)
         # one entry per file
@@ -170,24 +195,14 @@ class Extras:
         return {k: v for k, v in out.items() if v}
 
 
-def load_hint_index(ex: Extras) -> dict[str, str]:
-    raw = ex.fetcher.get(f"{HINTS_REPO_API}/commits/HEAD", CAPS["manifest"])
-    if not raw:
-        return {}
-    sha = json.loads(raw).get("sha", "")
-    if not re.fullmatch(r"[0-9a-f]{40}", sha):
-        return {}
-    raw = ex.fetcher.get(f"{HINTS_REPO_API}/git/trees/{sha}?recursive=1", CAPS["image"])
-    if not raw:
-        return {}
-    index = {}
-    for item in json.loads(raw).get("tree", []):
-        path = item.get("path", "")
-        m = re.fullmatch(r"scraped-json/([A-Za-z0-9_-]+)\.json", path)
-        if m:
-            index[m.group(1).lower()] = HINTS_RAW.format(sha=sha, path=path)
-    ex.log(f"infocom-hints-html @ {sha[:7]}: {len(index)} hint files")
-    return index
+def ls_remote_head(repo: str) -> str:
+    try:
+        out = subprocess.run(["git", "ls-remote", repo, "HEAD"], capture_output=True,
+                             text=True, timeout=60, check=True).stdout
+    except (OSError, subprocess.SubprocessError):
+        return ""
+    sha = out.split()[0] if out.split() else ""
+    return sha if re.fullmatch(r"[0-9a-f]{40}", sha) else ""
 
 
 def merge(manifest: dict, extras: dict) -> dict:

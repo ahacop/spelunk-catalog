@@ -73,5 +73,16 @@ class Manifest(unittest.TestCase):
         self.assertTrue(check_bytes(cover, b"<svg/>", "cover"))
 
 
+class HintMarkup(unittest.TestCase):
+    def test_allowlist(self):
+        from spelunklib import hint_markup_problems
+        ok = b'{"content": "<p>Try <b>north</b> &gt; then <em>up</em>.</p><ul><li>a</li></ul><pre>x</pre>"}'
+        self.assertEqual(hint_markup_problems(ok), [])
+        bad = b'{"a": "<a href=\\"https://x\\">x</a><img src=x><p style=\\"x\\">y</p><script>1</script>"}'
+        probs = hint_markup_problems(bad)
+        for want in ("<a>", "<img>", "attributes on <p>", "<script>"):
+            self.assertTrue(any(want in p for p in probs), (want, probs))
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -37,6 +37,8 @@ def check_file(path: Path) -> tuple[list[str], dict | None]:
     except ValueError as e:
         return [f"not JSON: {e}"], None
     errs = validate_manifest(m)
+    if isinstance(m, dict) and any(isinstance(h, dict) and h.get("type") == "page" for h in m.get("hints", []) or []):
+        errs.append("hints must be files for the app's viewer, not web pages")
     rel = path.resolve().relative_to(ROOT)
     if rel.parts[0] == "games" and isinstance(m, dict) and isinstance(m.get("story"), dict):
         s = m["story"]

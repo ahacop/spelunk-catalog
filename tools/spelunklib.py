@@ -131,6 +131,63 @@ def clean_text(s: str, cap: int = STRING_CAP) -> str:
     return text[:cap]
 
 
+# --- hint markup ----------------------------------------------------------
+
+# Hint text may carry these tags and nothing else: no attributes, links,
+# images, styles or scripts. The app renders them natively (never WebKit).
+HINT_TAGS = {"p", "div", "br", "b", "strong", "i", "em", "ul", "ol", "li", "pre"}
+
+
+def hint_markup_problems(data: bytes) -> list[str]:
+    """Problems with the HTML fragments inside a hint JSON file."""
+    from html.parser import HTMLParser
+
+    problems: set[str] = set()
+
+    class Check(HTMLParser):
+        def handle_starttag(self, tag, attrs):
+            if tag not in HINT_TAGS:
+                problems.add(f"tag <{tag}> not allowed")
+            if attrs:
+                problems.add(f"attributes on <{tag}> not allowed")
+
+        handle_startendtag = handle_starttag
+
+        def handle_endtag(self, tag):
+            if tag not in HINT_TAGS:
+                problems.add(f"tag </{tag}> not allowed")
+
+        def handle_comment(self, data):
+            problems.add("comments not allowed")
+
+        def handle_decl(self, decl):
+            problems.add("declarations not allowed")
+
+        def handle_pi(self, data):
+            problems.add("processing instructions not allowed")
+
+    def strings(node):
+        if isinstance(node, str):
+            yield node
+        elif isinstance(node, dict):
+            for v in node.values():
+                yield from strings(v)
+        elif isinstance(node, list):
+            for v in node:
+                yield from strings(v)
+
+    try:
+        doc = json.loads(data)
+    except ValueError:
+        return ["not JSON"]
+    for text in strings(doc):
+        if "<" in text or "&" in text:
+            parser = Check(convert_charrefs=True)
+            parser.feed(text)
+            parser.close()
+    return sorted(problems)
+
+
 # --- validation -----------------------------------------------------------
 
 _SHA = re.compile(r"[0-9a-f]{64}")
@@ -211,7 +268,7 @@ def validate_manifest(m: object) -> list[str]:
         errs += check_part(m["manual"], "manual", {"pdf"} | IMAGE_TYPES)
     if "map" in m:
         errs += check_part(m["map"], "map", {"pdf"} | IMAGE_TYPES)
-    for key, allowed in (("feelies", {"pdf"} | IMAGE_TYPES), ("hints", HINT_TYPES | {"page"})):
+    for key, allowed in (("feelies", {"pdf"} | IMAGE_TYPES), ("hints", HINT_TYPES)):
         if key in m:
             if not isinstance(m[key], list):
                 errs.append(f"{key} must be a list")
@@ -252,10 +309,7 @@ def check_bytes(part: dict, data: bytes, where: str) -> list[str]:
             if key in part and part[key] != getattr(ident, key):
                 errs.append(f"{where}: {key} {part[key]!r} != header {getattr(ident, key)!r}")
     elif ptype == "hints-json":
-        try:
-            json.loads(data)
-        except ValueError:
-            errs.append(f"{where}: not JSON")
+        errs += [f"{where}: {p}" for p in hint_markup_problems(data)]
     elif ptype in MAGIC and not MAGIC[ptype](data):
         errs.append(f"{where}: bytes are not {ptype}")
     cap = CAPS["story"] if ptype in STORY_TYPES else CAPS["image"] if ptype in IMAGE_TYPES \
