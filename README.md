@@ -7,7 +7,8 @@ iOS app. Each manifest describes **one release** of a game and points at files h
 ## Layout
 
 ```
-games/<ifdb-id>/r<release>-s<serial>.spelunk   one manifest per release
+games/<ifdb-id>/r<release>-s<serial>.spelunk   one manifest per release, every release on eblong
+data/index.json      per game: its releases, the default (latest standard release) first
 data/stories.json    cache: each eblong story URL -> sha256, size, header identity
 data/ifdb.json       cache: IFID -> IFDB id, title, author
 data/unmatched.json  stories IFDB doesn't know yet (no manifest written)
@@ -44,12 +45,15 @@ Version 1, as specified in ahacop/spelunk#31 (kept by #73):
 The generator fills `manual`, `map`, `feelies` and `hints` from:
 
 - **IFDB's links** for each game. Each link is sorted into a slot by its title and description
-  ("Manual", "Map", "Feelies", "InvisiClues"...). Walkthroughs and solutions are left out. Hint
-  links that aren't files become `page` hints, opened in Safari.
+  ("Manual", "Map", "Feelies", "InvisiClues"...). Walkthroughs and solutions are left out.
 - **The Infocom Documentation Project's** InvisiClues story files,
   `https://infodoc.plover.net/hints/<name>.z5`, as `z5` hints.
 - **[infocom-hints-html](https://github.com/dfabulich/infocom-hints-html)**'s scraped JSON, as
   `hints-json`, pinned to one commit so the hash stays stable.
+
+Hints are always files for Spelunk's own viewer, never web pages. Hint JSON may contain only the
+HTML tags `p`, `div`, `br`, `b`, `strong`, `i`, `em`, `ul`, `ol`, `li` and `pre`, with no
+attributes; the app renders them natively, never with WebKit.
 
 Every file is downloaded once, typed by its magic bytes and hashed. Only PNG, JPEG, HEIC, PDF,
 hint stories and hint JSON get in; GIFs, SVGs, zips and dead links are listed in
@@ -62,6 +66,7 @@ Extras added by hand win: the generator never replaces a filled `manual` or `map
 
 ```sh
 python3 tools/generate.py            # downloads only stories it hasn't hashed yet
+python3 tools/generate.py --latest-only   # only each game's default release
 python3 tools/generate.py --recheck  # re-downloads everything to catch changed files
 python3 tools/generate.py --offline  # rebuilds manifests from the caches, no network
 ```
