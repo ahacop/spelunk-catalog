@@ -1,0 +1,49 @@
+name: Refresh catalog from eblong
+
+# Runs tools/generate.py on GitHub's runners (which can reach eblong.com and
+# ifdb.org) and pushes the result to the catalog-refresh branch for review.
+# Only new stories are downloaded unless "recheck" is set.
+
+on:
+  workflow_dispatch:
+    inputs:
+      recheck:
+        description: "Re-download every story to catch changed files"
+        type: boolean
+        default: false
+      limit:
+        description: "Stop after downloading this many new stories (0 = no limit)"
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-refresh
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate manifests
+        run: |
+          args="--limit ${{ inputs.limit }}"
+          if [ "${{ inputs.recheck }}" = "true" ]; then args="$args --recheck"; fi
+          python3 tools/generate.py $args
+      - name: Validate
+        run: python3 tools/validate.py
+      - name: Push to catalog-refresh
+        run: |
+          git add -A games data
+          if git diff --cached --quiet; then echo "No changes."; exit 0; fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "Refresh manifests from eblong.com/infocom"
+          git push --force origin HEAD:catalog-refresh
+          echo "Pushed. Open a PR from catalog-refresh to main to review." >> "$GITHUB_STEP_SUMMARY"

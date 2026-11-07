@@ -63,3 +63,9 @@ or changes are downloaded and checked for sha256, magic bytes, size caps and, fo
 header's release, serial and checksum.
 
 The app re-checks everything itself: every manifest is untrusted, including these.
+
+## Refreshing on GitHub
+
+The **Refresh catalog from eblong** workflow (Actions tab, Run workflow) runs the generator on
+GitHub's runners and pushes the result to the `catalog-refresh` branch. Open a PR from it to
+`main`; CI then downloads and verifies every new or changed manifest.

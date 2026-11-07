@@ -69,7 +69,7 @@ def download(url: str, cap: int) -> bytes:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--download", nargs="*", metavar="FILE", help="manifests whose sources to fetch")
-    ap.add_argument("--delay", type=float, default=3.0, help="seconds between downloads")
+    ap.add_argument("--delay", type=float, default=5.0, help="seconds between downloads")
     args = ap.parse_args()
 
     failed = 0
