@@ -398,9 +398,13 @@ def main() -> int:
                 m["story"]["sources"].append(url)
                 Path(path).write_text(json.dumps(m, indent=2, ensure_ascii=False) + "\n")
             continue
-        # The game of the eblong name wins: some early IFIDs (ZCODE-5-------)
-        # are shared by unrelated files.
-        game = stem_game.get(stem_of(url)) or lookup(ident, fetch=False)
+        # IFDB's answer for this IFID first, then the game of the same eblong
+        # name. Blank-serial IFIDs (ZCODE-5-------) are shared by unrelated
+        # files, so those go by eblong name only.
+        if "-" in ident.serial:
+            game = stem_game.get(stem_of(url)) or lookup(ident, fetch=False)
+        else:
+            game = lookup(ident, fetch=False) or stem_game.get(stem_of(url))
         if not game:
             unmatched.append({"url": url, "ifid": ident.ifid, "hint": s.get("hint", "")})
             continue

@@ -695,24 +695,8 @@
         "path": "games/p00ucaayobrt2paz/r24-s840627.spelunk"
       },
       {
-        "label": "4zpiw · Release 26 (840731)",
-        "path": "games/p00ucaayobrt2paz/r26-s840731.spelunk"
-      },
-      {
         "label": "3zpi · Release 5 (840512)",
         "path": "games/p00ucaayobrt2paz/r5-s840512.spelunk"
-      },
-      {
-        "label": "4zpiw · Release 52 (850402)",
-        "path": "games/p00ucaayobrt2paz/r52-s850402.spelunk"
-      },
-      {
-        "label": "4zpiw · Release 53 (850407)",
-        "path": "games/p00ucaayobrt2paz/r53-s850407.spelunk"
-      },
-      {
-        "label": "4zpiw · Release 55 (850823)",
-        "path": "games/p00ucaayobrt2paz/r55-s850823.spelunk"
       },
       {
         "label": "1b · Release 8 (870119)",
@@ -990,6 +974,28 @@
       }
     ],
     "title": "Shogun"
+  },
+  "wa8crlfz82pra14i": {
+    "default": "games/wa8crlfz82pra14i/r26-s840731.spelunk",
+    "releases": [
+      {
+        "label": "4zpiw · Release 26 (840731)",
+        "path": "games/wa8crlfz82pra14i/r26-s840731.spelunk"
+      },
+      {
+        "label": "4zpiw · Release 52 (850402)",
+        "path": "games/wa8crlfz82pra14i/r52-s850402.spelunk"
+      },
+      {
+        "label": "4zpiw · Release 53 (850407)",
+        "path": "games/wa8crlfz82pra14i/r53-s850407.spelunk"
+      },
+      {
+        "label": "4zpiw · Release 55 (850823)",
+        "path": "games/wa8crlfz82pra14i/r55-s850823.spelunk"
+      }
+    ],
+    "title": "Four-In-One Sampler I"
   },
   "wqsmrahzozosu3r": {
     "default": "games/wqsmrahzozosu3r/r87-s860904.spelunk",

@@ -145,6 +145,11 @@ class Extras:
         """infocom-hints-html's current commit, so its JSON URLs (and hashes) are pinned."""
         if self._hints_commit is None:
             self._hints_commit = "" if self.offline else ls_remote_head(HINTS_REPO)
+            key = f"commit:{HINTS_REPO}"
+            if self._hints_commit:
+                self.cache[key] = {"sha": self._hints_commit}
+            elif key in self.cache:  # offline: the commit used last time
+                self._hints_commit = self.cache[key]["sha"]
             if self._hints_commit:
                 self.log(f"infocom-hints-html @ {self._hints_commit[:7]}")
         return self._hints_commit
@@ -154,7 +159,12 @@ class Extras:
         maps or hints), by 8-character name, e.g. {"zork1": "https://…/maps/zork1.pdf"}."""
         if kind not in self._infodoc:
             index: dict[str, str] = {}
+            key = f"index:{INFODOC_INDEX.format(kind)}"
             raw = None if self.offline else self.fetcher.get(INFODOC_INDEX.format(kind), CAPS["manifest"])
+            if raw:
+                self.cache[key] = {"html": raw.decode("utf-8", "replace")}
+            elif key in self.cache:  # offline, or infodoc unreachable: last copy
+                raw = self.cache[key]["html"].encode()
             base = INFODOC_INDEX.format(kind)
             for href in re.findall(r'href="([^"]+\.(?:pdf|z5|z8))"', (raw or b"").decode("utf-8", "replace"), re.I):
                 url = urljoin(base, href)

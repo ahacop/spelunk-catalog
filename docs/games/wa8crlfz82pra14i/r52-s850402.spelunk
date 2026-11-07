@@ -1,7 +1,7 @@
 {
   "spelunk": 1,
-  "title": "Four-In-One Sampler II",
-  "game": "p00ucaayobrt2paz",
+  "title": "Four-In-One Sampler I",
+  "game": "wa8crlfz82pra14i",
   "story": {
     "ifid": "ZCODE-52-850402",
     "release": 52,
@@ -16,14 +16,14 @@
     ]
   },
   "links": {
-    "ifdb": "https://ifdb.org/viewgame?id=p00ucaayobrt2paz"
+    "ifdb": "https://ifdb.org/viewgame?id=wa8crlfz82pra14i"
   },
   "cover": {
     "type": "jpeg",
-    "sha256": "93508589be40bd08e13673a75a45709ebf7a10e062b19546c9cfcdd5f2b4b8e6",
-    "bytes": 82020,
+    "sha256": "c07af2c997b8d5be64143464c32fd406e6a341678c247110b69c9fe01d2f09dc",
+    "bytes": 85605,
     "sources": [
-      "https://ifdb.org/coverart?id=p00ucaayobrt2paz&version=6"
+      "https://ifdb.org/coverart?id=wa8crlfz82pra14i&version=6"
     ],
     "credit": "Cover art from IFDB"
   }
