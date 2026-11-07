@@ -7,6 +7,7 @@ Standard library only, so CI needs no dependencies.
 from __future__ import annotations
 
 import hashlib
+import json
 import re
 import unicodedata
 from dataclasses import dataclass
@@ -250,6 +251,11 @@ def check_bytes(part: dict, data: bytes, where: str) -> list[str]:
         for key in ("release", "serial", "checksum"):
             if key in part and part[key] != getattr(ident, key):
                 errs.append(f"{where}: {key} {part[key]!r} != header {getattr(ident, key)!r}")
+    elif ptype == "hints-json":
+        try:
+            json.loads(data)
+        except ValueError:
+            errs.append(f"{where}: not JSON")
     elif ptype in MAGIC and not MAGIC[ptype](data):
         errs.append(f"{where}: bytes are not {ptype}")
     cap = CAPS["story"] if ptype in STORY_TYPES else CAPS["image"] if ptype in IMAGE_TYPES \

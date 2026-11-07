@@ -11,6 +11,9 @@ games/<ifdb-id>/r<release>-s<serial>.spelunk   one manifest per release
 data/stories.json    cache: each eblong story URL -> sha256, size, header identity
 data/ifdb.json       cache: IFID -> IFDB id, title, author
 data/unmatched.json  stories IFDB doesn't know yet (no manifest written)
+data/extras.json     cache: each extras URL -> type, sha256, size
+data/skipped-extras.json  extras found but left out (GIF, SVG, zip, dead link...)
+tools/extras.py      finds manuals, maps, feelies and hints for each game
 tools/generate.py    builds the manifests from eblong + IFDB
 tools/validate.py    checks manifests (structure; with --download, the files too)
 tools/spelunklib.py  header identity, sanitising and format rules
@@ -36,8 +39,24 @@ Version 1, as specified in ahacop/spelunk#31 (kept by #73):
 }
 ```
 
-Extras (`cover`, `manual`, `map`, `feelies`, `hints`) can be added by hand. The generator only
-rewrites `story` when it refreshes, and keeps extras, title, label and any extra mirror sources.
+## Extras
+
+The generator fills `manual`, `map`, `feelies` and `hints` from:
+
+- **IFDB's links** for each game. Each link is sorted into a slot by its title and description
+  ("Manual", "Map", "Feelies", "InvisiClues"...). Walkthroughs and solutions are left out. Hint
+  links that aren't files become `page` hints, opened in Safari.
+- **The Infocom Documentation Project's** InvisiClues story files,
+  `https://infodoc.plover.net/hints/<name>.z5`, as `z5` hints.
+- **[infocom-hints-html](https://github.com/dfabulich/infocom-hints-html)**'s scraped JSON, as
+  `hints-json`, pinned to one commit so the hash stays stable.
+
+Every file is downloaded once, typed by its magic bytes and hashed. Only PNG, JPEG, HEIC, PDF,
+hint stories and hint JSON get in; GIFs, SVGs, zips and dead links are listed in
+`data/skipped-extras.json`. `--no-extras` skips this step.
+
+Extras added by hand win: the generator never replaces a filled `manual` or `map`, only adds new
+`feelies` and `hints`, and on refresh rewrites only `story` (keeping title, label and mirrors).
 
 ## Refreshing
 

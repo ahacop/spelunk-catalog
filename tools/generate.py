@@ -21,11 +21,11 @@ import sys
 import time
 import urllib.error
 import urllib.request
-import xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit, quote
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from extras import Extras, merge  # noqa: E402
 from spelunklib import (  # noqa: E402
     CAPS, NotAStory, StoryIdentity, clean_text, identify_story, validate_manifest,
 )
@@ -36,7 +36,7 @@ GAMES = ROOT / "games"
 
 EBLONG_BASE = "https://eblong.com/infocom/"
 EBLONG_CATALOG = urljoin(EBLONG_BASE, "catalog.json")
-IFDB_IFICTION = "https://ifdb.org/viewgame?ifiction&ifid={}"
+IFDB_JSON = "https://ifdb.org/viewgame?json&ifid={}"
 USER_AGENT = "spelunk-catalog-generator/1 (+https://github.com/ahacop/spelunk-catalog)"
 STORY_EXT = re.compile(r"\.z[1-8]$", re.I)
 
@@ -141,20 +141,47 @@ def discover(fetcher: Fetcher) -> dict[str, str]:
 # --- IFDB -----------------------------------------------------------------
 
 def ifdb_lookup(fetcher: Fetcher, ifid: str) -> dict | None:
-    raw = fetcher.get(IFDB_IFICTION.format(quote(ifid)), CAPS["manifest"])
+    """IFDB's game record for an IFID: id, title, author and its links
+    (manuals, feelies, hints...), from the viewgame JSON API."""
+    raw = fetcher.get(IFDB_JSON.format(quote(ifid)), CAPS["image"])
     if not raw:
         return None
     try:
-        root = ET.fromstring(raw)
-    except ET.ParseError:
+        doc = json.loads(raw)
+    except ValueError:
         return None
-    def first(tag):
-        el = next((e for e in root.iter() if e.tag.split("}")[-1] == tag), None)
-        return (el.text or "").strip() if el is not None else ""
-    tuid = first("tuid")
+
+    def find(node, key):
+        if isinstance(node, dict):
+            if key in node and not isinstance(node[key], (dict, list)):
+                return node[key]
+            for v in node.values():
+                r = find(v, key)
+                if r is not None:
+                    return r
+        elif isinstance(node, list):
+            for v in node:
+                r = find(v, key)
+                if r is not None:
+                    return r
+        return None
+
+    def links(node, out):
+        if isinstance(node, dict):
+            if isinstance(node.get("url"), str):
+                out.append({k: node.get(k) for k in ("url", "title", "desc", "fmtname", "isGame")})
+            for v in node.values():
+                links(v, out)
+        elif isinstance(node, list):
+            for v in node:
+                links(v, out)
+        return out
+
+    tuid = str(find(doc, "tuid") or "")
     if not re.fullmatch(r"[0-9a-z]{16}", tuid):
         return None
-    return {"tuid": tuid, "title": first("title"), "author": first("author")}
+    return {"tuid": tuid, "title": str(find(doc, "title") or ""),
+            "author": str(find(doc, "author") or ""), "links": links(doc, [])}
 
 
 # --- main -----------------------------------------------------------------
@@ -184,12 +211,17 @@ def main() -> int:
     ap.add_argument("--delay", type=float, default=5.0, help="seconds between requests to one host")
     ap.add_argument("--offline", action="store_true", help="use cached data only")
     ap.add_argument("--recheck", action="store_true", help="re-download stories already hashed")
+    ap.add_argument("--no-extras", action="store_true", help="don't fetch manuals, feelies or hints")
     ap.add_argument("--limit", type=int, default=0, help="stop after downloading N new stories")
     args = ap.parse_args()
 
     fetcher = Fetcher(args.delay)
     stories = load(DATA / "stories.json", {})  # url -> {sha256, bytes, version, release, serial, checksum} or {error}
-    ifdb = load(DATA / "ifdb.json", {})        # ifid -> {tuid, title, author} or null
+    ifdb = load(DATA / "ifdb.json", {})        # ifid -> {tuid, title, author, links} or null
+    extras_cache = load(DATA / "extras.json", {})  # url -> {type, sha256, bytes} or {error}
+    skipped: list = []
+    extras = Extras(fetcher, extras_cache, skipped, log, args.offline or args.no_extras)
+    game_extras: dict[str, dict] = {}
 
     if args.offline:
         urls = {u: v.get("hint", "") for u, v in stories.items()}
@@ -250,6 +282,10 @@ def main() -> int:
             unmatched.append({"url": url, "ifid": ident.ifid, "hint": s.get("hint", "")})
             continue
         m = manifest_for(url, ident, s["bytes"], game)
+        if game["tuid"] not in game_extras:
+            stem = re.sub(r"-r\d+.*$", "", Path(urlsplit(url).path).stem).lower()
+            game_extras[game["tuid"]] = extras.for_game(stem, game.get("links") or [])
+            save(DATA / "extras.json", extras_cache)
         problems = validate_manifest(m)
         if problems:
             log(f"  ! invalid manifest for {url}: {problems}")
@@ -266,12 +302,19 @@ def main() -> int:
             if label:
                 old["story"]["label"] = label
             m = old
+        m = merge(m, game_extras[game["tuid"]])
+        problems = validate_manifest(m)
+        if problems:
+            log(f"  ! extras made {path.name} invalid, writing story only: {problems}")
+            m = {k: v for k, v in m.items() if k not in ("manual", "map", "feelies", "hints")}
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(json.dumps(m, indent=2, ensure_ascii=False) + "\n")
         written.add(path)
         seen_sha[ident.sha256] = str(path)
 
     save(DATA / "unmatched.json", unmatched)
+    save(DATA / "skipped-extras.json", sorted(skipped, key=lambda x: x["url"]))
+    save(DATA / "extras.json", extras_cache)
     stale = [p for p in GAMES.glob("*/*.spelunk") if p not in written]
     log(f"\n{len(written)} manifests written, {len(unmatched)} stories not on IFDB "
         f"(data/unmatched.json), {downloaded} downloads this run.")
