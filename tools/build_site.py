@@ -73,6 +73,23 @@ code { font-size: .85em; }
 """
 
 
+# The list pages remember which one was shown last, and "← All games" goes
+# back to it (with history.back() when we came straight from it, so the
+# scroll position is kept too).
+LIST_JS = """try { sessionStorage.setItem("list", location.pathname.split("/").pop() || "index.html"); } catch (e) {}"""
+BACK_JS = """(function () {
+  var a = document.getElementById("back"), list = "index.html";
+  try { list = sessionStorage.getItem("list") || list; } catch (e) {}
+  a.href = a.getAttribute("href").replace(/index\\.html$/, list);
+  a.addEventListener("click", function (ev) {
+    var r = document.referrer;
+    if (r && new URL(r).origin === location.origin && new URL(a.href, location.href).pathname === new URL(r).pathname) {
+      ev.preventDefault(); history.back();
+    }
+  });
+})();"""
+
+
 def esc(s) -> str:
     return html.escape(str(s), quote=True)
 
@@ -88,7 +105,7 @@ def page(title: str, body: str, depth: int) -> str:
 <link rel="stylesheet" href="{up}style.css">
 </head>
 <body>
-<header>{f'<p class="sub"><a href="{up}index.html">← All games</a></p>' if depth else ''}</header>
+<header>{f'<p class="sub"><a id="back" href="{up}index.html">← All games</a></p>' if depth else ''}</header>
 <main>
 {body}
 </main>
@@ -97,6 +114,7 @@ def page(title: str, body: str, depth: int) -> str:
 (eblong.com, IFDB, the Infocom Documentation Project, infocom-hints-html). This site hosts only the
 manifests. Spelunk checks every file's SHA-256 before using it.</p>
 </footer>
+<script>{BACK_JS if depth else LIST_JS}</script>
 </body>
 </html>
 """

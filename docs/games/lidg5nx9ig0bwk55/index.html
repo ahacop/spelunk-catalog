@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
-<header><p class="sub"><a href="../../index.html">← All games</a></p></header>
+<header><p class="sub"><a id="back" href="../../index.html">← All games</a></p></header>
 <main>
 <div class="game">
 <div><img class="cover" src="https://ifdb.org/coverart?id=lidg5nx9ig0bwk55&amp;version=16" alt="Sorcerer" loading="lazy" referrerpolicy="no-referrer"></div>
@@ -64,5 +64,16 @@
 (eblong.com, IFDB, the Infocom Documentation Project, infocom-hints-html). This site hosts only the
 manifests. Spelunk checks every file's SHA-256 before using it.</p>
 </footer>
+<script>(function () {
+  var a = document.getElementById("back"), list = "index.html";
+  try { list = sessionStorage.getItem("list") || list; } catch (e) {}
+  a.href = a.getAttribute("href").replace(/index\.html$/, list);
+  a.addEventListener("click", function (ev) {
+    var r = document.referrer;
+    if (r && new URL(r).origin === location.origin && new URL(a.href, location.href).pathname === new URL(r).pathname) {
+      ev.preventDefault(); history.back();
+    }
+  });
+})();</script>
 </body>
 </html>
