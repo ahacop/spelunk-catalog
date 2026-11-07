@@ -83,7 +83,8 @@ serial is a date (starts with 8 or 9).
 ## Website
 
 `python3 tools/build_site.py` builds the catalog site into `docs/`: a page of games in release order
-(by release month from `data/release-dates.json`, taken from the Infocom Fact Sheet), the same games A–Z (`az.html`), and one page
+(by release month from `data/fact-sheet.json`, taken from the Infocom Fact Sheet, which also gives
+Infocom's own difficulty rating shown on each game), the same games A–Z (`az.html`), and one page
 per game with its releases (the recommended one first), each with **Open in Spelunk**
 (`spelunk://import?url=…`) and a download link. The manifests are copied into `docs/games/` so the
 site serves them itself. GitHub Pages serves `docs/` from `main`

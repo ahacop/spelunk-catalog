@@ -144,7 +144,7 @@ MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
 
 
 def released(tuid: str, g: dict, dates: dict) -> tuple[int, int]:
-    """(year, month) of first release: data/release-dates.json (the Infocom
+    """(year, month) of first release: data/fact-sheet.json (the Infocom
     Fact Sheet), else IFDB's year with month 0 (unknown), else (9999, 0)."""
     r = dates.get(tuid, {}).get("released", "")
     if r:
@@ -167,7 +167,7 @@ def views(current: str) -> str:
 
 def main() -> int:
     index = json.loads((ROOT / "data" / "index.json").read_text())
-    dates = json.loads((ROOT / "data" / "release-dates.json").read_text())["games"]
+    dates = json.loads((ROOT / "data" / "fact-sheet.json").read_text())["games"]
     if OUT.exists():
         shutil.rmtree(OUT)
     (OUT / "games").mkdir(parents=True)
@@ -198,11 +198,12 @@ def main() -> int:
         more = (f"<details><summary>{len(rest)} other release{'s' if len(rest) != 1 else ''}"
                 f"</summary>{''.join(rest)}</details>") if rest else ""
         ifdb = default.get("links", {}).get("ifdb")
+        level = dates.get(tuid, {}).get("difficulty", "")
         body = f"""<div class="game">
 <div>{cover_img(default, g["title"])}</div>
 <div>
 <h1>{esc(g["title"])}</h1>
-<p class="sub">{f"Released {esc(when(released(tuid, g, dates)))} · " if when(released(tuid, g, dates)) else ""}{len(g["releases"])} release{'s' if len(g["releases"]) != 1 else ''}{f' · <a href="{esc(ifdb)}">IFDB</a>' if ifdb else ''}</p>
+<p class="sub">{f"Released {esc(when(released(tuid, g, dates)))} · " if when(released(tuid, g, dates)) else ""}{f'<span title="Infocom&#39;s own difficulty rating">{esc(level)} level</span> · ' if level else ""}{len(g["releases"])} release{'s' if len(g["releases"]) != 1 else ''}{f' · <a href="{esc(ifdb)}">IFDB</a>' if ifdb else ''}</p>
 {first}
 {more}
 </div>
@@ -211,7 +212,7 @@ def main() -> int:
         year = when(released(tuid, g, dates))
         cards[tuid] = (f"""<li><a href="games/{esc(tuid)}/index.html">{cover_img(default, g["title"])}
 <div class="t">{esc(g["title"])}</div>
-<div class="n">{f"{year} · " if year else ""}{len(g["releases"])} release{'s' if len(g["releases"]) != 1 else ''}</div></a></li>""")
+<div class="n">{f"{year} · " if year else ""}{f"{esc(level)} level · " if level else ""}{len(g["releases"])} release{'s' if len(g["releases"]) != 1 else ''}</div></a></li>""")
 
     body = f"""<h1>Spelunk catalog</h1>
 <p class="sub">{len(index)} Infocom games for Spelunk. Tap a game, then <b>Open in Spelunk</b>.</p>

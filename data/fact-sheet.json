@@ -1,65 +1,80 @@
 {
-  "_source": "Release month (or year) of first publication, from Paul David Doherty's Infocom Fact Sheet 4.95 (https://ifarchive.org/if-archive/infocom/info/fact-sheet.txt), sections X (Chronology) and I. Games not listed fall back to IFDB's first-published year. Listed in the Fact Sheet's order, which breaks ties within a month.",
+  "_source": "From Paul David Doherty's Infocom Fact Sheet 4.95 (https://ifarchive.org/if-archive/infocom/info/fact-sheet.txt). released: month (or year) of first publication, from section X (Chronology) and section I; games not listed fall back to IFDB's year. Listed in the Fact Sheet's order, which breaks ties within a month. difficulty: Infocom's own rating from section I, which Infocom used only from late 1984 to March 1987, so later games have none.",
   "games": {
     "0dbnusxunq7fw5ro": {
       "title": "Zork I",
-      "released": "1980-11"
+      "released": "1980-11",
+      "difficulty": "Standard"
     },
     "yzzm4puxyjakk8c4": {
       "title": "Zork II",
-      "released": "1981-11"
+      "released": "1981-11",
+      "difficulty": "Advanced"
     },
     "p976o7x5ies9ltdh": {
       "title": "Deadline",
-      "released": "1982-04"
+      "released": "1982-04",
+      "difficulty": "Expert"
     },
     "vrsot1zgy1wfcdru": {
       "title": "Zork III",
-      "released": "1982-09"
+      "released": "1982-09",
+      "difficulty": "Advanced"
     },
     "y42oje3ryqi6lohn": {
       "title": "Starcross",
-      "released": "1982-09"
+      "released": "1982-09",
+      "difficulty": "Expert"
     },
     "t47hei9uq10xoar8": {
       "title": "Suspended",
-      "released": "1983-03"
+      "released": "1983-03",
+      "difficulty": "Expert"
     },
     "6963a47vqgms8wi0": {
       "title": "The Witness",
-      "released": "1983-06"
+      "released": "1983-06",
+      "difficulty": "Standard"
     },
     "xe6kb3cuqwie2q38": {
       "title": "Planetfall",
-      "released": "1983-08"
+      "released": "1983-08",
+      "difficulty": "Standard"
     },
     "vu4xhul3abknifcr": {
       "title": "Enchanter",
-      "released": "1983-09"
+      "released": "1983-09",
+      "difficulty": "Standard"
     },
     "anu79a4n1jedg5mm": {
       "title": "Infidel",
-      "released": "1983-11"
+      "released": "1983-11",
+      "difficulty": "Advanced"
     },
     "lidg5nx9ig0bwk55": {
       "title": "Sorcerer",
-      "released": "1984-03"
+      "released": "1984-03",
+      "difficulty": "Advanced"
     },
     "56wb8hflec2isvzm": {
       "title": "Seastalker",
-      "released": "1984-06"
+      "released": "1984-06",
+      "difficulty": "Introductory"
     },
     "4ao65o1u0xuvj8jf": {
       "title": "Cutthroats",
-      "released": "1984-09"
+      "released": "1984-09",
+      "difficulty": "Standard"
     },
     "ouv80gvsl32xlion": {
       "title": "The Hitchhiker's Guide to the Galaxy",
-      "released": "1984-10"
+      "released": "1984-10",
+      "difficulty": "Standard"
     },
     "tdbss1ekrp4ua7h4": {
       "title": "Suspect",
-      "released": "1984-11"
+      "released": "1984-11",
+      "difficulty": "Advanced"
     },
     "wa8crlfz82pra14i": {
       "title": "Four-In-One Sampler I",
@@ -67,35 +82,43 @@
     },
     "z02joykzh66wfhcl": {
       "title": "Wishbringer",
-      "released": "1985-06"
+      "released": "1985-06",
+      "difficulty": "Introductory"
     },
     "4h62dvooeg9ajtfa": {
       "title": "A Mind Forever Voyaging",
-      "released": "1985-09"
+      "released": "1985-09",
+      "difficulty": "Advanced"
     },
     "wqsmrahzozosu3r": {
       "title": "Spellbreaker",
-      "released": "1985-10"
+      "released": "1985-10",
+      "difficulty": "Expert"
     },
     "b0i6bx7g4rkrekgg": {
       "title": "Ballyhoo",
-      "released": "1986-02"
+      "released": "1986-02",
+      "difficulty": "Standard"
     },
     "j18kjz80hxjtyayw": {
       "title": "Trinity",
-      "released": "1986-06"
+      "released": "1986-06",
+      "difficulty": "Standard"
     },
     "3p9fdt4fxr2goctw": {
       "title": "Leather Goddesses of Phobos",
-      "released": "1986-09"
+      "released": "1986-09",
+      "difficulty": "Standard"
     },
     "c66u816v8kx2jzm2": {
       "title": "Moonmist",
-      "released": "1986-10"
+      "released": "1986-10",
+      "difficulty": "Introductory"
     },
     "jnfkbgdgopwfqist": {
       "title": "Hollywood Hijinx",
-      "released": "1987-02"
+      "released": "1987-02",
+      "difficulty": "Standard"
     },
     "zjyxds3s57pgis3x": {
       "title": "Bureaucracy",
