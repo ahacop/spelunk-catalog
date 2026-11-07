@@ -4,7 +4,7 @@ Deploy from branch > main, /docs).
 
     python3 tools/build_site.py
 
-Pages: an index of games (A–Z, and by year in years.html), and one page per game listing its releases (the
+Pages: an index of games by release date (A–Z in az.html), and one page per game listing its releases (the
 default first) with "Open in Spelunk" (spelunk://import?url=…) and a download
 link. The manifests are copied into docs/games/ so they're served from the
 same site. Box art is shown from its source (IFDB); nothing else is hosted.
@@ -142,7 +142,7 @@ def when(ym: tuple[int, int]) -> str:
 
 def views(current: str) -> str:
     out = []
-    for name, href in (("A–Z", "index.html"), ("By year", "years.html")):
+    for name, href in (("By year", "index.html"), ("A–Z", "az.html")):
         out.append(f"<span>{name}</span>" if name == current else f'<a href="{href}">{name}</a>')
     return f'<p class="views">{"".join(out)}</p>'
 
@@ -201,7 +201,7 @@ def main() -> int:
 <ul class="grid">
 {''.join(cards.values())}
 </ul>"""
-    (OUT / "index.html").write_text(page("Spelunk catalog", body, 0))
+    (OUT / "az.html").write_text(page("Spelunk catalog A–Z", body, 0))
 
     # Chronological: by release month (games with only a year go last in it).
     order = {t: i for i, t in enumerate(dates)}  # the Fact Sheet's order breaks ties
@@ -217,7 +217,7 @@ def main() -> int:
 <p class="sub">{len(index)} Infocom games for Spelunk, in the order they came out.</p>
 {views("By year")}
 {sections}"""
-    (OUT / "years.html").write_text(page("Spelunk catalog by year", body, 0))
+    (OUT / "index.html").write_text(page("Spelunk catalog", body, 0))
     print(f"docs/: {len(index)} game pages, "
           f"{sum(len(g['releases']) for g in index.values())} manifests", file=sys.stderr)
     return 0
