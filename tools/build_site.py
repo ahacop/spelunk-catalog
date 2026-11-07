@@ -4,7 +4,7 @@ Deploy from branch > main, /docs).
 
     python3 tools/build_site.py
 
-Pages: an index of games, and one page per game listing its releases (the
+Pages: an index of games (A–Z, and by year in years.html), and one page per game listing its releases (the
 default first) with "Open in Spelunk" (spelunk://import?url=…) and a download
 link. The manifests are copied into docs/games/ so they're served from the
 same site. Box art is shown from its source (IFDB); nothing else is hosted.
@@ -61,6 +61,11 @@ h1 { font-size: 2rem; margin: 0 0 4px; letter-spacing: .02em; }
        border-radius: 6px; text-decoration:none; margin: 0 8px 6px 0; }
 .btn.primary { background: var(--accent); color: var(--accent-fg); }
 .btn.secondary { border: 1px solid var(--line); color: var(--fg); }
+.views { font: 600 .9rem/1 system-ui, sans-serif; margin: 0 0 20px; }
+.views a, .views span { display:inline-block; padding: 8px 12px; border-radius: 99px; margin-right: 6px; }
+.views span { background: var(--accent); color: var(--accent-fg); }
+.views a { border: 1px solid var(--line); color: var(--fg); text-decoration: none; }
+h2.year { font-size: 1.4rem; margin: 0 0 12px; border-bottom: 1px solid var(--line); padding-bottom: 4px; }
 details { margin: 8px 0 24px; } summary { cursor: pointer; color: var(--muted); }
 footer { color: var(--muted); font-size: .85rem; padding-bottom: 40px; }
 code { font-size: .85em; }
@@ -116,6 +121,24 @@ def contents(m: dict) -> str:
     return ", ".join(bits)
 
 
+def first_serial(paths: list[str]) -> str:
+    """The earliest YYMMDD serial among a game's releases, to order games
+    released in the same year (Infocom's serials are build dates)."""
+    serials = []
+    for p in paths:
+        serial = json.loads((ROOT / p).read_text())["story"]["serial"]
+        if serial.isdigit() and serial[0] in "789":
+            serials.append(serial)
+    return min(serials, default="999999")
+
+
+def views(current: str) -> str:
+    out = []
+    for name, href in (("A–Z", "index.html"), ("By year", "years.html")):
+        out.append(f"<span>{name}</span>" if name == current else f'<a href="{href}">{name}</a>')
+    return f'<p class="views">{"".join(out)}</p>'
+
+
 def main() -> int:
     index = json.loads((ROOT / "data" / "index.json").read_text())
     if OUT.exists():
@@ -124,7 +147,7 @@ def main() -> int:
     (OUT / "style.css").write_text(CSS.strip() + "\n")
     (OUT / ".nojekyll").write_text("")
 
-    cards = []
+    cards = {}
     games = sorted(index.items(), key=lambda kv: kv[1]["title"].lower().removeprefix("the "))
     for tuid, g in games:
         default = json.loads((ROOT / g["default"]).read_text())
@@ -152,22 +175,42 @@ def main() -> int:
 <div>{cover_img(default, g["title"])}</div>
 <div>
 <h1>{esc(g["title"])}</h1>
-<p class="sub">{len(g["releases"])} release{'s' if len(g["releases"]) != 1 else ''}{f' · <a href="{esc(ifdb)}">IFDB</a>' if ifdb else ''}</p>
+<p class="sub">{f"{esc(g['published'])} · " if g.get("published") else ""}{len(g["releases"])} release{'s' if len(g["releases"]) != 1 else ''}{f' · <a href="{esc(ifdb)}">IFDB</a>' if ifdb else ''}</p>
 {first}
 {more}
 </div>
 </div>"""
         (OUT / "games" / tuid / "index.html").write_text(page(g["title"], body, 2))
-        cards.append(f"""<li><a href="games/{esc(tuid)}/index.html">{cover_img(default, g["title"])}
+        year = g.get("published")
+        cards[tuid] = (f"""<li><a href="games/{esc(tuid)}/index.html">{cover_img(default, g["title"])}
 <div class="t">{esc(g["title"])}</div>
-<div class="n">{len(g["releases"])} release{'s' if len(g["releases"]) != 1 else ''}</div></a></li>""")
+<div class="n">{f"{year} · " if year else ""}{len(g["releases"])} release{'s' if len(g["releases"]) != 1 else ''}</div></a></li>""")
 
     body = f"""<h1>Spelunk catalog</h1>
 <p class="sub">{len(index)} Infocom games for Spelunk. Tap a game, then <b>Open in Spelunk</b>.</p>
+{views("A–Z")}
 <ul class="grid">
-{''.join(cards)}
+{''.join(cards.values())}
 </ul>"""
     (OUT / "index.html").write_text(page("Spelunk catalog", body, 0))
+
+    # Chronological: by IFDB's first-published year, then earliest serial.
+    # A game IFDB has no year for goes by its earliest build (serial 84xxxx: 1984).
+    def year_of(g: dict) -> str:
+        serial = first_serial([r["path"] for r in g["releases"]])
+        return str(g.get("published") or (f"19{serial[:2]}" if serial != "999999" else "Year unknown"))
+    by_year: dict[str, list[str]] = {}
+    for tuid, g in sorted(index.items(), key=lambda kv: (
+            year_of(kv[1]), first_serial([r["path"] for r in kv[1]["releases"]]),
+            kv[1]["title"].lower())):
+        by_year.setdefault(year_of(g), []).append(cards[tuid])
+    sections = "".join(f'<h2 class="year">{esc(y)}</h2>\n<ul class="grid">\n{"".join(c)}\n</ul>\n'
+                       for y, c in by_year.items())
+    body = f"""<h1>Spelunk catalog</h1>
+<p class="sub">{len(index)} Infocom games for Spelunk, in the order they came out.</p>
+{views("By year")}
+{sections}"""
+    (OUT / "years.html").write_text(page("Spelunk catalog by year", body, 0))
     print(f"docs/: {len(index)} game pages, "
           f"{sum(len(g['releases']) for g in index.values())} manifests", file=sys.stderr)
     return 0

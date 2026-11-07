@@ -82,7 +82,8 @@ serial is a date (starts with 8 or 9).
 
 ## Website
 
-`python3 tools/build_site.py` builds the catalog site into `docs/`: a page of games and one page
+`python3 tools/build_site.py` builds the catalog site into `docs/`: a page of games A–Z, the same games by year
+(`years.html`: IFDB's first-published year, then the earliest build serial), and one page
 per game with its releases (the recommended one first), each with **Open in Spelunk**
 (`spelunk://import?url=…`) and a download link. The manifests are copied into `docs/games/` so the
 site serves them itself. GitHub Pages serves `docs/` from `main`

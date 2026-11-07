@@ -255,7 +255,8 @@ def ifdb_lookup(fetcher: Fetcher, ifid: str, url: str = IFDB_JSON) -> dict | Non
     cover = ((doc.get("ifdb") or {}).get("coverart") or {}).get("url") if isinstance(doc, dict) else None
     return {"tuid": tuid, "title": html.unescape(str(find(doc, "title") or "")),
             "author": html.unescape(str(find(doc, "author") or "")), "links": links(doc, []),
-            "cover": cover if isinstance(cover, str) else ""}
+            "cover": cover if isinstance(cover, str) else "",
+            "published": str(find(doc, "firstpublished") or "")}
 
 
 # --- main -----------------------------------------------------------------
@@ -346,7 +347,7 @@ def main() -> int:
 
     def lookup(ident: StoryIdentity, fetch: bool = True):
         for ifid in ident.ifid_variants:
-            stale = ifdb.get(ifid) is not None and "cover" not in ifdb[ifid]
+            stale = ifdb.get(ifid) is not None and "published" not in ifdb[ifid]
             if fetch and (ifid not in ifdb or stale) and not args.offline:
                 log(f"IFDB {ifid}")
                 ifdb[ifid] = ifdb_lookup(fetcher, ifid)
@@ -379,7 +380,7 @@ def main() -> int:
         if stem in stem_game or not hint:
             continue
         key = f"title:{hint}"
-        stale = ifdb.get(key) is not None and "cover" not in ifdb[key]
+        stale = ifdb.get(key) is not None and "published" not in ifdb[key]
         if (key not in ifdb or stale) and not args.offline:
             log(f"IFDB search {hint!r}")
             ifdb[key] = ifdb_search(fetcher, hint)
@@ -442,6 +443,9 @@ def main() -> int:
         path.write_text(json.dumps(m, indent=2, ensure_ascii=False) + "\n")
         written.add(path)
         entry = index.setdefault(game["tuid"], {"title": m["title"], "default": None, "releases": []})
+        year = re.match(r"\d{4}", game.get("published") or "")
+        if year and "published" not in entry:
+            entry["published"] = int(year.group())
         rel = str(path.relative_to(ROOT))
         entry["releases"].append({"path": rel, "label": m["story"]["label"]})
         if url in defaults:

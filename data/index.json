@@ -1,6 +1,7 @@
 {
   "0dbnusxunq7fw5ro": {
     "default": "games/0dbnusxunq7fw5ro/r119-s880429.spelunk",
+    "published": 1980,
     "releases": [
       {
         "label": "Release 119 (880429)",
@@ -75,6 +76,7 @@
   },
   "17coplfu323xif76": {
     "default": "games/17coplfu323xif76/r393-s890714.spelunk",
+    "published": 1988,
     "releases": [
       {
         "label": "Release 393 (890714)",
@@ -149,6 +151,7 @@
   },
   "1rea34vqnz3mtyq1": {
     "default": "games/1rea34vqnz3mtyq1/r34-s871124.spelunk",
+    "published": 1988,
     "releases": [
       {
         "label": "Release 34 (871124)",
@@ -163,6 +166,7 @@
   },
   "2752o3sh6y05ob1p": {
     "default": "games/2752o3sh6y05ob1p/r83-s890706.spelunk",
+    "published": 1989,
     "releases": [
       {
         "label": "Release 83 (890706)",
@@ -229,6 +233,7 @@
   },
   "3p9fdt4fxr2goctw": {
     "default": "games/3p9fdt4fxr2goctw/r59-s860730.spelunk",
+    "published": 1986,
     "releases": [
       {
         "label": "Release 59 (860730)",
@@ -271,6 +276,7 @@
   },
   "4ao65o1u0xuvj8jf": {
     "default": "games/4ao65o1u0xuvj8jf/r25-s840917.spelunk",
+    "published": 1984,
     "releases": [
       {
         "label": "Release 25 (840917)",
@@ -285,6 +291,7 @@
   },
   "4h62dvooeg9ajtfa": {
     "default": "games/4h62dvooeg9ajtfa/r79-s851122.spelunk",
+    "published": 1985,
     "releases": [
       {
         "label": "Release 79 (851122)",
@@ -307,6 +314,7 @@
   },
   "56wb8hflec2isvzm": {
     "default": "games/56wb8hflec2isvzm/r18-s850919.spelunk",
+    "published": 1984,
     "releases": [
       {
         "label": "Release 18 (850919)",
@@ -357,6 +365,7 @@
   },
   "6963a47vqgms8wi0": {
     "default": "games/6963a47vqgms8wi0/r23-s840925.spelunk",
+    "published": 1983,
     "releases": [
       {
         "label": "Release 23 (840925)",
@@ -387,6 +396,7 @@
   },
   "7epwz167lgruvm0u": {
     "default": "games/7epwz167lgruvm0u/r9-s871008.spelunk",
+    "published": 1987,
     "releases": [
       {
         "label": "Release 9 (871008)",
@@ -397,6 +407,7 @@
   },
   "9h6o1charof548ii": {
     "default": "games/9h6o1charof548ii/r60-s880610.spelunk",
+    "published": 1987,
     "releases": [
       {
         "label": "Release 60 (880610)",
@@ -431,6 +442,7 @@
   },
   "9nlbhqnlyb169uge": {
     "default": "games/9nlbhqnlyb169uge/r107-s870430.spelunk",
+    "published": 1987,
     "releases": [
       {
         "label": "Release 107 (870430)",
@@ -453,6 +465,7 @@
   },
   "anu79a4n1jedg5mm": {
     "default": "games/anu79a4n1jedg5mm/r22-s830916.spelunk",
+    "published": 1983,
     "releases": [
       {
         "label": "Release 22 (830916)",
@@ -467,6 +480,7 @@
   },
   "b0i6bx7g4rkrekgg": {
     "default": "games/b0i6bx7g4rkrekgg/r99-s861014.spelunk",
+    "published": 1985,
     "releases": [
       {
         "label": "Release 99 (861014)",
@@ -481,6 +495,7 @@
   },
   "c66u816v8kx2jzm2": {
     "default": "games/c66u816v8kx2jzm2/r13-s880501.spelunk",
+    "published": 1986,
     "releases": [
       {
         "label": "Release 13 (880501)",
@@ -507,6 +522,7 @@
   },
   "ddagftras22bnz8h": {
     "default": "games/ddagftras22bnz8h/r26-s870730.spelunk",
+    "published": 1987,
     "releases": [
       {
         "label": "Release 26 (870730)",
@@ -517,6 +533,7 @@
   },
   "j18kjz80hxjtyayw": {
     "default": "games/j18kjz80hxjtyayw/r15-s870628.spelunk",
+    "published": 1986,
     "releases": [
       {
         "label": "Release 15 (870628)",
@@ -547,6 +564,7 @@
   },
   "j8lmspy4iz73mx26": {
     "default": "games/j8lmspy4iz73mx26/r26-s880127.spelunk",
+    "published": 1987,
     "releases": [
       {
         "label": "Release 26 (880127)",
@@ -573,6 +591,7 @@
   },
   "jhbd0kja1t57uop": {
     "default": "games/jhbd0kja1t57uop/r221-s870918.spelunk",
+    "published": 1987,
     "releases": [
       {
         "label": "Release 221 (870918)",
@@ -591,6 +610,7 @@
   },
   "jnfkbgdgopwfqist": {
     "default": "games/jnfkbgdgopwfqist/r37-s861215.spelunk",
+    "published": 1986,
     "releases": [
       {
         "label": "Release 37 (861215)",
@@ -605,6 +625,7 @@
   },
   "lidg5nx9ig0bwk55": {
     "default": "games/lidg5nx9ig0bwk55/r18-s860904.spelunk",
+    "published": 1984,
     "releases": [
       {
         "label": "Release 18 (860904)",
@@ -643,6 +664,7 @@
   },
   "ouv80gvsl32xlion": {
     "default": "games/ouv80gvsl32xlion/r60-s861002.spelunk",
+    "published": 1984,
     "releases": [
       {
         "label": "Release 60 (861002)",
@@ -685,6 +707,7 @@
   },
   "p00ucaayobrt2paz": {
     "default": "games/p00ucaayobrt2paz/r15-s840330.spelunk",
+    "published": 1987,
     "releases": [
       {
         "label": "1z · Release 15 (840330)",
@@ -715,6 +738,7 @@
   },
   "p976o7x5ies9ltdh": {
     "default": "games/p976o7x5ies9ltdh/r28-s850129.spelunk",
+    "published": 1982,
     "releases": [
       {
         "label": "Release 28 (850129)",
@@ -749,6 +773,7 @@
   },
   "qel8teuugclcheaz": {
     "default": "games/qel8teuugclcheaz/r11-s870225.spelunk",
+    "published": 1986,
     "releases": [
       {
         "label": "Release 11 (870225)",
@@ -771,6 +796,7 @@
   },
   "t47hei9uq10xoar8": {
     "default": "games/t47hei9uq10xoar8/r8-s830521.spelunk",
+    "published": 1983,
     "releases": [
       {
         "label": "Release 8 (830521)",
@@ -801,6 +827,7 @@
   },
   "tdbss1ekrp4ua7h4": {
     "default": "games/tdbss1ekrp4ua7h4/r14-s841005.spelunk",
+    "published": 1984,
     "releases": [
       {
         "label": "Release 14 (841005)",
@@ -827,6 +854,7 @@
   },
   "vrsot1zgy1wfcdru": {
     "default": "games/vrsot1zgy1wfcdru/r25-s860811.spelunk",
+    "published": 1982,
     "releases": [
       {
         "label": "Release 25 (860811)",
@@ -861,6 +889,7 @@
   },
   "vu4xhul3abknifcr": {
     "default": "games/vu4xhul3abknifcr/r29-s860820.spelunk",
+    "published": 1983,
     "releases": [
       {
         "label": "Release 29 (860820)",
@@ -895,6 +924,7 @@
   },
   "w3pz3v8wckaw1wgb": {
     "default": "games/w3pz3v8wckaw1wgb/r322-s890706.spelunk",
+    "published": 1989,
     "releases": [
       {
         "label": "Release 322 (890706)",
@@ -999,6 +1029,7 @@
   },
   "wqsmrahzozosu3r": {
     "default": "games/wqsmrahzozosu3r/r87-s860904.spelunk",
+    "published": 1985,
     "releases": [
       {
         "label": "Release 87 (860904)",
@@ -1021,6 +1052,7 @@
   },
   "xe6kb3cuqwie2q38": {
     "default": "games/xe6kb3cuqwie2q38/r39-s880501.spelunk",
+    "published": 1983,
     "releases": [
       {
         "label": "Release 39 (880501)",
@@ -1055,6 +1087,7 @@
   },
   "y42oje3ryqi6lohn": {
     "default": "games/y42oje3ryqi6lohn/r18-s830114.spelunk",
+    "published": 1982,
     "releases": [
       {
         "label": "Release 18 (830114)",
@@ -1073,6 +1106,7 @@
   },
   "yzzm4puxyjakk8c4": {
     "default": "games/yzzm4puxyjakk8c4/r63-s860811.spelunk",
+    "published": 1981,
     "releases": [
       {
         "label": "Release 63 (860811)",
@@ -1123,6 +1157,7 @@
   },
   "z02joykzh66wfhcl": {
     "default": "games/z02joykzh66wfhcl/r32933-s880609.spelunk",
+    "published": 1985,
     "releases": [
       {
         "label": "Release 32933 (880609)",
@@ -1149,6 +1184,7 @@
   },
   "zjyxds3s57pgis3x": {
     "default": "games/zjyxds3s57pgis3x/r160-s880521.spelunk",
+    "published": 1987,
     "releases": [
       {
         "label": "Release 160 (880521)",
@@ -1167,6 +1203,7 @@
   },
   "zoohwv5nqye7up2t": {
     "default": "games/zoohwv5nqye7up2t/r74-s890714.spelunk",
+    "published": 1989,
     "releases": [
       {
         "label": "Release 74 (890714)",
@@ -1193,6 +1230,7 @@
   },
   "zxb8pq3qrkvdob4i": {
     "default": "games/zxb8pq3qrkvdob4i/r20-s870722.spelunk",
+    "published": 1987,
     "releases": [
       {
         "label": "Release 20 (870722)",
