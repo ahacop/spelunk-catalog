@@ -15,8 +15,9 @@ h1 { font-size: 2rem; margin: 0 0 4px; letter-spacing: .02em; }
 .grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px;
         list-style:none; padding:0; margin:0 0 40px; }
 .grid a { display:block; text-decoration:none; color:inherit; }
-.cover { width:100%; aspect-ratio: 3/4; object-fit: cover; border-radius:6px;
-         background: var(--line); display:block; border:1px solid var(--line); }
+.cover { width:100%; aspect-ratio: 1; object-fit: contain; object-position: bottom; display:block; }
+.game .cover { aspect-ratio: auto; height: auto; }
+.nocover { background: var(--line); border-radius: 6px; }
 .nocover { display:flex; align-items:center; justify-content:center; text-align:center;
            padding: 12px; color: var(--muted); font-size: .9rem; }
 .grid .t { font-weight: 600; margin-top: 6px; line-height:1.25; }
