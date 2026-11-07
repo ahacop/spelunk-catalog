@@ -271,7 +271,8 @@ def main() -> int:
             continue
         game = None
         for ifid in ident.ifid_variants:
-            if ifid not in ifdb and not args.offline:
+            stale = ifdb.get(ifid) is not None and "links" not in ifdb[ifid]
+            if (ifid not in ifdb or stale) and not args.offline:
                 log(f"IFDB {ifid}")
                 ifdb[ifid] = ifdb_lookup(fetcher, ifid)
                 save(DATA / "ifdb.json", ifdb)
