@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Bureaucracy",
+  "game": "zjyxds3s57pgis3x",
+  "story": {
+    "ifid": "ZCODE-160-880521",
+    "release": 160,
+    "serial": "880521",
+    "checksum": "07f0",
+    "label": "Release 160 (880521)",
+    "type": "z4",
+    "sha256": "6ddac3223c22a56283b7b739ce892f10a6cc692372e1b0f94a40da8e688cc1cd",
+    "bytes": 243524,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/bureaucracy-r160-s880521.z4"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=zjyxds3s57pgis3x"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "8aa8a05e684f4fc01762462e74fe78fa63a51722a6cb125752895ed758e605b3",
+    "bytes": 114128,
+    "sources": [
+      "https://ifdb.org/coverart?id=zjyxds3s57pgis3x&version=20"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "689439d5b63625ad77a5242b64b1d7a3fcd8494a88b26d64f91b0c987382b4ec",
+    "bytes": 4816482,
+    "sources": [
+      "https://infodoc.plover.net/manuals/bureaucr.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "539f31d41a3df215299bc6341711e2460882bfbc3b59f947fe6ad284968657f8",
+      "bytes": 28160,
+      "sources": [
+        "https://infodoc.plover.net/hints/bureaucr.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "f28cb3a7309072e31aa30902847edc976f93e41fe428dac373546fd98f97ce92",
+      "bytes": 2336824,
+      "sources": [
+        "https://infodoc.plover.net/maps/bureaucr.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "032419d6155134c42a55f584374704ab210e1a5cf8046ee529bbd1a60d841af1",
+      "bytes": 48925,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/bureaucr.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

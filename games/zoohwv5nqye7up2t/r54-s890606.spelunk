@@ -1,0 +1,59 @@
+{
+  "spelunk": 1,
+  "title": "Arthur: The Quest for Excalibur",
+  "game": "zoohwv5nqye7up2t",
+  "story": {
+    "ifid": "ZCODE-54-890606",
+    "release": 54,
+    "serial": "890606",
+    "checksum": "8e4a",
+    "label": "Release 54 (890606)",
+    "type": "z6",
+    "sha256": "8832b68681c6867296214ddcaffee925faffb6d989596835917630c9bbd001d3",
+    "bytes": 270848,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/arthur-r54-s890606.z6"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=zoohwv5nqye7up2t"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "70d5670ea82b2346d95ddb5aee9e727f3904d74d5b9f4a937aa3e8e41e794b68",
+    "bytes": 131744,
+    "sources": [
+      "https://ifdb.org/coverart?id=zoohwv5nqye7up2t&version=22"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "ee5eb0f0ff1865a8bae1b2be021a281e95732c1ad1c27598f327d236bfd7b71a",
+    "bytes": 4924439,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/arthur.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "644bb739764fe376722f33d5d9b85e5a82988e08f7d12812bbfa8603f5028357",
+      "bytes": 44032,
+      "sources": [
+        "https://infodoc.plover.net/hints/arthur.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "9da589a110adb3c6b6262e97d47b0f150f3df72f86dc0ecfa73c5d2c992a9091",
+      "bytes": 88174,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/arthur.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

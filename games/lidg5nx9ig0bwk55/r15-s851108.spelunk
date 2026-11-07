@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Sorcerer",
+  "game": "lidg5nx9ig0bwk55",
+  "story": {
+    "ifid": "ZCODE-15-851108",
+    "release": 15,
+    "serial": "851108",
+    "checksum": "28e3",
+    "label": "Release 15 (851108)",
+    "type": "z3",
+    "sha256": "8f8522b06a97414d9f682a6c531cdf868b53518693429310a4089446b6012654",
+    "bytes": 109056,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/sorcerer-r15-s851108.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=lidg5nx9ig0bwk55"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "2f644801899eb9fba2eb6ca456becc8aa6ef8bbaa4bdf3c4794425d0b17dc6ef",
+    "bytes": 89859,
+    "sources": [
+      "https://ifdb.org/coverart?id=lidg5nx9ig0bwk55&version=16"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "226b663fddab09492b8554d257bdfea98db8e659614e531332c1638feb5bd421",
+    "bytes": 8596795,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/sorcerer.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "7a6b482760869684bae7b4377ab0e304f7c0ecedf06e836d4bead5fe8ad919ea",
+      "bytes": 45568,
+      "sources": [
+        "https://infodoc.plover.net/hints/sorcerer.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "af0426192e1271bb41f7a18f0dfbcc865d4c7f4ca74f3bea665862751a530655",
+      "bytes": 5958722,
+      "sources": [
+        "https://infodoc.plover.net/maps/sorcerer.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "c8901bcf4d5ed63a56c9b3756a10335eb3375b230ace16d63e7d7f20d23298a8",
+      "bytes": 101139,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/sorcerer.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

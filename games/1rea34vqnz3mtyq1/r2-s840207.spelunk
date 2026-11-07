@@ -1,0 +1,30 @@
+{
+  "spelunk": 1,
+  "title": "Mini-Zork",
+  "game": "1rea34vqnz3mtyq1",
+  "story": {
+    "ifid": "ZCODE-2-840207",
+    "release": 2,
+    "serial": "840207",
+    "checksum": "1ff0",
+    "label": "Release 2 (840207)",
+    "type": "z3",
+    "sha256": "b318c4cb26ae3b05def2c0115c344c2b0b79fd162f818c26c82a4c5011dc8d29",
+    "bytes": 47676,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/minizork-r2-s840207.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=1rea34vqnz3mtyq1"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "bcd440d2d18a31c5be15b2aea9108a3ecd0f35471d3af28c803b548782a57bcc",
+    "bytes": 94416,
+    "sources": [
+      "https://ifdb.org/coverart?id=1rea34vqnz3mtyq1&version=7"
+    ],
+    "credit": "Cover art from IFDB"
+  }
+}

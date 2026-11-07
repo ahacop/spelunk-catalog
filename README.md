@@ -14,7 +14,7 @@ data/ifdb.json       cache: IFID -> IFDB id, title, author
 data/unmatched.json  stories IFDB doesn't know yet (no manifest written)
 data/extras.json     cache: each extras URL -> type, sha256, size
 data/skipped-extras.json  extras found but left out (GIF, SVG, zip, dead link...)
-tools/extras.py      finds manuals, maps, feelies and hints for each game
+tools/extras.py      finds box art, manuals and InvisiClues for each game
 tools/generate.py    builds the manifests from eblong + IFDB
 tools/validate.py    checks manifests (structure; with --download, the files too)
 tools/spelunklib.py  header identity, sanitising and format rules
@@ -42,14 +42,15 @@ Version 1, as specified in ahacop/spelunk#31 (kept by #73):
 
 ## Extras
 
-The generator fills `manual`, `map`, `feelies` and `hints` from:
+Each manifest has the game, its box art, its manual and its InvisiClues, nothing else:
 
-- **IFDB's links** for each game. Each link is sorted into a slot by its title and description
-  ("Manual", "Map", "Feelies", "InvisiClues"...). Walkthroughs and solutions are left out.
-- **The Infocom Documentation Project's** InvisiClues story files,
-  `https://infodoc.plover.net/hints/<name>.z5`, as `z5` hints.
-- **[infocom-hints-html](https://github.com/dfabulich/infocom-hints-html)**'s scraped JSON, as
-  `hints-json`, pinned to one commit so the hash stays stable.
+- **Box art** (`cover`): the game's cover image on IFDB.
+- **Manual** (`manual`): the Infocom Documentation Project's PDF (infodoc.plover.net), or the
+  manual IFDB links to. The scans include the feelies.
+- **InvisiClues** (`hints`): infodoc's hint story file (`.z5`),
+  [infocom-hints-html](https://github.com/dfabulich/infocom-hints-html)'s scraped JSON (pinned to
+  one commit so the hash stays stable), and the InvisiClues booklet's map, drawn by Infocom, as a
+  PDF titled "InvisiClues map". There is no separate `map` key.
 
 Hints are always files for Spelunk's own viewer, never web pages. Hint JSON may contain only the
 HTML tags `p`, `div`, `br`, `b`, `strong`, `i`, `em`, `ul`, `ol`, `li` and `pre`, with no
@@ -59,8 +60,8 @@ Every file is downloaded once, typed by its magic bytes and hashed. Only PNG, JP
 hint stories and hint JSON get in; GIFs, SVGs, zips and dead links are listed in
 `data/skipped-extras.json`. `--no-extras` skips this step.
 
-Extras added by hand win: the generator never replaces a filled `manual` or `map`, only adds new
-`feelies` and `hints`, and on refresh rewrites only `story` (keeping title, label and mirrors).
+Extras added by hand win: the generator never replaces a filled `cover` or `manual`, only adds new
+`hints`, and on refresh rewrites only `story` (keeping title, label and mirrors).
 
 ## Refreshing
 

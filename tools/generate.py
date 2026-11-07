@@ -27,7 +27,7 @@ from urllib.parse import urljoin, urlsplit, quote
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from extras import Extras, merge  # noqa: E402
 from spelunklib import (  # noqa: E402
-    CAPS, NotAStory, StoryIdentity, clean_text, identify_story, validate_manifest,
+    CAPS, NotAStory, StoryIdentity, clean_serial, clean_text, identify_story, validate_manifest,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -37,6 +37,8 @@ GAMES = ROOT / "games"
 EBLONG_BASE = "https://eblong.com/infocom/"
 EBLONG_CATALOG = urljoin(EBLONG_BASE, "catalog.json")
 IFDB_JSON = "https://ifdb.org/viewgame?json&ifid={}"
+IFDB_JSON_ID = "https://ifdb.org/viewgame?json&id={}"
+IFDB_SEARCH = "https://ifdb.org/search?json&searchfor={}"
 USER_AGENT = "spelunk-catalog-generator/1 (+https://github.com/ahacop/spelunk-catalog)"
 STORY_EXT = re.compile(r"\.z[1-8]$", re.I)
 
@@ -194,10 +196,26 @@ def pick_releases(urls: dict[str, str], overrides: dict[str, str]) -> dict[str, 
 
 # --- IFDB -----------------------------------------------------------------
 
-def ifdb_lookup(fetcher: Fetcher, ifid: str) -> dict | None:
-    """IFDB's game record for an IFID: id, title, author and its links
-    (manuals, feelies, hints...), from the viewgame JSON API."""
-    raw = fetcher.get(IFDB_JSON.format(quote(ifid)), CAPS["image"])
+def ifdb_search(fetcher: Fetcher, title: str) -> dict | None:
+    """Find a game on IFDB by its exact title (ignoring case and a leading
+    "The"), for releases whose IFIDs IFDB doesn't list."""
+    def norm(t: str) -> str:
+        return re.sub(r"^the ", "", re.sub(r"[^a-z0-9 ]", "", t.lower())).strip()
+    raw = fetcher.get(IFDB_SEARCH.format(quote(title)), CAPS["image"])
+    try:
+        games = json.loads(raw or b"{}").get("games", [])
+    except ValueError:
+        return None
+    hits = [g for g in games if norm(str(g.get("title", ""))) == norm(title)]
+    if len(hits) != 1:
+        return None
+    return ifdb_lookup(fetcher, hits[0]["tuid"], url=IFDB_JSON_ID)
+
+
+def ifdb_lookup(fetcher: Fetcher, ifid: str, url: str = IFDB_JSON) -> dict | None:
+    """IFDB's game record for an IFID (or, with IFDB_JSON_ID, an IFDB id):
+    id, title, author and its links (manuals, feelies, hints...)."""
+    raw = fetcher.get(url.format(quote(ifid)), CAPS["image"])
     if not raw:
         return None
     try:
@@ -232,10 +250,12 @@ def ifdb_lookup(fetcher: Fetcher, ifid: str) -> dict | None:
         return out
 
     tuid = str(find(doc, "tuid") or "")
-    if not re.fullmatch(r"[0-9a-z]{16}", tuid):
+    if not re.fullmatch(r"[0-9a-z]{8,24}", tuid):
         return None
-    return {"tuid": tuid, "title": str(find(doc, "title") or ""),
-            "author": str(find(doc, "author") or ""), "links": links(doc, [])}
+    cover = ((doc.get("ifdb") or {}).get("coverart") or {}).get("url") if isinstance(doc, dict) else None
+    return {"tuid": tuid, "title": html.unescape(str(find(doc, "title") or "")),
+            "author": html.unescape(str(find(doc, "author") or "")), "links": links(doc, []),
+            "cover": cover if isinstance(cover, str) else ""}
 
 
 # --- main -----------------------------------------------------------------
@@ -243,7 +263,7 @@ def ifdb_lookup(fetcher: Fetcher, ifid: str) -> dict | None:
 def manifest_for(url: str, ident: StoryIdentity, nbytes: int, game: dict) -> dict:
     return {
         "spelunk": 1,
-        "title": clean_text(game["title"]) or "Untitled",
+        "title": clean_text(html.unescape(game["title"])) or "Untitled",
         "game": game["tuid"],
         "story": {
             "ifid": ident.ifid,
@@ -324,10 +344,10 @@ def main() -> int:
     def stem_of(url: str) -> str:
         return Path(urlsplit(url).path).stem.split("-")[0].lower()  # zork1-mac-r22-... -> zork1
 
-    def lookup(ident: StoryIdentity):
+    def lookup(ident: StoryIdentity, fetch: bool = True):
         for ifid in ident.ifid_variants:
-            stale = ifdb.get(ifid) is not None and "links" not in ifdb[ifid]
-            if (ifid not in ifdb or stale) and not args.offline:
+            stale = ifdb.get(ifid) is not None and "cover" not in ifdb[ifid]
+            if fetch and (ifid not in ifdb or stale) and not args.offline:
                 log(f"IFDB {ifid}")
                 ifdb[ifid] = ifdb_lookup(fetcher, ifid)
                 save(DATA / "ifdb.json", ifdb)
@@ -336,7 +356,10 @@ def main() -> int:
         return None
 
     def ident_of(s: dict) -> StoryIdentity:
-        return StoryIdentity(s["version"], s["release"], s["serial"], s["checksum"], s["sha256"])
+        serial = s["serial"]
+        if len(serial) == 12:  # cached before clean_serial: hex of the raw bytes
+            serial = clean_serial(bytes.fromhex(serial))
+        return StoryIdentity(s["version"], s["release"], serial, s["checksum"], s["sha256"])
 
     # Betas, ports and the like are often not on IFDB under their own IFID;
     # they join the game that the same eblong name (zork1, ...) belongs to.
@@ -344,15 +367,30 @@ def main() -> int:
     stem_game: dict[str, dict] = {}
     order = sorted((u for u in urls if "sha256" in stories.get(u, {})),
                    key=lambda u: (u not in defaults, u))
+    # One IFDB request per game, not per release: once a release of a game
+    # (the default first) is found, its other releases use what's cached.
     for url in order:
-        g = lookup(ident_of(stories[url]))
+        g = lookup(ident_of(stories[url]), fetch=stem_of(url) not in stem_game)
         if g and stem_of(url) not in stem_game:
             stem_game[stem_of(url)] = g
+    # Games none of whose releases IFDB lists by IFID: search by eblong's title.
+    for url in order:
+        stem, hint = stem_of(url), stories[url].get("hint", "")
+        if stem in stem_game or not hint:
+            continue
+        key = f"title:{hint}"
+        stale = ifdb.get(key) is not None and "cover" not in ifdb[key]
+        if (key not in ifdb or stale) and not args.offline:
+            log(f"IFDB search {hint!r}")
+            ifdb[key] = ifdb_search(fetcher, hint)
+            save(DATA / "ifdb.json", ifdb)
+        if ifdb.get(key):
+            stem_game[stem] = ifdb[key]
 
     index: dict[str, dict] = {}
     for url in order:
         s = stories[url]
-        ident = StoryIdentity(s["version"], s["release"], s["serial"], s["checksum"], s["sha256"])
+        ident = ident_of(s)
         if ident.sha256 in seen_sha:  # same bytes at two URLs: add as a mirror
             path = seen_sha[ident.sha256]
             m = json.loads(Path(path).read_text())
@@ -360,14 +398,14 @@ def main() -> int:
                 m["story"]["sources"].append(url)
                 Path(path).write_text(json.dumps(m, indent=2, ensure_ascii=False) + "\n")
             continue
-        game = lookup(ident) or stem_game.get(stem_of(url))
+        game = lookup(ident, fetch=False) or stem_game.get(stem_of(url))
         if not game:
             unmatched.append({"url": url, "ifid": ident.ifid, "hint": s.get("hint", "")})
             continue
         m = manifest_for(url, ident, s["bytes"], game)
         if game["tuid"] not in game_extras:
             stem = stem_of(url)
-            game_extras[game["tuid"]] = extras.for_game(stem, game.get("links") or [])
+            game_extras[game["tuid"]] = extras.for_game(stem, game.get("links") or [], game.get("cover") or "")
             save(DATA / "extras.json", extras_cache)
         problems = validate_manifest(m)
         if problems:
@@ -389,7 +427,7 @@ def main() -> int:
         problems = validate_manifest(m)
         if problems:
             log(f"  ! extras made {path.name} invalid, writing story only: {problems}")
-            m = {k: v for k, v in m.items() if k not in ("manual", "map", "feelies", "hints")}
+            m = {k: v for k, v in m.items() if k not in ("cover", "manual", "feelies", "hints")}
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(json.dumps(m, indent=2, ensure_ascii=False) + "\n")
         written.add(path)

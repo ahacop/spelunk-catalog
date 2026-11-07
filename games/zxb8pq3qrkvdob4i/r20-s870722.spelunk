@@ -1,0 +1,59 @@
+{
+  "spelunk": 1,
+  "title": "Nord and Bert Couldn't Make Head or Tail of It",
+  "game": "zxb8pq3qrkvdob4i",
+  "story": {
+    "ifid": "ZCODE-20-870722",
+    "release": 20,
+    "serial": "870722",
+    "checksum": "4b55",
+    "label": "Release 20 (870722)",
+    "type": "z4",
+    "sha256": "638f2124b06e4514f50570bd169fc863149fe5549a90cda9bdfad0683c4e2f86",
+    "bytes": 170300,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/nordandbert-r20-s870722.z4"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=zxb8pq3qrkvdob4i"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "a8f3406554e6f1495e1075976bce1ed2bd839a1cdcacc34c84a9390d9e0dbeb1",
+    "bytes": 111417,
+    "sources": [
+      "https://ifdb.org/coverart?id=zxb8pq3qrkvdob4i&version=17"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "b13fac428019736944ebcf1668c88d4a89a6f45f66a1fcf2488015ed6a8768d6",
+    "bytes": 5147919,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/nordandb.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "cded799667fccab014e7e6a62a83a0433561f849ba96448e31d3d5aa99da137e",
+      "bytes": 27136,
+      "sources": [
+        "https://infodoc.plover.net/hints/nordandb.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "edd702e0a655f910123b9c9eb3509886099ac6beb9e3820dbba4ec64a96159bd",
+      "bytes": 63615,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/nordandb.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

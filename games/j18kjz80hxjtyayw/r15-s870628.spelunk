@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Trinity",
+  "game": "j18kjz80hxjtyayw",
+  "story": {
+    "ifid": "ZCODE-15-870628",
+    "release": 15,
+    "serial": "870628",
+    "checksum": "f112",
+    "label": "Release 15 (870628)",
+    "type": "z4",
+    "sha256": "8a647c645eee603ff469cd364277508a15f7b7f1c1363a0028ff28f6837d6149",
+    "bytes": 261484,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/trinity-r15-s870628.z4"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=j18kjz80hxjtyayw"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "0bfaa7d9dd12fe9bbe1bf63cc99cf70301ec69e99216376981ea3aa0a0868383",
+    "bytes": 13018,
+    "sources": [
+      "https://ifdb.org/coverart?id=j18kjz80hxjtyayw&version=22"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "0d093ba18e953bd3b82ca8fad495e36fa5405fd3b5a0db902c49c9d6f4fe553c",
+    "bytes": 9000373,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/trinity.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "4bf2045379be8b47bbe855ccd34c3a81449a06800674d5f585e44d0cf65a795a",
+      "bytes": 46592,
+      "sources": [
+        "https://infodoc.plover.net/hints/trinity.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "df0caf07f74f48f9f2f4e19ae7b48aca0e9925536d80838e52bdebc49f9b235c",
+      "bytes": 440226,
+      "sources": [
+        "https://infodoc.plover.net/maps/trinity.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "c36923c5bc8bb3d09a14aec063658d071ed9893314788db75f170ed6ea40e168",
+      "bytes": 94959,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/trinity.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

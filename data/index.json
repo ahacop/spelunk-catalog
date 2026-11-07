@@ -1,0 +1,1208 @@
+{
+  "0dbnusxunq7fw5ro": {
+    "default": "games/0dbnusxunq7fw5ro/r119-s880429.spelunk",
+    "releases": [
+      {
+        "label": "Release 119 (880429)",
+        "path": "games/0dbnusxunq7fw5ro/r119-s880429.spelunk"
+      },
+      {
+        "label": "Release 15 (------)",
+        "path": "games/0dbnusxunq7fw5ro/r15-s------.spelunk"
+      },
+      {
+        "label": "German · Release 15 (890613)",
+        "path": "games/0dbnusxunq7fw5ro/r15-s890613.spelunk"
+      },
+      {
+        "label": "Release 15 (UG3AU5)",
+        "path": "games/0dbnusxunq7fw5ro/r15-sUG3AU5.spelunk"
+      },
+      {
+        "label": "Release 2 (AS000C)",
+        "path": "games/0dbnusxunq7fw5ro/r2-sAS000C.spelunk"
+      },
+      {
+        "label": "Release 20 (------)",
+        "path": "games/0dbnusxunq7fw5ro/r20-s------.spelunk"
+      },
+      {
+        "label": "Release 23 (820428)",
+        "path": "games/0dbnusxunq7fw5ro/r23-s820428.spelunk"
+      },
+      {
+        "label": "Release 25 (820515)",
+        "path": "games/0dbnusxunq7fw5ro/r25-s820515.spelunk"
+      },
+      {
+        "label": "Release 26 (820803)",
+        "path": "games/0dbnusxunq7fw5ro/r26-s820803.spelunk"
+      },
+      {
+        "label": "Release 28 (821013)",
+        "path": "games/0dbnusxunq7fw5ro/r28-s821013.spelunk"
+      },
+      {
+        "label": "German beta · Release 3 (880113)",
+        "path": "games/0dbnusxunq7fw5ro/r3-s880113.spelunk"
+      },
+      {
+        "label": "Release 30 (830330)",
+        "path": "games/0dbnusxunq7fw5ro/r30-s830330.spelunk"
+      },
+      {
+        "label": "Release 5 (------)",
+        "path": "games/0dbnusxunq7fw5ro/r5-s------.spelunk"
+      },
+      {
+        "label": "Release 5 (------)",
+        "path": "games/0dbnusxunq7fw5ro/r5-s------.spelunk"
+      },
+      {
+        "label": "Solid Gold (built-in InvisiClues) · Release 52 (871125)",
+        "path": "games/0dbnusxunq7fw5ro/r52-s871125.spelunk"
+      },
+      {
+        "label": "Release 75 (830929)",
+        "path": "games/0dbnusxunq7fw5ro/r75-s830929.spelunk"
+      },
+      {
+        "label": "Release 76 (840509)",
+        "path": "games/0dbnusxunq7fw5ro/r76-s840509.spelunk"
+      },
+      {
+        "label": "Release 88 (840726)",
+        "path": "games/0dbnusxunq7fw5ro/r88-s840726.spelunk"
+      }
+    ],
+    "title": "Zork I"
+  },
+  "17coplfu323xif76": {
+    "default": "games/17coplfu323xif76/r393-s890714.spelunk",
+    "releases": [
+      {
+        "label": "Release 393 (890714)",
+        "path": "games/17coplfu323xif76/r393-s890714.spelunk"
+      },
+      {
+        "label": "Release 393 (890714)",
+        "path": "games/17coplfu323xif76/r393-s890714.spelunk"
+      },
+      {
+        "label": "First release · Release 0 (870831)",
+        "path": "games/17coplfu323xif76/r0-s870831.spelunk"
+      },
+      {
+        "label": "Old parser · Release 1 (871030)",
+        "path": "games/17coplfu323xif76/r1-s871030.spelunk"
+      },
+      {
+        "label": "Release 153 (880510)",
+        "path": "games/17coplfu323xif76/r153-s880510.spelunk"
+      },
+      {
+        "label": "Beta · Release 242 (880830)",
+        "path": "games/17coplfu323xif76/r242-s880830.spelunk"
+      },
+      {
+        "label": "Release 242 (880901)",
+        "path": "games/17coplfu323xif76/r242-s880901.spelunk"
+      },
+      {
+        "label": "Release 296 (881019)",
+        "path": "games/17coplfu323xif76/r296-s881019.spelunk"
+      },
+      {
+        "label": "Release 343 (890217)",
+        "path": "games/17coplfu323xif76/r343-s890217.spelunk"
+      },
+      {
+        "label": "Demo · Release 366 (890323)",
+        "path": "games/17coplfu323xif76/r366-s890323.spelunk"
+      },
+      {
+        "label": "Demo · Release 366 (890323)",
+        "path": "games/17coplfu323xif76/r366-s890323.spelunk"
+      },
+      {
+        "label": "Release 383 (890602)",
+        "path": "games/17coplfu323xif76/r383-s890602.spelunk"
+      },
+      {
+        "label": "Release 387 (890612)",
+        "path": "games/17coplfu323xif76/r387-s890612.spelunk"
+      },
+      {
+        "label": "IBM PC · Release 392 (890714)",
+        "path": "games/17coplfu323xif76/r392-s890714.spelunk"
+      },
+      {
+        "label": "Release 66 (890111)",
+        "path": "games/17coplfu323xif76/r66-s890111.spelunk"
+      },
+      {
+        "label": "Pre-alpha · Release 74 (880114)",
+        "path": "games/17coplfu323xif76/r74-s880114.spelunk"
+      },
+      {
+        "label": "Alpha · Release 96 (880224)",
+        "path": "games/17coplfu323xif76/r96-s880224.spelunk"
+      }
+    ],
+    "title": "Zork Zero: The Revenge of Megaboz"
+  },
+  "1rea34vqnz3mtyq1": {
+    "default": "games/1rea34vqnz3mtyq1/r34-s871124.spelunk",
+    "releases": [
+      {
+        "label": "Release 34 (871124)",
+        "path": "games/1rea34vqnz3mtyq1/r34-s871124.spelunk"
+      },
+      {
+        "label": "Release 2 (840207)",
+        "path": "games/1rea34vqnz3mtyq1/r2-s840207.spelunk"
+      }
+    ],
+    "title": "Mini-Zork"
+  },
+  "2752o3sh6y05ob1p": {
+    "default": "games/2752o3sh6y05ob1p/r83-s890706.spelunk",
+    "releases": [
+      {
+        "label": "Release 83 (890706)",
+        "path": "games/2752o3sh6y05ob1p/r83-s890706.spelunk"
+      },
+      {
+        "label": "Release 10 (890313)",
+        "path": "games/2752o3sh6y05ob1p/r10-s890313.spelunk"
+      },
+      {
+        "label": "Release 11 (890304)",
+        "path": "games/2752o3sh6y05ob1p/r11-s890304.spelunk"
+      },
+      {
+        "label": "Development build · Release 142 (890205)",
+        "path": "games/2752o3sh6y05ob1p/r142-s890205.spelunk"
+      },
+      {
+        "label": "Release 2 (890303)",
+        "path": "games/2752o3sh6y05ob1p/r2-s890303.spelunk"
+      },
+      {
+        "label": "Release 26 (890316)",
+        "path": "games/2752o3sh6y05ob1p/r26-s890316.spelunk"
+      },
+      {
+        "label": "Release 3 (890310)",
+        "path": "games/2752o3sh6y05ob1p/r3-s890310.spelunk"
+      },
+      {
+        "label": "Release 30 (890322)",
+        "path": "games/2752o3sh6y05ob1p/r30-s890322.spelunk"
+      },
+      {
+        "label": "Development build · Release 46 (880603)",
+        "path": "games/2752o3sh6y05ob1p/r46-s880603.spelunk"
+      },
+      {
+        "label": "Release 5 (890310)",
+        "path": "games/2752o3sh6y05ob1p/r5-s890310.spelunk"
+      },
+      {
+        "label": "Release 51 (890522)",
+        "path": "games/2752o3sh6y05ob1p/r51-s890522.spelunk"
+      },
+      {
+        "label": "Release 54 (890526)",
+        "path": "games/2752o3sh6y05ob1p/r54-s890526.spelunk"
+      },
+      {
+        "label": "Release 76 (890615)",
+        "path": "games/2752o3sh6y05ob1p/r76-s890615.spelunk"
+      },
+      {
+        "label": "Release 77 (890616)",
+        "path": "games/2752o3sh6y05ob1p/r77-s890616.spelunk"
+      },
+      {
+        "label": "Release 79 (890627)",
+        "path": "games/2752o3sh6y05ob1p/r79-s890627.spelunk"
+      }
+    ],
+    "title": "Journey"
+  },
+  "3p9fdt4fxr2goctw": {
+    "default": "games/3p9fdt4fxr2goctw/r59-s860730.spelunk",
+    "releases": [
+      {
+        "label": "Release 59 (860730)",
+        "path": "games/3p9fdt4fxr2goctw/r59-s860730.spelunk"
+      },
+      {
+        "label": "Release 0 (------)",
+        "path": "games/3p9fdt4fxr2goctw/r0-s------.spelunk"
+      },
+      {
+        "label": "First release · Release 1 (851008)",
+        "path": "games/3p9fdt4fxr2goctw/r1-s851008.spelunk"
+      },
+      {
+        "label": "Beta · Release 118 (860325)",
+        "path": "games/3p9fdt4fxr2goctw/r118-s860325.spelunk"
+      },
+      {
+        "label": "Gamma · Release 160 (860521)",
+        "path": "games/3p9fdt4fxr2goctw/r160-s860521.spelunk"
+      },
+      {
+        "label": "Solid Gold (built-in InvisiClues) · Release 4 (880405)",
+        "path": "games/3p9fdt4fxr2goctw/r4-s880405.spelunk"
+      },
+      {
+        "label": "Release 50 (860711)",
+        "path": "games/3p9fdt4fxr2goctw/r50-s860711.spelunk"
+      },
+      {
+        "label": "Alpha · Release 57 (860121)",
+        "path": "games/3p9fdt4fxr2goctw/r57-s860121.spelunk"
+      },
+      {
+        "label": "Release 59 (000001)",
+        "path": "games/3p9fdt4fxr2goctw/r59-s000001.spelunk"
+      }
+    ],
+    "title": "Leather Goddesses of Phobos"
+  },
+  "4ao65o1u0xuvj8jf": {
+    "default": "games/4ao65o1u0xuvj8jf/r25-s840917.spelunk",
+    "releases": [
+      {
+        "label": "Release 25 (840917)",
+        "path": "games/4ao65o1u0xuvj8jf/r25-s840917.spelunk"
+      },
+      {
+        "label": "Release 23 (840809)",
+        "path": "games/4ao65o1u0xuvj8jf/r23-s840809.spelunk"
+      }
+    ],
+    "title": "Cutthroats"
+  },
+  "4h62dvooeg9ajtfa": {
+    "default": "games/4h62dvooeg9ajtfa/r79-s851122.spelunk",
+    "releases": [
+      {
+        "label": "Release 79 (851122)",
+        "path": "games/4h62dvooeg9ajtfa/r79-s851122.spelunk"
+      },
+      {
+        "label": "First release · Release 1 (841226)",
+        "path": "games/4h62dvooeg9ajtfa/r1-s841226.spelunk"
+      },
+      {
+        "label": "Release 77 (850814)",
+        "path": "games/4h62dvooeg9ajtfa/r77-s850814.spelunk"
+      },
+      {
+        "label": "Full alpha · Release 84 (850516)",
+        "path": "games/4h62dvooeg9ajtfa/r84-s850516.spelunk"
+      }
+    ],
+    "title": "A Mind Forever Voyaging"
+  },
+  "56wb8hflec2isvzm": {
+    "default": "games/56wb8hflec2isvzm/r18-s850919.spelunk",
+    "releases": [
+      {
+        "label": "Release 18 (850919)",
+        "path": "games/56wb8hflec2isvzm/r18-s850919.spelunk"
+      },
+      {
+        "label": "Release 15 (840501)",
+        "path": "games/56wb8hflec2isvzm/r15-s840501.spelunk"
+      },
+      {
+        "label": "Atari · Release 15 (840522)",
+        "path": "games/56wb8hflec2isvzm/r15-s840522.spelunk"
+      },
+      {
+        "label": "TRS-80 CoCo · Release 15 (840612)",
+        "path": "games/56wb8hflec2isvzm/r15-s840612.spelunk"
+      },
+      {
+        "label": "Tandy · Release 15 (840716)",
+        "path": "games/56wb8hflec2isvzm/r15-s840716.spelunk"
+      },
+      {
+        "label": "Release 16 (850515)",
+        "path": "games/56wb8hflec2isvzm/r16-s850515.spelunk"
+      },
+      {
+        "label": "Release 16 (850603)",
+        "path": "games/56wb8hflec2isvzm/r16-s850603.spelunk"
+      },
+      {
+        "label": "Release 16 (850603)",
+        "path": "games/56wb8hflec2isvzm/r16-s850603.spelunk"
+      },
+      {
+        "label": "Atari · Release 17 (850208)",
+        "path": "games/56wb8hflec2isvzm/r17-s850208.spelunk"
+      },
+      {
+        "label": "Atari · Release 17 (850208)",
+        "path": "games/56wb8hflec2isvzm/r17-s850208.spelunk"
+      },
+      {
+        "label": "Beta · Release 86 (840320)",
+        "path": "games/56wb8hflec2isvzm/r86-s840320.spelunk"
+      }
+    ],
+    "title": "Seastalker"
+  },
+  "6963a47vqgms8wi0": {
+    "default": "games/6963a47vqgms8wi0/r23-s840925.spelunk",
+    "releases": [
+      {
+        "label": "Release 23 (840925)",
+        "path": "games/6963a47vqgms8wi0/r23-s840925.spelunk"
+      },
+      {
+        "label": "Release 13 (830524)",
+        "path": "games/6963a47vqgms8wi0/r13-s830524.spelunk"
+      },
+      {
+        "label": "Release 18 (830910)",
+        "path": "games/6963a47vqgms8wi0/r18-s830910.spelunk"
+      },
+      {
+        "label": "Release 20 (831119)",
+        "path": "games/6963a47vqgms8wi0/r20-s831119.spelunk"
+      },
+      {
+        "label": "Release 21 (831208)",
+        "path": "games/6963a47vqgms8wi0/r21-s831208.spelunk"
+      },
+      {
+        "label": "Release 22 (840924)",
+        "path": "games/6963a47vqgms8wi0/r22-s840924.spelunk"
+      }
+    ],
+    "title": "The Witness"
+  },
+  "7epwz167lgruvm0u": {
+    "default": "games/7epwz167lgruvm0u/r9-s871008.spelunk",
+    "releases": [
+      {
+        "label": "Release 9 (871008)",
+        "path": "games/7epwz167lgruvm0u/r9-s871008.spelunk"
+      }
+    ],
+    "title": "Border Zone"
+  },
+  "9h6o1charof548ii": {
+    "default": "games/9h6o1charof548ii/r60-s880610.spelunk",
+    "releases": [
+      {
+        "label": "Release 60 (880610)",
+        "path": "games/9h6o1charof548ii/r60-s880610.spelunk"
+      },
+      {
+        "label": "Alpha · Release 1 (870412)",
+        "path": "games/9h6o1charof548ii/r1-s870412.spelunk"
+      },
+      {
+        "label": "Beta · Release 1 (870715)",
+        "path": "games/9h6o1charof548ii/r1-s870715.spelunk"
+      },
+      {
+        "label": "Release 47 (870915)",
+        "path": "games/9h6o1charof548ii/r47-s870915.spelunk"
+      },
+      {
+        "label": "Release 49 (870917)",
+        "path": "games/9h6o1charof548ii/r49-s870917.spelunk"
+      },
+      {
+        "label": "Release 51 (870923)",
+        "path": "games/9h6o1charof548ii/r51-s870923.spelunk"
+      },
+      {
+        "label": "Release 57 (871221)",
+        "path": "games/9h6o1charof548ii/r57-s871221.spelunk"
+      }
+    ],
+    "title": "Beyond Zork"
+  },
+  "9nlbhqnlyb169uge": {
+    "default": "games/9nlbhqnlyb169uge/r107-s870430.spelunk",
+    "releases": [
+      {
+        "label": "Release 107 (870430)",
+        "path": "games/9nlbhqnlyb169uge/r107-s870430.spelunk"
+      },
+      {
+        "label": "First release · Release 1 (861017)",
+        "path": "games/9nlbhqnlyb169uge/r1-s861017.spelunk"
+      },
+      {
+        "label": "Beta · Release 63 (870218)",
+        "path": "games/9nlbhqnlyb169uge/r63-s870218.spelunk"
+      },
+      {
+        "label": "Gamma · Release 87 (870326)",
+        "path": "games/9nlbhqnlyb169uge/r87-s870326.spelunk"
+      }
+    ],
+    "title": "Stationfall"
+  },
+  "anu79a4n1jedg5mm": {
+    "default": "games/anu79a4n1jedg5mm/r22-s830916.spelunk",
+    "releases": [
+      {
+        "label": "Release 22 (830916)",
+        "path": "games/anu79a4n1jedg5mm/r22-s830916.spelunk"
+      },
+      {
+        "label": "Macintosh · Release 22 (840522)",
+        "path": "games/anu79a4n1jedg5mm/r22-s840522.spelunk"
+      }
+    ],
+    "title": "Infidel"
+  },
+  "b0i6bx7g4rkrekgg": {
+    "default": "games/b0i6bx7g4rkrekgg/r99-s861014.spelunk",
+    "releases": [
+      {
+        "label": "Release 99 (861014)",
+        "path": "games/b0i6bx7g4rkrekgg/r99-s861014.spelunk"
+      },
+      {
+        "label": "Release 97 (851218)",
+        "path": "games/b0i6bx7g4rkrekgg/r97-s851218.spelunk"
+      }
+    ],
+    "title": "Ballyhoo"
+  },
+  "c66u816v8kx2jzm2": {
+    "default": "games/c66u816v8kx2jzm2/r13-s880501.spelunk",
+    "releases": [
+      {
+        "label": "Release 13 (880501)",
+        "path": "games/c66u816v8kx2jzm2/r13-s880501.spelunk"
+      },
+      {
+        "label": "Release 4 (860918)",
+        "path": "games/c66u816v8kx2jzm2/r4-s860918.spelunk"
+      },
+      {
+        "label": "Beta · Release 65 (------)",
+        "path": "games/c66u816v8kx2jzm2/r65-s------.spelunk"
+      },
+      {
+        "label": "Beta · Release 65 (86082?)",
+        "path": "games/c66u816v8kx2jzm2/r65-s86082?.spelunk"
+      },
+      {
+        "label": "Release 9 (861022)",
+        "path": "games/c66u816v8kx2jzm2/r9-s861022.spelunk"
+      }
+    ],
+    "title": "Moonmist"
+  },
+  "ddagftras22bnz8h": {
+    "default": "games/ddagftras22bnz8h/r26-s870730.spelunk",
+    "releases": [
+      {
+        "label": "Release 26 (870730)",
+        "path": "games/ddagftras22bnz8h/r26-s870730.spelunk"
+      }
+    ],
+    "title": "Plundered Hearts"
+  },
+  "j18kjz80hxjtyayw": {
+    "default": "games/j18kjz80hxjtyayw/r15-s870628.spelunk",
+    "releases": [
+      {
+        "label": "Release 15 (870628)",
+        "path": "games/j18kjz80hxjtyayw/r15-s870628.spelunk"
+      },
+      {
+        "label": "Alpha · Release 1 (851202)",
+        "path": "games/j18kjz80hxjtyayw/r1-s851202.spelunk"
+      },
+      {
+        "label": "Beta · Release 1 (860221)",
+        "path": "games/j18kjz80hxjtyayw/r1-s860221.spelunk"
+      },
+      {
+        "label": "Release 11 (860509)",
+        "path": "games/j18kjz80hxjtyayw/r11-s860509.spelunk"
+      },
+      {
+        "label": "Release 12 (860926)",
+        "path": "games/j18kjz80hxjtyayw/r12-s860926.spelunk"
+      },
+      {
+        "label": "Beta · Release 14 (860313)",
+        "path": "games/j18kjz80hxjtyayw/r14-s860313.spelunk"
+      }
+    ],
+    "title": "Trinity"
+  },
+  "j8lmspy4iz73mx26": {
+    "default": "games/j8lmspy4iz73mx26/r26-s880127.spelunk",
+    "releases": [
+      {
+        "label": "Release 26 (880127)",
+        "path": "games/j8lmspy4iz73mx26/r26-s880127.spelunk"
+      },
+      {
+        "label": "Without sound · Release 21 (871214)",
+        "path": "games/j8lmspy4iz73mx26/r21-s871214.spelunk"
+      },
+      {
+        "label": "Release 22 (880112)",
+        "path": "games/j8lmspy4iz73mx26/r22-s880112.spelunk"
+      },
+      {
+        "label": "Without sound · Release 4 (880324)",
+        "path": "games/j8lmspy4iz73mx26/r4-s880324.spelunk"
+      },
+      {
+        "label": "Development build · Release 97 (871026)",
+        "path": "games/j8lmspy4iz73mx26/r97-s871026.spelunk"
+      }
+    ],
+    "title": "Sherlock: The Riddle of the Crown Jewels"
+  },
+  "jhbd0kja1t57uop": {
+    "default": "games/jhbd0kja1t57uop/r221-s870918.spelunk",
+    "releases": [
+      {
+        "label": "Release 221 (870918)",
+        "path": "games/jhbd0kja1t57uop/r221-s870918.spelunk"
+      },
+      {
+        "label": "Release 203 (870506)",
+        "path": "games/jhbd0kja1t57uop/r203-s870506.spelunk"
+      },
+      {
+        "label": "Release 219 (870912)",
+        "path": "games/jhbd0kja1t57uop/r219-s870912.spelunk"
+      }
+    ],
+    "title": "The Lurking Horror"
+  },
+  "jnfkbgdgopwfqist": {
+    "default": "games/jnfkbgdgopwfqist/r37-s861215.spelunk",
+    "releases": [
+      {
+        "label": "Release 37 (861215)",
+        "path": "games/jnfkbgdgopwfqist/r37-s861215.spelunk"
+      },
+      {
+        "label": "Gamma · Release 235 (861118)",
+        "path": "games/jnfkbgdgopwfqist/r235-s861118.spelunk"
+      }
+    ],
+    "title": "Hollywood Hijinx"
+  },
+  "lidg5nx9ig0bwk55": {
+    "default": "games/lidg5nx9ig0bwk55/r18-s860904.spelunk",
+    "releases": [
+      {
+        "label": "Release 18 (860904)",
+        "path": "games/lidg5nx9ig0bwk55/r18-s860904.spelunk"
+      },
+      {
+        "label": "Release 13 (851021)",
+        "path": "games/lidg5nx9ig0bwk55/r13-s851021.spelunk"
+      },
+      {
+        "label": "Release 15 (851108)",
+        "path": "games/lidg5nx9ig0bwk55/r15-s851108.spelunk"
+      },
+      {
+        "label": "Release 4 (840131)",
+        "path": "games/lidg5nx9ig0bwk55/r4-s840131.spelunk"
+      },
+      {
+        "label": "Release 6 (840508)",
+        "path": "games/lidg5nx9ig0bwk55/r6-s840508.spelunk"
+      },
+      {
+        "label": "Beta · Release 67 (000000)",
+        "path": "games/lidg5nx9ig0bwk55/r67-s000000.spelunk"
+      },
+      {
+        "label": "Beta · Release 67 (831208)",
+        "path": "games/lidg5nx9ig0bwk55/r67-s831208.spelunk"
+      },
+      {
+        "label": "Gamma · Release 85 (840106)",
+        "path": "games/lidg5nx9ig0bwk55/r85-s840106.spelunk"
+      }
+    ],
+    "title": "Sorcerer"
+  },
+  "ouv80gvsl32xlion": {
+    "default": "games/ouv80gvsl32xlion/r60-s861002.spelunk",
+    "releases": [
+      {
+        "label": "Release 60 (861002)",
+        "path": "games/ouv80gvsl32xlion/r60-s861002.spelunk"
+      },
+      {
+        "label": "Beta 1 · Release 108 (840809)",
+        "path": "games/ouv80gvsl32xlion/r108-s840809.spelunk"
+      },
+      {
+        "label": "Beta 2 · Release 119 (840822)",
+        "path": "games/ouv80gvsl32xlion/r119-s840822.spelunk"
+      },
+      {
+        "label": "Solid Gold (built-in InvisiClues) · Release 31 (871119)",
+        "path": "games/ouv80gvsl32xlion/r31-s871119.spelunk"
+      },
+      {
+        "label": "Release 42 (850323)",
+        "path": "games/ouv80gvsl32xlion/r42-s850323.spelunk"
+      },
+      {
+        "label": "Release 47 (840914)",
+        "path": "games/ouv80gvsl32xlion/r47-s840914.spelunk"
+      },
+      {
+        "label": "Release 56 (841221)",
+        "path": "games/ouv80gvsl32xlion/r56-s841221.spelunk"
+      },
+      {
+        "label": "Release 58 (851002)",
+        "path": "games/ouv80gvsl32xlion/r58-s851002.spelunk"
+      },
+      {
+        "label": "Release 59 (851108)",
+        "path": "games/ouv80gvsl32xlion/r59-s851108.spelunk"
+      }
+    ],
+    "title": "The Hitchhiker's Guide to the Galaxy"
+  },
+  "p00ucaayobrt2paz": {
+    "default": "games/p00ucaayobrt2paz/r15-s840330.spelunk",
+    "releases": [
+      {
+        "label": "1z · Release 15 (840330)",
+        "path": "games/p00ucaayobrt2paz/r15-s840330.spelunk"
+      },
+      {
+        "label": "4zpiw · Release 24 (840627)",
+        "path": "games/p00ucaayobrt2paz/r24-s840627.spelunk"
+      },
+      {
+        "label": "3zpi · Release 5 (840512)",
+        "path": "games/p00ucaayobrt2paz/r5-s840512.spelunk"
+      },
+      {
+        "label": "1b · Release 8 (870119)",
+        "path": "games/p00ucaayobrt2paz/r8-s870119.spelunk"
+      },
+      {
+        "label": "2zt · Release 8 (870601)",
+        "path": "games/p00ucaayobrt2paz/r8-s870601.spelunk"
+      },
+      {
+        "label": "3ztl · Release 97 (870601)",
+        "path": "games/p00ucaayobrt2paz/r97-s870601.spelunk"
+      }
+    ],
+    "title": "Four-In-One Sampler II"
+  },
+  "p976o7x5ies9ltdh": {
+    "default": "games/p976o7x5ies9ltdh/r28-s850129.spelunk",
+    "releases": [
+      {
+        "label": "Release 28 (850129)",
+        "path": "games/p976o7x5ies9ltdh/r28-s850129.spelunk"
+      },
+      {
+        "label": "Release 18 (820311)",
+        "path": "games/p976o7x5ies9ltdh/r18-s820311.spelunk"
+      },
+      {
+        "label": "Release 19 (820427)",
+        "path": "games/p976o7x5ies9ltdh/r19-s820427.spelunk"
+      },
+      {
+        "label": "Release 21 (820512)",
+        "path": "games/p976o7x5ies9ltdh/r21-s820512.spelunk"
+      },
+      {
+        "label": "Release 22 (820809)",
+        "path": "games/p976o7x5ies9ltdh/r22-s820809.spelunk"
+      },
+      {
+        "label": "Release 26 (821108)",
+        "path": "games/p976o7x5ies9ltdh/r26-s821108.spelunk"
+      },
+      {
+        "label": "Release 27 (831005)",
+        "path": "games/p976o7x5ies9ltdh/r27-s831005.spelunk"
+      }
+    ],
+    "title": "Deadline"
+  },
+  "qel8teuugclcheaz": {
+    "default": "games/qel8teuugclcheaz/r11-s870225.spelunk",
+    "releases": [
+      {
+        "label": "Release 11 (870225)",
+        "path": "games/qel8teuugclcheaz/r11-s870225.spelunk"
+      },
+      {
+        "label": "Release 1 (840427)",
+        "path": "games/qel8teuugclcheaz/r1-s840427.spelunk"
+      },
+      {
+        "label": "Release 10 (840826)",
+        "path": "games/qel8teuugclcheaz/r10-s840826.spelunk"
+      },
+      {
+        "label": "Release 2 (840505)",
+        "path": "games/qel8teuugclcheaz/r2-s840505.spelunk"
+      }
+    ],
+    "title": "Hypochondriac (or Outcast)"
+  },
+  "t47hei9uq10xoar8": {
+    "default": "games/t47hei9uq10xoar8/r8-s830521.spelunk",
+    "releases": [
+      {
+        "label": "Release 8 (830521)",
+        "path": "games/t47hei9uq10xoar8/r8-s830521.spelunk"
+      },
+      {
+        "label": "Release 5 (830222)",
+        "path": "games/t47hei9uq10xoar8/r5-s830222.spelunk"
+      },
+      {
+        "label": "Release 7 (830419)",
+        "path": "games/t47hei9uq10xoar8/r7-s830419.spelunk"
+      },
+      {
+        "label": "Alternate · Release 8 (840521)",
+        "path": "games/t47hei9uq10xoar8/r8-s840521.spelunk"
+      },
+      {
+        "label": "Alternate · Release 8 (840521)",
+        "path": "games/t47hei9uq10xoar8/r8-s840521.spelunk"
+      }
+    ],
+    "title": "Suspended"
+  },
+  "tdbss1ekrp4ua7h4": {
+    "default": "games/tdbss1ekrp4ua7h4/r14-s841005.spelunk",
+    "releases": [
+      {
+        "label": "Release 14 (841005)",
+        "path": "games/tdbss1ekrp4ua7h4/r14-s841005.spelunk"
+      },
+      {
+        "label": "Release 14 (841005)",
+        "path": "games/tdbss1ekrp4ua7h4/r14-s841005.spelunk"
+      },
+      {
+        "label": "Release 14 (000000)",
+        "path": "games/tdbss1ekrp4ua7h4/r14-s000000.spelunk"
+      },
+      {
+        "label": "I189 · Release 18 (850222)",
+        "path": "games/tdbss1ekrp4ua7h4/r18-s850222.spelunk"
+      },
+      {
+        "label": "I189 · Release 18 (850222)",
+        "path": "games/tdbss1ekrp4ua7h4/r18-s850222.spelunk"
+      }
+    ],
+    "title": "Suspect"
+  },
+  "vrsot1zgy1wfcdru": {
+    "default": "games/vrsot1zgy1wfcdru/r25-s860811.spelunk",
+    "releases": [
+      {
+        "label": "Release 25 (860811)",
+        "path": "games/vrsot1zgy1wfcdru/r25-s860811.spelunk"
+      },
+      {
+        "label": "Release 10 (820818)",
+        "path": "games/vrsot1zgy1wfcdru/r10-s820818.spelunk"
+      },
+      {
+        "label": "Release 12 (821025)",
+        "path": "games/vrsot1zgy1wfcdru/r12-s821025.spelunk"
+      },
+      {
+        "label": "Release 15 (830331)",
+        "path": "games/vrsot1zgy1wfcdru/r15-s830331.spelunk"
+      },
+      {
+        "label": "Macintosh · Release 15 (840518)",
+        "path": "games/vrsot1zgy1wfcdru/r15-s840518.spelunk"
+      },
+      {
+        "label": "Release 16 (830410)",
+        "path": "games/vrsot1zgy1wfcdru/r16-s830410.spelunk"
+      },
+      {
+        "label": "Release 17 (840727)",
+        "path": "games/vrsot1zgy1wfcdru/r17-s840727.spelunk"
+      }
+    ],
+    "title": "Zork III"
+  },
+  "vu4xhul3abknifcr": {
+    "default": "games/vu4xhul3abknifcr/r29-s860820.spelunk",
+    "releases": [
+      {
+        "label": "Release 29 (860820)",
+        "path": "games/vu4xhul3abknifcr/r29-s860820.spelunk"
+      },
+      {
+        "label": "Release 10 (830810)",
+        "path": "games/vu4xhul3abknifcr/r10-s830810.spelunk"
+      },
+      {
+        "label": "Release 15 (831107)",
+        "path": "games/vu4xhul3abknifcr/r15-s831107.spelunk"
+      },
+      {
+        "label": "Release 15 (999999)",
+        "path": "games/vu4xhul3abknifcr/r15-s999999.spelunk"
+      },
+      {
+        "label": "Release 16 (831118)",
+        "path": "games/vu4xhul3abknifcr/r16-s831118.spelunk"
+      },
+      {
+        "label": "Macintosh · Release 16 (840518)",
+        "path": "games/vu4xhul3abknifcr/r16-s840518.spelunk"
+      },
+      {
+        "label": "Release 24 (851118)",
+        "path": "games/vu4xhul3abknifcr/r24-s851118.spelunk"
+      }
+    ],
+    "title": "Enchanter"
+  },
+  "w3pz3v8wckaw1wgb": {
+    "default": "games/w3pz3v8wckaw1wgb/r322-s890706.spelunk",
+    "releases": [
+      {
+        "label": "Release 322 (890706)",
+        "path": "games/w3pz3v8wckaw1wgb/r322-s890706.spelunk"
+      },
+      {
+        "label": "Release 278 (890209)",
+        "path": "games/w3pz3v8wckaw1wgb/r278-s890209.spelunk"
+      },
+      {
+        "label": "Release 278 (890211)",
+        "path": "games/w3pz3v8wckaw1wgb/r278-s890211.spelunk"
+      },
+      {
+        "label": "Release 279 (890217)",
+        "path": "games/w3pz3v8wckaw1wgb/r279-s890217.spelunk"
+      },
+      {
+        "label": "Release 280 (890217)",
+        "path": "games/w3pz3v8wckaw1wgb/r280-s890217.spelunk"
+      },
+      {
+        "label": "Release 281 (890222)",
+        "path": "games/w3pz3v8wckaw1wgb/r281-s890222.spelunk"
+      },
+      {
+        "label": "Release 282 (890224)",
+        "path": "games/w3pz3v8wckaw1wgb/r282-s890224.spelunk"
+      },
+      {
+        "label": "Release 283 (890228)",
+        "path": "games/w3pz3v8wckaw1wgb/r283-s890228.spelunk"
+      },
+      {
+        "label": "Release 284 (890302)",
+        "path": "games/w3pz3v8wckaw1wgb/r284-s890302.spelunk"
+      },
+      {
+        "label": "Release 286 (890306)",
+        "path": "games/w3pz3v8wckaw1wgb/r286-s890306.spelunk"
+      },
+      {
+        "label": "Release 288 (890308)",
+        "path": "games/w3pz3v8wckaw1wgb/r288-s890308.spelunk"
+      },
+      {
+        "label": "Release 289 (890309)",
+        "path": "games/w3pz3v8wckaw1wgb/r289-s890309.spelunk"
+      },
+      {
+        "label": "Release 290 (890311)",
+        "path": "games/w3pz3v8wckaw1wgb/r290-s890311.spelunk"
+      },
+      {
+        "label": "Release 291 (890313)",
+        "path": "games/w3pz3v8wckaw1wgb/r291-s890313.spelunk"
+      },
+      {
+        "label": "Release 292 (890314)",
+        "path": "games/w3pz3v8wckaw1wgb/r292-s890314.spelunk"
+      },
+      {
+        "label": "Release 295 (890321)",
+        "path": "games/w3pz3v8wckaw1wgb/r295-s890321.spelunk"
+      },
+      {
+        "label": "Release 311 (890510)",
+        "path": "games/w3pz3v8wckaw1wgb/r311-s890510.spelunk"
+      },
+      {
+        "label": "Release 320 (890627)",
+        "path": "games/w3pz3v8wckaw1wgb/r320-s890627.spelunk"
+      },
+      {
+        "label": "Release 321 (890629)",
+        "path": "games/w3pz3v8wckaw1wgb/r321-s890629.spelunk"
+      }
+    ],
+    "title": "Shogun"
+  },
+  "wa8crlfz82pra14i": {
+    "default": "games/wa8crlfz82pra14i/r26-s840731.spelunk",
+    "releases": [
+      {
+        "label": "4zpiw · Release 26 (840731)",
+        "path": "games/wa8crlfz82pra14i/r26-s840731.spelunk"
+      },
+      {
+        "label": "4zpiw · Release 52 (850402)",
+        "path": "games/wa8crlfz82pra14i/r52-s850402.spelunk"
+      },
+      {
+        "label": "4zpiw · Release 53 (850407)",
+        "path": "games/wa8crlfz82pra14i/r53-s850407.spelunk"
+      },
+      {
+        "label": "4zpiw · Release 55 (850823)",
+        "path": "games/wa8crlfz82pra14i/r55-s850823.spelunk"
+      }
+    ],
+    "title": "Four-In-One Sampler I"
+  },
+  "wqsmrahzozosu3r": {
+    "default": "games/wqsmrahzozosu3r/r87-s860904.spelunk",
+    "releases": [
+      {
+        "label": "Release 87 (860904)",
+        "path": "games/wqsmrahzozosu3r/r87-s860904.spelunk"
+      },
+      {
+        "label": "Release 63 (------)",
+        "path": "games/wqsmrahzozosu3r/r63-s------.spelunk"
+      },
+      {
+        "label": "Release 63 (850916)",
+        "path": "games/wqsmrahzozosu3r/r63-s850916.spelunk"
+      },
+      {
+        "label": "Release 86 (860829)",
+        "path": "games/wqsmrahzozosu3r/r86-s860829.spelunk"
+      }
+    ],
+    "title": "Spellbreaker"
+  },
+  "xe6kb3cuqwie2q38": {
+    "default": "games/xe6kb3cuqwie2q38/r39-s880501.spelunk",
+    "releases": [
+      {
+        "label": "Release 39 (880501)",
+        "path": "games/xe6kb3cuqwie2q38/r39-s880501.spelunk"
+      },
+      {
+        "label": "Beta · Release 1 (830517)",
+        "path": "games/xe6kb3cuqwie2q38/r1-s830517.spelunk"
+      },
+      {
+        "label": "Solid Gold (built-in InvisiClues) · Release 10 (880531)",
+        "path": "games/xe6kb3cuqwie2q38/r10-s880531.spelunk"
+      },
+      {
+        "label": "Release 20 (830708)",
+        "path": "games/xe6kb3cuqwie2q38/r20-s830708.spelunk"
+      },
+      {
+        "label": "Release 26 (831014)",
+        "path": "games/xe6kb3cuqwie2q38/r26-s831014.spelunk"
+      },
+      {
+        "label": "Release 29 (840118)",
+        "path": "games/xe6kb3cuqwie2q38/r29-s840118.spelunk"
+      },
+      {
+        "label": "Release 37 (851003)",
+        "path": "games/xe6kb3cuqwie2q38/r37-s851003.spelunk"
+      }
+    ],
+    "title": "Planetfall"
+  },
+  "y42oje3ryqi6lohn": {
+    "default": "games/y42oje3ryqi6lohn/r18-s830114.spelunk",
+    "releases": [
+      {
+        "label": "Release 18 (830114)",
+        "path": "games/y42oje3ryqi6lohn/r18-s830114.spelunk"
+      },
+      {
+        "label": "Release 15 (820901)",
+        "path": "games/y42oje3ryqi6lohn/r15-s820901.spelunk"
+      },
+      {
+        "label": "Release 17 (821021)",
+        "path": "games/y42oje3ryqi6lohn/r17-s821021.spelunk"
+      }
+    ],
+    "title": "Starcross"
+  },
+  "yzzm4puxyjakk8c4": {
+    "default": "games/yzzm4puxyjakk8c4/r63-s860811.spelunk",
+    "releases": [
+      {
+        "label": "Release 63 (860811)",
+        "path": "games/yzzm4puxyjakk8c4/r63-s860811.spelunk"
+      },
+      {
+        "label": "Release 15 (820308)",
+        "path": "games/yzzm4puxyjakk8c4/r15-s820308.spelunk"
+      },
+      {
+        "label": "Release 17 (820427)",
+        "path": "games/yzzm4puxyjakk8c4/r17-s820427.spelunk"
+      },
+      {
+        "label": "Release 18 (820512)",
+        "path": "games/yzzm4puxyjakk8c4/r18-s820512.spelunk"
+      },
+      {
+        "label": "Release 18 (820517)",
+        "path": "games/yzzm4puxyjakk8c4/r18-s820517.spelunk"
+      },
+      {
+        "label": "Release 19 (820721)",
+        "path": "games/yzzm4puxyjakk8c4/r19-s820721.spelunk"
+      },
+      {
+        "label": "Release 22 (830331)",
+        "path": "games/yzzm4puxyjakk8c4/r22-s830331.spelunk"
+      },
+      {
+        "label": "Macintosh · Release 22 (840518)",
+        "path": "games/yzzm4puxyjakk8c4/r22-s840518.spelunk"
+      },
+      {
+        "label": "Release 23 (830411)",
+        "path": "games/yzzm4puxyjakk8c4/r23-s830411.spelunk"
+      },
+      {
+        "label": "Release 48 (840904)",
+        "path": "games/yzzm4puxyjakk8c4/r48-s840904.spelunk"
+      },
+      {
+        "label": "Release 7 (UG3AU5)",
+        "path": "games/yzzm4puxyjakk8c4/r7-sUG3AU5.spelunk"
+      }
+    ],
+    "title": "Zork II"
+  },
+  "z02joykzh66wfhcl": {
+    "default": "games/z02joykzh66wfhcl/r32933-s880609.spelunk",
+    "releases": [
+      {
+        "label": "Release 32933 (880609)",
+        "path": "games/z02joykzh66wfhcl/r32933-s880609.spelunk"
+      },
+      {
+        "label": "Solid Gold (built-in InvisiClues) · Release 23 (880706)",
+        "path": "games/z02joykzh66wfhcl/r23-s880706.spelunk"
+      },
+      {
+        "label": "Release 68 (850501)",
+        "path": "games/z02joykzh66wfhcl/r68-s850501.spelunk"
+      },
+      {
+        "label": "Release 69 (850920)",
+        "path": "games/z02joykzh66wfhcl/r69-s850920.spelunk"
+      },
+      {
+        "label": "Reconstructed · Release 70 (880609)",
+        "path": "games/z02joykzh66wfhcl/r70-s880609.spelunk"
+      }
+    ],
+    "title": "Wishbringer"
+  },
+  "zjyxds3s57pgis3x": {
+    "default": "games/zjyxds3s57pgis3x/r160-s880521.spelunk",
+    "releases": [
+      {
+        "label": "Release 160 (880521)",
+        "path": "games/zjyxds3s57pgis3x/r160-s880521.spelunk"
+      },
+      {
+        "label": "Release 116 (870602)",
+        "path": "games/zjyxds3s57pgis3x/r116-s870602.spelunk"
+      },
+      {
+        "label": "Release 86 (870212)",
+        "path": "games/zjyxds3s57pgis3x/r86-s870212.spelunk"
+      }
+    ],
+    "title": "Bureaucracy"
+  },
+  "zoohwv5nqye7up2t": {
+    "default": "games/zoohwv5nqye7up2t/r74-s890714.spelunk",
+    "releases": [
+      {
+        "label": "Release 74 (890714)",
+        "path": "games/zoohwv5nqye7up2t/r74-s890714.spelunk"
+      },
+      {
+        "label": "Release 40 (890502)",
+        "path": "games/zoohwv5nqye7up2t/r40-s890502.spelunk"
+      },
+      {
+        "label": "Release 41 (890504)",
+        "path": "games/zoohwv5nqye7up2t/r41-s890504.spelunk"
+      },
+      {
+        "label": "Release 54 (890606)",
+        "path": "games/zoohwv5nqye7up2t/r54-s890606.spelunk"
+      },
+      {
+        "label": "Release 63 (890622)",
+        "path": "games/zoohwv5nqye7up2t/r63-s890622.spelunk"
+      }
+    ],
+    "title": "Arthur: The Quest for Excalibur"
+  },
+  "zxb8pq3qrkvdob4i": {
+    "default": "games/zxb8pq3qrkvdob4i/r20-s870722.spelunk",
+    "releases": [
+      {
+        "label": "Release 20 (870722)",
+        "path": "games/zxb8pq3qrkvdob4i/r20-s870722.spelunk"
+      },
+      {
+        "label": "Release 19 (870722)",
+        "path": "games/zxb8pq3qrkvdob4i/r19-s870722.spelunk"
+      }
+    ],
+    "title": "Nord and Bert Couldn't Make Head or Tail of It"
+  }
+}

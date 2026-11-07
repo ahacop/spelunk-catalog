@@ -26,7 +26,8 @@ CAPS = {
 
 STORY_TYPES = {f"z{v}" for v in range(1, 9)}
 IMAGE_TYPES = {"png", "jpeg", "heic"}
-HINT_TYPES = {"hints-json", "z5", "z8"}
+# Hints: hint files, plus the InvisiClues booklet's printed maps (PDF or image).
+HINT_TYPES = {"hints-json", "z5", "z8", "pdf"} | {"png", "jpeg", "heic"}
 
 # Maximum story file length per Z-machine version (Standard 1.1, section 1.1.4).
 MAX_STORY_LEN = {1: 128, 2: 128, 3: 128, 4: 256, 5: 256, 6: 512, 7: 512, 8: 512}
@@ -67,6 +68,13 @@ class StoryIdentity:
         return [self.ifid] + [v for v in (base, with_sum) if v != self.ifid]
 
 
+def clean_serial(raw: bytes) -> str:
+    """The six serial bytes, with anything but letters and digits as "-"
+    (some early files have blanks or control bytes there; IFDB spells
+    those the same way, e.g. ZCODE-5-------)."""
+    return "".join(chr(b) if chr(b).isascii() and chr(b).isalnum() else "-" for b in raw)
+
+
 class NotAStory(ValueError):
     pass
 
@@ -98,13 +106,7 @@ def identify_story(data: bytes) -> StoryIdentity:
         declared = length_field * LENGTH_SCALE[version]
         if declared > len(data):
             raise NotAStory(f"header length {declared} exceeds file size {len(data)}")
-    serial_bytes = data[0x12:0x18]
-    try:
-        serial = serial_bytes.decode("ascii")
-    except UnicodeDecodeError:
-        serial = serial_bytes.hex()
-    if not serial.isprintable():
-        serial = serial_bytes.hex()
+    serial = clean_serial(data[0x12:0x18])
     return StoryIdentity(
         version=version,
         release=int.from_bytes(data[0x02:0x04], "big"),
@@ -191,7 +193,7 @@ def hint_markup_problems(data: bytes) -> list[str]:
 # --- validation -----------------------------------------------------------
 
 _SHA = re.compile(r"[0-9a-f]{64}")
-_IFDB_ID = re.compile(r"[0-9a-z]{16}")
+_IFDB_ID = re.compile(r"[0-9a-z]{8,24}")
 
 
 def check_url(url: object) -> list[str]:
@@ -247,7 +249,7 @@ def validate_manifest(m: object) -> list[str]:
         errs.append("title missing or not clean plain text")
     if "game" in m and (not isinstance(m["game"], str) or not _IFDB_ID.fullmatch(m["game"])):
         errs.append("game is not an IFDB id")
-    extras = [k for k in ("cover", "manual", "map", "feelies", "hints") if k in m]
+    extras = [k for k in ("cover", "manual", "feelies", "hints") if k in m]
     if "story" not in m and not extras:
         errs.append("needs a story or at least one extra")
     if "story" in m:
@@ -267,7 +269,7 @@ def validate_manifest(m: object) -> list[str]:
     if "manual" in m:
         errs += check_part(m["manual"], "manual", {"pdf"} | IMAGE_TYPES)
     if "map" in m:
-        errs += check_part(m["map"], "map", {"pdf"} | IMAGE_TYPES)
+        errs.append("map is not part of the format; an InvisiClues map goes under hints")
     for key, allowed in (("feelies", {"pdf"} | IMAGE_TYPES), ("hints", HINT_TYPES)):
         if key in m:
             if not isinstance(m[key], list):
@@ -312,8 +314,9 @@ def check_bytes(part: dict, data: bytes, where: str) -> list[str]:
         errs += [f"{where}: {p}" for p in hint_markup_problems(data)]
     elif ptype in MAGIC and not MAGIC[ptype](data):
         errs.append(f"{where}: bytes are not {ptype}")
-    cap = CAPS["story"] if ptype in STORY_TYPES else CAPS["image"] if ptype in IMAGE_TYPES \
-        else CAPS["pdf"] if ptype == "pdf" else CAPS["hints"]
+    cap = CAPS["image"] if ptype in IMAGE_TYPES else CAPS["pdf"] if ptype == "pdf" \
+        else CAPS["hints"] if ptype in ("hints-json", "z5", "z8") and where.startswith("hints") \
+        else CAPS["story"]
     if len(data) > cap:
         errs.append(f"{where}: {len(data)} bytes is over the cap")
     return errs

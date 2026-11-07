@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Ballyhoo",
+  "game": "b0i6bx7g4rkrekgg",
+  "story": {
+    "ifid": "ZCODE-99-861014",
+    "release": 99,
+    "serial": "861014",
+    "checksum": "830f",
+    "label": "Release 99 (861014)",
+    "type": "z3",
+    "sha256": "2b917e0dd93bf4cd52b4eb074074ad7422d3f130d5db7c6d26bacca03a554633",
+    "bytes": 128602,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/ballyhoo-r99-s861014.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=b0i6bx7g4rkrekgg"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "86a89f5b9ec74b549b95e0ba008e79c6dbe44f19e2dcad2df0c33b1aad4b8570",
+    "bytes": 118649,
+    "sources": [
+      "https://ifdb.org/coverart?id=b0i6bx7g4rkrekgg&version=16"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "c2476956cad8eae9f746aba8ffa207e3315a1378c9620f4d4b24da5a186f3944",
+    "bytes": 7145108,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/ballyhoo.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "552b58fa32e53c308c52ded0c54e6ee9b0a7fccae34c89cd15c82260fd4b186a",
+      "bytes": 53760,
+      "sources": [
+        "https://infodoc.plover.net/hints/ballyhoo.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "9afc79ca26182b225e6315e5a0b31d10d671c327a84e664d0be64bb75d03aa77",
+      "bytes": 1846081,
+      "sources": [
+        "https://infodoc.plover.net/maps/ballyhoo.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "340d3b63cc1098eb9305a92604e8b025bead24589216c9d2bc93074e765b6b57",
+      "bytes": 135603,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/ballyhoo.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

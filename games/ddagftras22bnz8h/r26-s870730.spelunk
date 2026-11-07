@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Plundered Hearts",
+  "game": "ddagftras22bnz8h",
+  "story": {
+    "ifid": "ZCODE-26-870730",
+    "release": 26,
+    "serial": "870730",
+    "checksum": "406d",
+    "label": "Release 26 (870730)",
+    "type": "z3",
+    "sha256": "3ca0810d1132de6fcd41ecb2c616f5f60c029ee1264e8757fcc274972af069b2",
+    "bytes": 128962,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/plunderedhearts-r26-s870730.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=ddagftras22bnz8h"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "bd938b628614ce6d1052bad2b5ea6284e048e666c3c214941555a1a80dd4d1f8",
+    "bytes": 111227,
+    "sources": [
+      "https://ifdb.org/coverart?id=ddagftras22bnz8h&version=14"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "0ca88a01d501c8ac5a707ecc63c11c2b4c96362deaf7761dac38e9f842b09864",
+    "bytes": 3226988,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/plundere.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "3b645a7ee5474baf4f9ad6afbe65e1eea777e63961b4423001c21a5f0d005d21",
+      "bytes": 29696,
+      "sources": [
+        "https://infodoc.plover.net/hints/plundere.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "8ad746a341603b0ff665e2b55a5acc31b1c190b7a51c6b60a7255f79325aea63",
+      "bytes": 792790,
+      "sources": [
+        "https://infodoc.plover.net/maps/plundere.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "c87c3e6fde1dbc9a7face209caa2facfabfc6642abbc72da72fd9b60267d6e2e",
+      "bytes": 44782,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/plundere.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

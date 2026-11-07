@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Planetfall",
+  "game": "xe6kb3cuqwie2q38",
+  "story": {
+    "ifid": "ZCODE-37-851003",
+    "release": 37,
+    "serial": "851003",
+    "checksum": "02d6",
+    "label": "Release 37 (851003)",
+    "type": "z3",
+    "sha256": "fb6023561fd4a15aba5d921fc9213bacc2d99c513927a96aaa96e03ea86d9ca6",
+    "bytes": 109398,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/planetfall-r37-s851003.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=xe6kb3cuqwie2q38"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "fd81b2495c7f018b6ee9a640731b03827184218e1f3b1d7babf350605ec98aaa",
+    "bytes": 101728,
+    "sources": [
+      "https://ifdb.org/coverart?id=xe6kb3cuqwie2q38&version=21"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "3d9e8bcba61c02bc15803fbb38c0dd96b78f994d41fc96fe6fcc83f28425e657",
+    "bytes": 4901432,
+    "sources": [
+      "https://infodoc.plover.net/manuals/planetfa.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "73e8cdc7ae423ecda20ff825bc0245e04597473858f2019ef672bdb25fe5c8ef",
+      "bytes": 33792,
+      "sources": [
+        "https://infodoc.plover.net/hints/planetfa.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "e267d9918ffaa5028c06315029c489835bd37c6ea2c1cc640286b8e4cba98475",
+      "bytes": 2296371,
+      "sources": [
+        "https://infodoc.plover.net/maps/planetfa.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "8b123ea9dac5c5920dd35c46a3e0892a7bf5df440ae0f25e8fa0d6dd4e054f0b",
+      "bytes": 74994,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/planetfa.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

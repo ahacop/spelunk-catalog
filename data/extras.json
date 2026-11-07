@@ -1,0 +1,871 @@
+{
+  "https://ifdb.org/coverart?id=0dbnusxunq7fw5ro&version=49": {
+    "bytes": 77616,
+    "sha256": "d60556b33140970fb6813b3548e07e4097e021505cc09687aa55f857a0c99cf1",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=17coplfu323xif76&version=18": {
+    "bytes": 119689,
+    "sha256": "5303f91d8d8ef439a5c9ef92b9baccbbfa69602458c9c7bb2beadcf50b3a4a8f",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=1rea34vqnz3mtyq1&version=7": {
+    "bytes": 94416,
+    "sha256": "bcd440d2d18a31c5be15b2aea9108a3ecd0f35471d3af28c803b548782a57bcc",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=2752o3sh6y05ob1p&version=14": {
+    "bytes": 102327,
+    "sha256": "f127757877b3f48b58b951d5c945cb146177b5806525e0703ef8722c693477f2",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=3p9fdt4fxr2goctw&version=25": {
+    "bytes": 119344,
+    "sha256": "510c037c7213eec9980bcffcf1642e003ce7683a5bd983478d957c92078200ba",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=4ao65o1u0xuvj8jf&version=15": {
+    "bytes": 66998,
+    "sha256": "4358283cadf76e2ed810c4b66791bb8f5f4d0bd790953a6d9d63b36780804996",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=4h62dvooeg9ajtfa&version=35": {
+    "bytes": 106942,
+    "sha256": "b5fa39e92dd8e1d1d1b3fcc83c6189e3f2f5e340082107dd77ae308d1ae915cc",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=56wb8hflec2isvzm&version=12": {
+    "bytes": 206367,
+    "sha256": "610eecc2edc938c97d1c6f94f706721639f33be20d86ade025bab7fa95f48a71",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=6963a47vqgms8wi0&version=15": {
+    "bytes": 177747,
+    "sha256": "29221983e91133c31558864bbf4dce87aa2110d18fa8921d55621091ced9abd6",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=7epwz167lgruvm0u&version=13": {
+    "bytes": 83137,
+    "sha256": "70c09350019d499547c49fe251afdaccfa278540d2693c16fb0fa02bd4cd89a6",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=9h6o1charof548ii&version=23": {
+    "bytes": 78520,
+    "sha256": "91dcdfb6e62c077af3fa59762a3cef6ddd123998ceaa8a9adb0ec722d29df093",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=9nlbhqnlyb169uge&version=11": {
+    "bytes": 110895,
+    "sha256": "54badb66a1dd0d99a430362337ed63355b7464d8d7cbe6c9dfa58d26f31f8f03",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=anu79a4n1jedg5mm&version=14": {
+    "bytes": 93357,
+    "sha256": "c64276cbfff9100c383320208dc46f69fa67893be12a22ab7679d99e7bc7ec00",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=b0i6bx7g4rkrekgg&version=16": {
+    "bytes": 118649,
+    "sha256": "86a89f5b9ec74b549b95e0ba008e79c6dbe44f19e2dcad2df0c33b1aad4b8570",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=c66u816v8kx2jzm2&version=13": {
+    "bytes": 83524,
+    "sha256": "d76884feaba18540789f876613913505c27a69f22e965c9ff188dd7aa28f5516",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=ddagftras22bnz8h&version=14": {
+    "bytes": 111227,
+    "sha256": "bd938b628614ce6d1052bad2b5ea6284e048e666c3c214941555a1a80dd4d1f8",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=j18kjz80hxjtyayw&version=22": {
+    "bytes": 13018,
+    "sha256": "0bfaa7d9dd12fe9bbe1bf63cc99cf70301ec69e99216376981ea3aa0a0868383",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=j8lmspy4iz73mx26&version=23": {
+    "bytes": 87338,
+    "sha256": "fcc1fa55056734a78fe2e1dcd5591b47de7d473234444584916fb6fe12d40534",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=jhbd0kja1t57uop&version=21": {
+    "bytes": 109176,
+    "sha256": "eacee655e28afd397b00993fa3fa6a45833efa1e8e8d5d6db1084ae89e277f75",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=jnfkbgdgopwfqist&version=15": {
+    "bytes": 141969,
+    "sha256": "ff5bbb9b4bb68d6daf8c2ab3c3eca1c6a2d6d61b0b711413e527a3c16f756717",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=lidg5nx9ig0bwk55&version=16": {
+    "bytes": 89859,
+    "sha256": "2f644801899eb9fba2eb6ca456becc8aa6ef8bbaa4bdf3c4794425d0b17dc6ef",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=ouv80gvsl32xlion&version=36": {
+    "bytes": 18699,
+    "sha256": "d70cf07b5c59f0fade323ecbc46f4e3d63917bfc4a6c624b3a42aeeb4ec205f2",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=p00ucaayobrt2paz&version=6": {
+    "bytes": 82020,
+    "sha256": "93508589be40bd08e13673a75a45709ebf7a10e062b19546c9cfcdd5f2b4b8e6",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=p976o7x5ies9ltdh&version=24": {
+    "bytes": 125719,
+    "sha256": "2f8fe89a813bb6b0c7825bf00e232a65824af525ce770346d21d0758ebf8ea8a",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=t47hei9uq10xoar8&version=22": {
+    "bytes": 65385,
+    "sha256": "c619f560875622a1d77026884ba5d0b4041643a0e41d85abebacf4493b95b65f",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=tdbss1ekrp4ua7h4&version=11": {
+    "bytes": 129515,
+    "sha256": "e844439f2206aec1021a20dc08650604757cfa72d2970864f4753eacd916d17a",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=vrsot1zgy1wfcdru&version=24": {
+    "bytes": 135636,
+    "sha256": "be03d257898af7d79ecbd6de0fb76f7e3a8a6e2eaf4c81b45afe5d8d1fdf34a8",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=vu4xhul3abknifcr&version=18": {
+    "bytes": 81962,
+    "sha256": "fbc6e1e11358ab61b46e93e89f76eca7c28a46056f0c67e289786caf44712efa",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=w3pz3v8wckaw1wgb&version=15": {
+    "bytes": 81896,
+    "sha256": "ebce9b70e1b8ea017d99b164dd1ae5ad9335762fae64854b83443353ec3b79f7",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=wa8crlfz82pra14i&version=6": {
+    "bytes": 85605,
+    "sha256": "c07af2c997b8d5be64143464c32fd406e6a341678c247110b69c9fe01d2f09dc",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=wqsmrahzozosu3r&version=11": {
+    "bytes": 89223,
+    "sha256": "771bcf3c44abdbfde7592a531d1dfe19e1890cb3bc9b76e24a6c5ffcd8ae7a6d",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=xe6kb3cuqwie2q38&version=21": {
+    "bytes": 101728,
+    "sha256": "fd81b2495c7f018b6ee9a640731b03827184218e1f3b1d7babf350605ec98aaa",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=y42oje3ryqi6lohn&version=15": {
+    "bytes": 63466,
+    "sha256": "215ff62e05f751a471ebc697e05794c44e7745d50e534c87cbc9fb7a86a10107",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=yzzm4puxyjakk8c4&version=32": {
+    "bytes": 105940,
+    "sha256": "dd82547b53eaa02abe6baef862f651cc06e254a1a6467e4563b6d879ddb6d7e0",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=z02joykzh66wfhcl&version=18": {
+    "bytes": 60149,
+    "sha256": "bb13173c767ebbd3cc369370cd68ddbdbd9bf78171e737b21996176618e4bed1",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=zjyxds3s57pgis3x&version=20": {
+    "bytes": 114128,
+    "sha256": "8aa8a05e684f4fc01762462e74fe78fa63a51722a6cb125752895ed758e605b3",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=zoohwv5nqye7up2t&version=22": {
+    "bytes": 131744,
+    "sha256": "70d5670ea82b2346d95ddb5aee9e727f3904d74d5b9f4a937aa3e8e41e794b68",
+    "type": "jpeg"
+  },
+  "https://ifdb.org/coverart?id=zxb8pq3qrkvdob4i&version=17": {
+    "bytes": 111417,
+    "sha256": "a8f3406554e6f1495e1075976bce1ed2bd839a1cdcacc34c84a9390d9e0dbeb1",
+    "type": "jpeg"
+  },
+  "https://infodoc.plover.net/hints/amfv.z5": {
+    "bytes": 37888,
+    "sha256": "6c1b48e0c0ed6ae308ec12f70cf0f198544c254aa4771dba8271caf14bc1f5bd",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/arthur.z5": {
+    "bytes": 44032,
+    "sha256": "644bb739764fe376722f33d5d9b85e5a82988e08f7d12812bbfa8603f5028357",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/ballyhoo.z5": {
+    "bytes": 53760,
+    "sha256": "552b58fa32e53c308c52ded0c54e6ee9b0a7fccae34c89cd15c82260fd4b186a",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/beyondzo.z5": {
+    "bytes": 50176,
+    "sha256": "06a2bee5ba286fd483b3821200af549af1c7ac056440e9933d30b67186f87cdc",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/borderzo.z5": {
+    "bytes": 23040,
+    "sha256": "cbdd5b2d3bc0b3ea20f0a5acf44d69ecf8bc47d6e97cbbcc024fce013e5a95c1",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/bureaucr.z5": {
+    "bytes": 28160,
+    "sha256": "539f31d41a3df215299bc6341711e2460882bfbc3b59f947fe6ad284968657f8",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/cutthroa.z5": {
+    "bytes": 34816,
+    "sha256": "e7bf2b22a8c5c2cb4b82d7a88ac063b2cf67b0fbb6b6216bf4e850128af02657",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/deadline.z5": {
+    "bytes": 31744,
+    "sha256": "fc9e0aecd1ff8cf191cc59511f85cbd40bd4cfff85c68f03cc24da62e4c3003d",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/enchante.z5": {
+    "bytes": 36352,
+    "sha256": "e01ea5facf6baed9725f4ae5912cbfdfbef73fa70a98de2b5aa0a4d1ee1db06a",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/hhgg.z5": {
+    "bytes": 69632,
+    "sha256": "ea712df2d9f9f1757688cfe55c38f84f437b3f4e8cd12413904136f06e27931f",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/hollywoo.z5": {
+    "bytes": 32768,
+    "sha256": "2b37d07a3a05c3303b5e6f65a4fc9ba6613da46a347f34333539c8b8547fd9b7",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/infidel.z5": {
+    "bytes": 29184,
+    "sha256": "002d113797bf01861c6de8540b6158550a7625c32bc6465f91ae3dd3c8cdffb7",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/lgop.z5": {
+    "bytes": 46592,
+    "sha256": "59a332cff030c933dbbad9abb3c74ccf955287c943f2c83d82695c60251499b0",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/lurking.z5": {
+    "bytes": 28160,
+    "sha256": "921d8030fa951a332f428fabc56b8b9b907f5349995daeaa9e6f1c0d17923d09",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/moonmist.z5": {
+    "bytes": 28160,
+    "sha256": "c58d1f7520195c1b216fb31e2712ac1d5ce8d0f03ae3219b35992250d9164510",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/nordandb.z5": {
+    "bytes": 27136,
+    "sha256": "cded799667fccab014e7e6a62a83a0433561f849ba96448e31d3d5aa99da137e",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/planetfa.z5": {
+    "bytes": 33792,
+    "sha256": "73e8cdc7ae423ecda20ff825bc0245e04597473858f2019ef672bdb25fe5c8ef",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/plundere.z5": {
+    "bytes": 29696,
+    "sha256": "3b645a7ee5474baf4f9ad6afbe65e1eea777e63961b4423001c21a5f0d005d21",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/seastalk.z5": {
+    "bytes": 27136,
+    "sha256": "6f3340948acb62edb6d976d05bd4621482da6dfee627262f60b57f9c42817945",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/sherlock.z5": {
+    "bytes": 26624,
+    "sha256": "fff4a66a990592bdffa9cecf174ee67ae3259522e973fc2203f2893ee59cd082",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/shogun.z5": {
+    "bytes": 36352,
+    "sha256": "f665f0d41d1efbac7d00b581086eaad26c64933589c7c73fd125767a344f03ea",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/sorcerer.z5": {
+    "bytes": 45568,
+    "sha256": "7a6b482760869684bae7b4377ab0e304f7c0ecedf06e836d4bead5fe8ad919ea",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/spellbre.z5": {
+    "bytes": 55296,
+    "sha256": "745226bece23359a359416db11a23ce26efa95636832dde4c3f1143c840a2711",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/starcros.z5": {
+    "bytes": 36864,
+    "sha256": "fc88412d93969aafea82e37eb4f31f59aaba1975fd490ae3a7ec4ba6f7793d26",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/stationf.z5": {
+    "bytes": 40448,
+    "sha256": "f64b64562aa26e7bc673f9bbea2dab0de238b763a885d33c7a744bf9503361e4",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/suspect.z5": {
+    "bytes": 31232,
+    "sha256": "ff3c7ba05701197d8bf35f5f50e283a6c6240cb4a5fc8e69fad9abc3727ab2b5",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/suspende.z5": {
+    "bytes": 25600,
+    "sha256": "0eee27c3938cf20171178b69e9c23c63e3d8065601f26c7c840f93a6e207c433",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/trinity.z5": {
+    "bytes": 46592,
+    "sha256": "4bf2045379be8b47bbe855ccd34c3a81449a06800674d5f585e44d0cf65a795a",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/wishbrin.z5": {
+    "bytes": 45568,
+    "sha256": "ca43895d4938392e9b8d4d2c1032b32e3cb9763e91b0d20f42e32ac21e443cad",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/witness.z5": {
+    "bytes": 30208,
+    "sha256": "05304d30927135fb2b280d0e782d56b4c0e379c1417d33d8ed62f74b507d8054",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/zork0.z5": {
+    "bytes": 53248,
+    "sha256": "e597ddfacf8e3d742fc5135f68204fe6e05563e896a7b25f951684489811888a",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/zork1.z5": {
+    "bytes": 30208,
+    "sha256": "48e32e5405002d4250baadec8fb9525739234904c72f160174e21c02816e688a",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/zork2.z5": {
+    "bytes": 31232,
+    "sha256": "66d840dc59f555c6cd0822c794b123a17060aa8a0d25aea7cd13def2a7d54e67",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/hints/zork3.z5": {
+    "bytes": 30720,
+    "sha256": "3d046c64622f94dc33b10497d07bcf2918838cb381c41b4d3cc68da0cd98d476",
+    "type": "z5"
+  },
+  "https://infodoc.plover.net/manuals/amfv.pdf": {
+    "bytes": 2816928,
+    "sha256": "ef555a51c6e649a48b88abd0957aa0808f1c0c5f4750f986ceb4230401a16c06",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/beyondzo.pdf": {
+    "bytes": 6427447,
+    "sha256": "8ffac8044c01d31c2c4ec44bcbf0c946a90d6ec52f6667e0c19f537628937285",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/bureaucr.pdf": {
+    "bytes": 4816482,
+    "sha256": "689439d5b63625ad77a5242b64b1d7a3fcd8494a88b26d64f91b0c987382b4ec",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/leather.pdf": {
+    "bytes": 3915394,
+    "sha256": "4a5e62ab5c94bfdd8a8a3c0355c39e3dd7afe092d81cefab4ebdebe77f116717",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/planetfa.pdf": {
+    "bytes": 4901432,
+    "sha256": "3d9e8bcba61c02bc15803fbb38c0dd96b78f994d41fc96fe6fcc83f28425e657",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/stationf.pdf": {
+    "bytes": 2494141,
+    "sha256": "0a92e76cd406280d0e26a603e682d3f0da4c16dcbdd79a5d416924f3c33193d4",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/arthur.pdf": {
+    "bytes": 4924439,
+    "sha256": "ee5eb0f0ff1865a8bae1b2be021a281e95732c1ad1c27598f327d236bfd7b71a",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/ballyhoo.pdf": {
+    "bytes": 7145108,
+    "sha256": "c2476956cad8eae9f746aba8ffa207e3315a1378c9620f4d4b24da5a186f3944",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/borderzo.pdf": {
+    "bytes": 12230057,
+    "sha256": "66ba1e98b9513730130a716f4b46342f6aaf65f8f5bdcc8e1b66e2290e824726",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/cutthroa.pdf": {
+    "bytes": 6357628,
+    "sha256": "fbf631886df1d37c83e7f2e3c52604d672aa707f626845be48afb2db9d6c3d0a",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/deadline.pdf": {
+    "bytes": 5431955,
+    "sha256": "304cc90de305c7a821dc9e457b6d9ae8824200f797b7b387971f518c9c8358db",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/enchante.pdf": {
+    "bytes": 4985481,
+    "sha256": "bbcf42b180e1d8076e8c2e1d24f7f1083f16825b429b6f03b02dab5051603ce6",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/hollywoo.pdf": {
+    "bytes": 3178377,
+    "sha256": "33a47f21d687c369e5e742b51535737cdc21f3f2e827a9956bc500b43ad6b2bc",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/infidel.pdf": {
+    "bytes": 4740848,
+    "sha256": "9fc673b1a3b40ffd9d3871c0523b1fecf04cddff77a35cc473d402c3c6a515e4",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/journey.pdf": {
+    "bytes": 3480077,
+    "sha256": "1c1b69042fca4ed716b0f6bf98da0ad93fc63c96b4fb7c3239295fdfea367bb2",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/lurking.pdf": {
+    "bytes": 4942353,
+    "sha256": "a5a61151ea834a5948e0d4187b2228fe47afc430d5a9888baca7d3ba4e0ca865",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/moonmist.pdf": {
+    "bytes": 5622431,
+    "sha256": "67e9f37f0de8e25615470d49878dc9798e0f886f69f1924c3f740ee93b5503e8",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/nordandb.pdf": {
+    "bytes": 5147919,
+    "sha256": "b13fac428019736944ebcf1668c88d4a89a6f45f66a1fcf2488015ed6a8768d6",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/plundere.pdf": {
+    "bytes": 3226988,
+    "sha256": "0ca88a01d501c8ac5a707ecc63c11c2b4c96362deaf7761dac38e9f842b09864",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/seastalk.pdf": {
+    "bytes": 6515944,
+    "sha256": "729e775149e957f49ac8bcf5797b0c4388e4837cd3519b68477754c521b597c6",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/sherlock.pdf": {
+    "bytes": 3164590,
+    "sha256": "1a1bcd5f5d2e987a3bce758f6079ab692f7a8be1091214b641529c413ffde569",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/sorcerer.pdf": {
+    "bytes": 8596795,
+    "sha256": "226b663fddab09492b8554d257bdfea98db8e659614e531332c1638feb5bd421",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/spellbre.pdf": {
+    "bytes": 7259025,
+    "sha256": "4228f3f4d9b033bd06ac7c25de0c14b7cd4603d864743c1154683f1fc66bdc1e",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/starcros.pdf": {
+    "bytes": 3118411,
+    "sha256": "99f423bc965bd1d737cb93a18eb40851f6160d5e8a16eaaa5b096828b1f1da08",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/suspect.pdf": {
+    "bytes": 4224635,
+    "sha256": "728c66febba35d476a963baf308b3f8cac8e58f3659056d7bebb29844f90548c",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/suspende.pdf": {
+    "bytes": 2580888,
+    "sha256": "a2f71008fc383c9d39ca249ec5891180f3d200dcb9cc1edd98f57ecc276176c9",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/trinity.pdf": {
+    "bytes": 9000373,
+    "sha256": "0d093ba18e953bd3b82ca8fad495e36fa5405fd3b5a0db902c49c9d6f4fe553c",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/witness.pdf": {
+    "bytes": 2388853,
+    "sha256": "f31eb9928fd9bc1284edd300349b8f5921f62b7c7f9f323c69133907e3e20fed",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/temp/zork0.pdf": {
+    "bytes": 5709194,
+    "sha256": "ad3e28baf0af072ad5576a03a89f65fb76b5370643333e8a44fc3175d3c67088",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/wishbrin.pdf": {
+    "bytes": 3397139,
+    "sha256": "5de91125a06586524eb7faa47c90b45d82f2a2d31f2fa611fbb94ae189b2e982",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/zork1.pdf": {
+    "bytes": 3073783,
+    "sha256": "770e0a5122b363e0d9769b706f152a9bda2bce90391799968edee8eae7144d4a",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/zork2.pdf": {
+    "bytes": 3714309,
+    "sha256": "df6de57736aed2819e7fb720658240e34aa2fc17a545925e759474d9c71c3a94",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/manuals/zork3.pdf": {
+    "bytes": 2890471,
+    "sha256": "07982b64b070d98e1b86e774eeda22356d03ff330194206ace5d6faebd680767",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/amfv.pdf": {
+    "bytes": 1862349,
+    "sha256": "f35ea71acc6049f7a31ad0cb0d054f05d1f4d02c3e2f5544bfe0df14b3bd9fab",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/ballyhoo.pdf": {
+    "bytes": 1846081,
+    "sha256": "9afc79ca26182b225e6315e5a0b31d10d671c327a84e664d0be64bb75d03aa77",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/beyondzo.pdf": {
+    "bytes": 319687,
+    "sha256": "e7319b98f2e2f90c4836d4f06b62f306b40becdea5887cbe513b9dbd894ceb5c",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/bureaucr.pdf": {
+    "bytes": 2336824,
+    "sha256": "f28cb3a7309072e31aa30902847edc976f93e41fe428dac373546fd98f97ce92",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/cutthroa.pdf": {
+    "bytes": 630466,
+    "sha256": "b77f26267e95b9ab0b9d4a9b922d991f17bf89a49b23a8e73c22ba682b72c536",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/deadline.pdf": {
+    "bytes": 246684,
+    "sha256": "b4cfe2928658043415c6a830ee523f5b083df6c684280a2b14cda728f5e55d86",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/enchante.pdf": {
+    "bytes": 7776161,
+    "sha256": "5c72be8ea7d97592c366f62d09d5b40baa5e6c7053bf3e6ab78ce575edb5e29c",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/hollywoo.pdf": {
+    "bytes": 2279972,
+    "sha256": "a83ec6a5a833bdab88f952d14240be70e95a34f056ef4245ae8a2e57b278822c",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/infidel.pdf": {
+    "bytes": 6719594,
+    "sha256": "cf0b4c9b0d49f9a4be44311aea44cc4215522e0a806ec21cd0866ff27b9ad9f5",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/journey.pdf": {
+    "bytes": 237726,
+    "sha256": "c7a807f0aa9a2b7e9f86f4387b7a4f708beadc3bc8a88f453411991f4a7b094a",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/leather.pdf": {
+    "bytes": 1150929,
+    "sha256": "ad4565e396504cae237d8bb3c9b8a1918e93d21d29455bc31415b00786699da6",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/lurking.pdf": {
+    "bytes": 2344711,
+    "sha256": "037d82ba79ead1d20079e6d88da54fde65669026c21348e463bcd1e09666ef2a",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/moonmist.pdf": {
+    "bytes": 248557,
+    "sha256": "c38febe8198dda5e257b2416b34f29e9190f6e52bd727a960398800ddce22b9b",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/planetfa.pdf": {
+    "bytes": 2296371,
+    "sha256": "e267d9918ffaa5028c06315029c489835bd37c6ea2c1cc640286b8e4cba98475",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/plundere.pdf": {
+    "bytes": 792790,
+    "sha256": "8ad746a341603b0ff665e2b55a5acc31b1c190b7a51c6b60a7255f79325aea63",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/sherlock.pdf": {
+    "bytes": 768072,
+    "sha256": "cc956723c8033173069992b4da64638aac1cd75c77e9590f0fcc3864a1f5d49b",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/sorcerer.pdf": {
+    "bytes": 5958722,
+    "sha256": "af0426192e1271bb41f7a18f0dfbcc865d4c7f4ca74f3bea665862751a530655",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/spellbre.pdf": {
+    "bytes": 1762954,
+    "sha256": "aa18f24c4921fbbad24560ec8e31a545a80dda46b86c55f1dc75f6a7bafb0476",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/starcros.pdf": {
+    "bytes": 93315,
+    "sha256": "b54fdc530e580feff932f601709531753a14724a0b4cd967c991120cffda5358",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/stationf.pdf": {
+    "bytes": 1074775,
+    "sha256": "fcac9dd1888fe84a8aa56164e46380d05083a08caf87acea46faa92fabd4e030",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/suspect.pdf": {
+    "bytes": 1794120,
+    "sha256": "0e336f81b046cde754804fd4c1e38cc4f65581ac4032fe5643fc457b6edaf0a3",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/suspende.pdf": {
+    "bytes": 238343,
+    "sha256": "af50b0f383242b083270a93f1781ff8fb32a517224c7ba6a24c8273cc0d77855",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/trinity.pdf": {
+    "bytes": 440226,
+    "sha256": "df0caf07f74f48f9f2f4e19ae7b48aca0e9925536d80838e52bdebc49f9b235c",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/wishbrin.pdf": {
+    "bytes": 6477915,
+    "sha256": "1d128d21b3a034736dcbdf59ebaf86cdb5e97bf443aa78d4bcc5bce6f113aa1d",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/witness.pdf": {
+    "bytes": 3282283,
+    "sha256": "3926656a1b47f5833ce1fb3aa935a9bb5de8605b2d891ba15d69ab9b1570604c",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/zork1.pdf": {
+    "bytes": 3398635,
+    "sha256": "3b43cc5360cd780e47a0aa407d13b9b46711b872348d0be8a23151b6bc2045ef",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/zork2.pdf": {
+    "bytes": 985824,
+    "sha256": "d6f8a5f6206a3933dc692e3962035031f321b734566fed093228405e410e3d47",
+    "type": "pdf"
+  },
+  "https://infodoc.plover.net/maps/zork3.pdf": {
+    "bytes": 853006,
+    "sha256": "e270604f66abbd36d813075c022b2f7cb4fdc99eb01986c8b1169c6e6cae90f8",
+    "type": "pdf"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/amfv.json": {
+    "bytes": 57783,
+    "markup": [],
+    "sha256": "81a38f7ce42de93a8b9d68651813e09958351bb61b292dc6a1918e399a708ed5",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/arthur.json": {
+    "bytes": 88174,
+    "markup": [],
+    "sha256": "9da589a110adb3c6b6262e97d47b0f150f3df72f86dc0ecfa73c5d2c992a9091",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/ballyhoo.json": {
+    "bytes": 135603,
+    "markup": [],
+    "sha256": "340d3b63cc1098eb9305a92604e8b025bead24589216c9d2bc93074e765b6b57",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/beyondzo.json": {
+    "bytes": 109340,
+    "markup": [],
+    "sha256": "a8cf8add5170caf8f5e63fe01466f32d0c778f707a45de18a859217fd7f590e3",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/borderzo.json": {
+    "bytes": 32554,
+    "markup": [],
+    "sha256": "fdbe74a1d5332a8b9879bc46edb7489fe89d1285bc46ea930ed575f431c4b319",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/bureaucr.json": {
+    "bytes": 48925,
+    "markup": [],
+    "sha256": "032419d6155134c42a55f584374704ab210e1a5cf8046ee529bbd1a60d841af1",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/cutthroa.json": {
+    "bytes": 92777,
+    "markup": [],
+    "sha256": "12ccde019f0aaf564c9080db3b9eddd9455a9af9de0ea78f816ae2d18beb26ee",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/deadline.json": {
+    "bytes": 58684,
+    "markup": [],
+    "sha256": "294cd3c8c0ed08ff69cbe04a95920e877991892ab78902a46654f726417eeee5",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/enchante.json": {
+    "bytes": 77544,
+    "markup": [],
+    "sha256": "0020c8ebda02ccacba1d6157f5a34fa10336ff458e42d503e4dfed6685b91e34",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/hhgg.json": {
+    "bytes": 139604,
+    "markup": [],
+    "sha256": "dc61c6705c8ca3b4eb1cfc4f276902088217d61fa424eb65e8106df41f288d13",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/hollywoo.json": {
+    "bytes": 58699,
+    "markup": [],
+    "sha256": "0b149d1d847c7e23d4030c0011ae0251691b13b8462f0e1794dcdc6782535b3b",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/infidel.json": {
+    "bytes": 58814,
+    "markup": [],
+    "sha256": "d68a5f99452fc86aa33490f6f86cbcc74264c05c8c27603929951ca4f10e01ee",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/lgop.json": {
+    "bytes": 85790,
+    "markup": [],
+    "sha256": "1ffc33020b13873d6ecabdf311635694460b7e9789affa597c2534a5e5954478",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/lurking.json": {
+    "bytes": 50553,
+    "markup": [],
+    "sha256": "5ba13558ef6ead556c7f9ab38e8eb6621c2c35518768129b9f27ee7811c4de37",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/moonmist.json": {
+    "bytes": 49064,
+    "markup": [],
+    "sha256": "9f655acbe66b16f00257bda3d60e8e57dc2ef24d4aa130864a04ed7fc6ecbc51",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/nordandb.json": {
+    "bytes": 63615,
+    "markup": [],
+    "sha256": "edd702e0a655f910123b9c9eb3509886099ac6beb9e3820dbba4ec64a96159bd",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/planetfa.json": {
+    "bytes": 74994,
+    "markup": [],
+    "sha256": "8b123ea9dac5c5920dd35c46a3e0892a7bf5df440ae0f25e8fa0d6dd4e054f0b",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/plundere.json": {
+    "bytes": 44782,
+    "markup": [],
+    "sha256": "c87c3e6fde1dbc9a7face209caa2facfabfc6642abbc72da72fd9b60267d6e2e",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/seastalk.json": {
+    "bytes": 49014,
+    "markup": [],
+    "sha256": "eb9d75239ea10c74abe3dbb4e3459bcdee824c0da989f99fe2ebfd206f960f10",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/sherlock.json": {
+    "bytes": 56297,
+    "markup": [],
+    "sha256": "d8fc5ce8e489f7fc96d6374c9df124195dcecf6ebac9ca4312acd28b12164bc7",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/shogun.json": {
+    "bytes": 84022,
+    "markup": [],
+    "sha256": "1c6ac52bf18de1cb10da1ec76bfb8aeda160cdd0230aac9cfdbc6f2a4b69452e",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/sorcerer.json": {
+    "bytes": 101139,
+    "markup": [],
+    "sha256": "c8901bcf4d5ed63a56c9b3756a10335eb3375b230ace16d63e7d7f20d23298a8",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/spellbre.json": {
+    "bytes": 113814,
+    "markup": [],
+    "sha256": "908b5f752e747209633267af0b321e24a36f9b225b37dd552676a28ae1ac15d7",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/starcros.json": {
+    "bytes": 75679,
+    "markup": [],
+    "sha256": "5203e46fd00c03c330126c5415542147e95912467a55094ff4a56898095c9ca8",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/stationf.json": {
+    "bytes": 71956,
+    "markup": [],
+    "sha256": "3f9f34ece0399f9868a440680657a8701e87d1864e99b1c54fe4421160809eeb",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/suspect.json": {
+    "bytes": 52342,
+    "markup": [],
+    "sha256": "455599120fe8780bee51a44a7e2a7ec301c1193a632bfc5e0fb05695a377ef4a",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/suspende.json": {
+    "bytes": 54733,
+    "markup": [],
+    "sha256": "f4f3f37c81014652b74945ede2a8ac300c0f734877faadf8f9d25fa8faa7d883",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/trinity.json": {
+    "bytes": 94959,
+    "markup": [],
+    "sha256": "c36923c5bc8bb3d09a14aec063658d071ed9893314788db75f170ed6ea40e168",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/wishbrin.json": {
+    "bytes": 97457,
+    "markup": [],
+    "sha256": "758a78180b6eff20c0383016bbcc04aa85a1d022a583c62e1b472113f23cb3b7",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/witness.json": {
+    "bytes": 53323,
+    "markup": [],
+    "sha256": "4bdab68f97251713f1aa4b8bd3b2e75350f4ae2b9462facb54f3ac0cf92c35e5",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/zork0.json": {
+    "bytes": 106739,
+    "markup": [],
+    "sha256": "ef45201fe30592c843bb349c1fa03e76582508256bfed4cbcee0390a3db18083",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/zork1.json": {
+    "bytes": 60803,
+    "markup": [],
+    "sha256": "ba8481bcc50809d1dbb18f710a74e0723c850182342ef25764809b7b7e72b072",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/zork2.json": {
+    "bytes": 63871,
+    "markup": [],
+    "sha256": "63099e1cd264585f438fde2e572d4094acbddc31351d047df75e9bd9c8081255",
+    "type": "json"
+  },
+  "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/zork3.json": {
+    "bytes": 61508,
+    "markup": [],
+    "sha256": "94cce97f8ef60b7e5c3c85725c2eb9cfc18bf0a4f922844a73a910ea5c3e75f7",
+    "type": "json"
+  }
+}

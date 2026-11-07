@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Stationfall",
+  "game": "9nlbhqnlyb169uge",
+  "story": {
+    "ifid": "ZCODE-87-870326",
+    "release": 87,
+    "serial": "870326",
+    "checksum": "71ae",
+    "label": "Gamma · Release 87 (870326)",
+    "type": "z3",
+    "sha256": "a51896775c9f42fbc271f4a9925421ff03e73139b5e551a99bdbac6c1cc0606d",
+    "bytes": 127400,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/stationfall-gamma-r87-s870326.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=9nlbhqnlyb169uge"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "54badb66a1dd0d99a430362337ed63355b7464d8d7cbe6c9dfa58d26f31f8f03",
+    "bytes": 110895,
+    "sources": [
+      "https://ifdb.org/coverart?id=9nlbhqnlyb169uge&version=11"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "0a92e76cd406280d0e26a603e682d3f0da4c16dcbdd79a5d416924f3c33193d4",
+    "bytes": 2494141,
+    "sources": [
+      "https://infodoc.plover.net/manuals/stationf.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "f64b64562aa26e7bc673f9bbea2dab0de238b763a885d33c7a744bf9503361e4",
+      "bytes": 40448,
+      "sources": [
+        "https://infodoc.plover.net/hints/stationf.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "fcac9dd1888fe84a8aa56164e46380d05083a08caf87acea46faa92fabd4e030",
+      "bytes": 1074775,
+      "sources": [
+        "https://infodoc.plover.net/maps/stationf.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "3f9f34ece0399f9868a440680657a8701e87d1864e99b1c54fe4421160809eeb",
+      "bytes": 71956,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/stationf.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

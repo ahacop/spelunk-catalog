@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "The Lurking Horror",
+  "game": "jhbd0kja1t57uop",
+  "story": {
+    "ifid": "ZCODE-203-870506",
+    "release": 203,
+    "serial": "870506",
+    "checksum": "fb9c",
+    "label": "Release 203 (870506)",
+    "type": "z3",
+    "sha256": "91b04fe00b61e33ae0d8b31b9a85e1a3a86f098d50fcf7a2d240af670c472c53",
+    "bytes": 128986,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/lurkinghorror-r203-s870506.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=jhbd0kja1t57uop"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "eacee655e28afd397b00993fa3fa6a45833efa1e8e8d5d6db1084ae89e277f75",
+    "bytes": 109176,
+    "sources": [
+      "https://ifdb.org/coverart?id=jhbd0kja1t57uop&version=21"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "a5a61151ea834a5948e0d4187b2228fe47afc430d5a9888baca7d3ba4e0ca865",
+    "bytes": 4942353,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/lurking.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "921d8030fa951a332f428fabc56b8b9b907f5349995daeaa9e6f1c0d17923d09",
+      "bytes": 28160,
+      "sources": [
+        "https://infodoc.plover.net/hints/lurking.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "037d82ba79ead1d20079e6d88da54fde65669026c21348e463bcd1e09666ef2a",
+      "bytes": 2344711,
+      "sources": [
+        "https://infodoc.plover.net/maps/lurking.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "5ba13558ef6ead556c7f9ab38e8eb6621c2c35518768129b9f27ee7811c4de37",
+      "bytes": 50553,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/lurking.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
-"""Find manuals, maps, feelies and hints for a game, from the sources named in
+"""Find box art, the manual and InvisiClues for a game, from the sources named in
 ahacop/spelunk#17, #18 and #22:
 
 - IFDB's links for the game (manuals, maps, feelies; hint files and pages),
-- the Infocom Documentation Project's InvisiClues story files
-  (https://infodoc.plover.net/hints/<name>.z5),
+- the Infocom Documentation Project (infodoc.plover.net): its manuals and
+  maps PDFs and InvisiClues story files, from its index pages,
 - infocom-hints-html's scraped JSON (github.com/dfabulich/infocom-hints-html),
   pinned to one commit so its hash stays stable.
 
@@ -23,18 +23,19 @@ import json
 import re
 import subprocess
 from pathlib import Path
-from urllib.parse import urlsplit, urlunsplit
+from urllib.parse import urljoin, urlsplit, urlunsplit
 
 from spelunklib import (
     CAPS, MAGIC, NotAStory, check_url, clean_text, hint_markup_problems, identify_story,
 )
 
 OK_EXT = {".pdf", ".png", ".jpg", ".jpeg", ".heic", ".z5", ".z8", ".json"}
-INFODOC_HINT = "https://infodoc.plover.net/hints/{}.z5"
+INFODOC_INDEX = "https://infodoc.plover.net/{}/index.html"  # manuals, maps, hints
 HINTS_REPO = "https://github.com/dfabulich/infocom-hints-html"
 # eblong's names -> the 8-character names infodoc and infocom-hints-html use,
 # where cutting to 8 characters isn't enough (beyondzork -> beyondzo works).
 HINT_NAMES = {"hitchhiker": "hhgg", "leathergoddesses": "lgop", "lurkinghorror": "lurking"}
+INFODOC_NAMES = {"leathergoddesses": "leather"}
 HINTS_RAW = "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/{sha}/{path}"
 
 HINT_WORDS = re.compile(r"\b(hint|hints|invisiclue|invisiclues|clue ?book)\b", re.I)
@@ -84,11 +85,9 @@ def classify(link: dict) -> str | None:
     if HINT_WORDS.search(text):
         return "hints"
     if MAP_WORDS.search(text):
-        return "map"
+        return None  # no maps, fan-made or otherwise
     if MANUAL_WORDS.search(text):
         return "manual"
-    if FEELIE_WORDS.search(text):
-        return "feelies"
     return None
 
 
@@ -97,6 +96,7 @@ class Extras:
         self.fetcher, self.cache, self.skipped, self.log = fetcher, cache, skipped, log
         self.offline = offline
         self._hints_commit: str | None = None
+        self._infodoc: dict[str, dict[str, str]] = {}
 
     # -- downloading -------------------------------------------------------
 
@@ -121,10 +121,12 @@ class Extras:
         return entry
 
     def part(self, url: str, slot: str, title: str = "") -> dict | None:
-        cap = CAPS["hints"] if slot == "hints" else CAPS["pdf"]
+        cap = CAPS["image"] if slot == "cover" else CAPS["pdf"]
         e = self.fetch(url, cap)
         t = e.get("type")
-        ok = {"hints": {"z5", "z8", "json"}}.get(slot, {"png", "jpeg", "heic", "pdf"})
+        ok = {"hints": {"z5", "z8", "json", "pdf", "png", "jpeg", "heic"},
+              "cover": {"png", "jpeg", "heic"}}.get(
+            slot, {"png", "jpeg", "heic", "pdf"})
         if e.get("markup"):
             self.skipped.append({"url": url, "slot": slot, "why": "; ".join(e["markup"])})
             return None
@@ -147,9 +149,30 @@ class Extras:
                 self.log(f"infocom-hints-html @ {self._hints_commit[:7]}")
         return self._hints_commit
 
-    def for_game(self, stem: str, ifdb_links: list[dict]) -> dict:
-        """Extras for one game. stem is eblong's short name, e.g. zork1."""
+    def infodoc(self, kind: str) -> dict[str, str]:
+        """The Infocom Documentation Project's files of one kind (manuals,
+        maps or hints), by 8-character name, e.g. {"zork1": "https://…/maps/zork1.pdf"}."""
+        if kind not in self._infodoc:
+            index: dict[str, str] = {}
+            raw = None if self.offline else self.fetcher.get(INFODOC_INDEX.format(kind), CAPS["manifest"])
+            base = INFODOC_INDEX.format(kind)
+            for href in re.findall(r'href="([^"]+\.(?:pdf|z5|z8))"', (raw or b"").decode("utf-8", "replace"), re.I):
+                url = urljoin(base, href)
+                index.setdefault(Path(urlsplit(url).path).stem.lower(), url)
+            self._infodoc[kind] = index
+            if raw:
+                self.log(f"infodoc {kind}: {len(index)} PDFs")
+        return self._infodoc[kind]
+
+    def for_game(self, stem: str, ifdb_links: list[dict], cover_url: str = "") -> dict:
+        """Extras for one game: box art, manual (with its feelies) and
+        InvisiClues. stem is eblong's short name, e.g. zork1."""
         out: dict = {"feelies": [], "hints": []}
+        if cover_url:
+            p = self.part(cover_url, "cover")
+            if p:
+                p["credit"] = "Cover art from IFDB"
+                out["cover"] = p
         for link in ifdb_links:
             slot = classify(link)
             url = link.get("url")
@@ -168,15 +191,24 @@ class Extras:
             p = self.part(url, slot, link.get("title") or "")
             if not p:
                 continue
-            if slot in ("manual", "map"):
+            if slot == "manual":
                 out.setdefault(slot, p)
             else:
                 out[slot].append(p)
         if stem:
             name = HINT_NAMES.get(stem, stem[:8])
-            p = self.part(INFODOC_HINT.format(name), "hints", "InvisiClues")
-            if p:
-                out["hints"].append(p)
+            names = [n for n in (INFODOC_NAMES.get(stem), HINT_NAMES.get(stem), stem[:8]) if n]
+            # InvisiClues: infodoc's hint story file and the booklet's map (by Infocom).
+            for slot, kind, title in (("manual", "manuals", "Manual"), ("hints", "hints", "InvisiClues"),
+                                      ("hints", "maps", "InvisiClues map")):
+                url = next((self.infodoc(kind)[n] for n in names if n in self.infodoc(kind)), None)
+                if not url or (slot != "hints" and slot in out):
+                    continue
+                p = self.part(url, slot, title)
+                if p and slot == "hints":
+                    out["hints"].append(p)
+                elif p:
+                    out[slot] = p
             sha = self.hints_commit()
             if sha:
                 p = self.part(HINTS_RAW.format(sha=sha, path=f"scraped-json/{name}.json"),
@@ -208,7 +240,7 @@ def ls_remote_head(repo: str) -> str:
 def merge(manifest: dict, extras: dict) -> dict:
     """Add generated extras without touching ones added by hand: a slot that
     is already filled stays, and list entries are added only if new."""
-    for slot in ("manual", "map"):
+    for slot in ("cover", "manual"):
         if slot in extras and slot not in manifest:
             manifest[slot] = extras[slot]
     for slot in ("feelies", "hints"):

@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "The Witness",
+  "game": "6963a47vqgms8wi0",
+  "story": {
+    "ifid": "ZCODE-13-830524",
+    "release": 13,
+    "serial": "830524",
+    "checksum": "1334",
+    "label": "Release 13 (830524)",
+    "type": "z3",
+    "sha256": "e1e2c7f819587a0d171eca55f09d9df2969f9c81d90c32f7ed866993193d3f4e",
+    "bytes": 102608,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/witness-r13-s830524.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=6963a47vqgms8wi0"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "29221983e91133c31558864bbf4dce87aa2110d18fa8921d55621091ced9abd6",
+    "bytes": 177747,
+    "sources": [
+      "https://ifdb.org/coverart?id=6963a47vqgms8wi0&version=15"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "f31eb9928fd9bc1284edd300349b8f5921f62b7c7f9f323c69133907e3e20fed",
+    "bytes": 2388853,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/witness.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "05304d30927135fb2b280d0e782d56b4c0e379c1417d33d8ed62f74b507d8054",
+      "bytes": 30208,
+      "sources": [
+        "https://infodoc.plover.net/hints/witness.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "3926656a1b47f5833ce1fb3aa935a9bb5de8605b2d891ba15d69ab9b1570604c",
+      "bytes": 3282283,
+      "sources": [
+        "https://infodoc.plover.net/maps/witness.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "4bdab68f97251713f1aa4b8bd3b2e75350f4ae2b9462facb54f3ac0cf92c35e5",
+      "bytes": 53323,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/witness.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

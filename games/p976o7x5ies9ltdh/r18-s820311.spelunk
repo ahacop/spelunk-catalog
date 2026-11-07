@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Deadline",
+  "game": "p976o7x5ies9ltdh",
+  "story": {
+    "ifid": "ZCODE-18-820311",
+    "release": 18,
+    "serial": "820311",
+    "checksum": "0000",
+    "label": "Release 18 (820311)",
+    "type": "z3",
+    "sha256": "9149c879bb82dd28d9423d1a17c8de22533bdb91bdc28aad6801516899576475",
+    "bytes": 111342,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/deadline-r18-s820311.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=p976o7x5ies9ltdh"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "2f8fe89a813bb6b0c7825bf00e232a65824af525ce770346d21d0758ebf8ea8a",
+    "bytes": 125719,
+    "sources": [
+      "https://ifdb.org/coverart?id=p976o7x5ies9ltdh&version=24"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "304cc90de305c7a821dc9e457b6d9ae8824200f797b7b387971f518c9c8358db",
+    "bytes": 5431955,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/deadline.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "fc9e0aecd1ff8cf191cc59511f85cbd40bd4cfff85c68f03cc24da62e4c3003d",
+      "bytes": 31744,
+      "sources": [
+        "https://infodoc.plover.net/hints/deadline.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "b4cfe2928658043415c6a830ee523f5b083df6c684280a2b14cda728f5e55d86",
+      "bytes": 246684,
+      "sources": [
+        "https://infodoc.plover.net/maps/deadline.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "294cd3c8c0ed08ff69cbe04a95920e877991892ab78902a46654f726417eeee5",
+      "bytes": 58684,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/deadline.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

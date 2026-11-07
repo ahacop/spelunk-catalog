@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Leather Goddesses of Phobos",
+  "game": "3p9fdt4fxr2goctw",
+  "story": {
+    "ifid": "ZCODE-118-860325",
+    "release": 118,
+    "serial": "860325",
+    "checksum": "5afd",
+    "label": "Beta · Release 118 (860325)",
+    "type": "z3",
+    "sha256": "6580660a8ac6af880e24f915ee2bf223d79568e009826eea832e63941d2350fe",
+    "bytes": 129012,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/leathergoddesses-beta-r118-s860325.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=3p9fdt4fxr2goctw"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "510c037c7213eec9980bcffcf1642e003ce7683a5bd983478d957c92078200ba",
+    "bytes": 119344,
+    "sources": [
+      "https://ifdb.org/coverart?id=3p9fdt4fxr2goctw&version=25"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "4a5e62ab5c94bfdd8a8a3c0355c39e3dd7afe092d81cefab4ebdebe77f116717",
+    "bytes": 3915394,
+    "sources": [
+      "https://infodoc.plover.net/manuals/leather.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "59a332cff030c933dbbad9abb3c74ccf955287c943f2c83d82695c60251499b0",
+      "bytes": 46592,
+      "sources": [
+        "https://infodoc.plover.net/hints/lgop.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "ad4565e396504cae237d8bb3c9b8a1918e93d21d29455bc31415b00786699da6",
+      "bytes": 1150929,
+      "sources": [
+        "https://infodoc.plover.net/maps/leather.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "1ffc33020b13873d6ecabdf311635694460b7e9789affa597c2534a5e5954478",
+      "bytes": 85790,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/lgop.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

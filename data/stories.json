@@ -1,0 +1,2305 @@
+{
+  "https://eblong.com/infocom/gamefiles/abyss-r1-s890320.z6": {
+    "bytes": 109416,
+    "checksum": "a95f",
+    "hint": "The Abyss",
+    "release": 1,
+    "serial": "890320",
+    "sha256": "5fe6ecb66d0fbdcf953700fdafc643b73f441ae4904ae9dac9d1d5892c5fbbce",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/amfv-first-r1-s841226.z3": {
+    "bytes": 33536,
+    "checksum": "766f",
+    "hint": "A Mind Forever Voyaging",
+    "release": 1,
+    "serial": "841226",
+    "sha256": "e9beb4809e291454e7775fbe2867f30b21acb6d01d6258fb4f6a208d9d0624d6",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/amfv-fullalpha-r84-s850516.z4": {
+    "bytes": 189346,
+    "checksum": "ea06",
+    "hint": "A Mind Forever Voyaging",
+    "release": 84,
+    "serial": "850516",
+    "sha256": "747fb6fd52b7f9143d9423049f46955bb8b7a1485e144b10bd7817b6a60cfa54",
+    "version": 4
+  },
+  "https://eblong.com/infocom/gamefiles/amfv-gamma-r131-s850628.z4": {
+    "error": "not a story: header length 254920 exceeds file size 254918",
+    "hint": "A Mind Forever Voyaging"
+  },
+  "https://eblong.com/infocom/gamefiles/amfv-prealpha-r47-s850313.z4": {
+    "error": "not a story: header length 239244 exceeds file size 119622",
+    "hint": "A Mind Forever Voyaging"
+  },
+  "https://eblong.com/infocom/gamefiles/amfv-r77-s850814.z4": {
+    "bytes": 262016,
+    "checksum": "5031",
+    "hint": "A Mind Forever Voyaging",
+    "release": 77,
+    "serial": "850814",
+    "sha256": "81515840d2a3099f70fb78403dcba997f6d2d04e08cbe600be7e8603ff90582d",
+    "version": 4
+  },
+  "https://eblong.com/infocom/gamefiles/amfv-r79-s851122.z4": {
+    "bytes": 262036,
+    "checksum": "4860",
+    "hint": "A Mind Forever Voyaging",
+    "release": 79,
+    "serial": "851122",
+    "sha256": "14e2fd1872c9487e2ca51a7975590358f5ca42a4b439abc39c60b6653511216d",
+    "version": 4
+  },
+  "https://eblong.com/infocom/gamefiles/arthur-r40-s890502.z6": {
+    "bytes": 235520,
+    "checksum": "2f5d",
+    "hint": "Arthur",
+    "release": 40,
+    "serial": "890502",
+    "sha256": "7ffe8cdb696cde8ab0c4d175869c4ea8ae1f43d49f84915daf3bfd4ddd67a358",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/arthur-r41-s890504.z6": {
+    "bytes": 235520,
+    "checksum": "a406",
+    "hint": "Arthur",
+    "release": 41,
+    "serial": "890504",
+    "sha256": "18b493d2b6c4c3c0428a1cc16bdf8fcd7ab95e21e31dd963452ed7842694ca6c",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/arthur-r54-s890606.z6": {
+    "bytes": 270848,
+    "checksum": "8e4a",
+    "hint": "Arthur",
+    "release": 54,
+    "serial": "890606",
+    "sha256": "8832b68681c6867296214ddcaffee925faffb6d989596835917630c9bbd001d3",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/arthur-r63-s890622.z6": {
+    "bytes": 271304,
+    "checksum": "45eb",
+    "hint": "Arthur",
+    "release": 63,
+    "serial": "890622",
+    "sha256": "dbb80b20c342f86836993167c6466ae95673028c0308c1348cc69fc98975bb16",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/arthur-r74-s890714.z6": {
+    "bytes": 269312,
+    "checksum": "d526",
+    "hint": "Arthur",
+    "release": 74,
+    "serial": "890714",
+    "sha256": "57bc01b8f80ec79e583b5f8c5b9fc5227af8baa770906e372d5cc538ffff511a",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/ballyhoo-r97-s851218.z3": {
+    "bytes": 128556,
+    "checksum": "78ae",
+    "hint": "Ballyhoo",
+    "release": 97,
+    "serial": "851218",
+    "sha256": "05e6558febc163cb6e6ea6fb0d2af3a9238fe8cb1360a9245c3e81ff01da0b44",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/ballyhoo-r99-s861014.z3": {
+    "bytes": 128602,
+    "checksum": "830f",
+    "hint": "Ballyhoo",
+    "release": 99,
+    "serial": "861014",
+    "sha256": "2b917e0dd93bf4cd52b4eb074074ad7422d3f130d5db7c6d26bacca03a554633",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/beyondzork-alpha-r1-s870412.z5": {
+    "bytes": 182636,
+    "checksum": "45d0",
+    "hint": "Beyond Zork",
+    "release": 1,
+    "serial": "870412",
+    "sha256": "630f08481d4fcab9307fdc15d12163d8fc0c38703b213d1a9459ab3e2a5dee01",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/beyondzork-beta-r1-s870715.z5": {
+    "bytes": 252548,
+    "checksum": "e040",
+    "hint": "Beyond Zork",
+    "release": 1,
+    "serial": "870715",
+    "sha256": "59aa3208437c3f829f1c372b79e188ce3af18d5a84a830da441a5b98224027e2",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/beyondzork-r47-s870915.z5": {
+    "bytes": 261952,
+    "checksum": "3ff4",
+    "hint": "Beyond Zork",
+    "release": 47,
+    "serial": "870915",
+    "sha256": "eabd5e7df2cb0cae4d0f3bc163b05f68dc95152cab0b8d989381453b42da4c04",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/beyondzork-r49-s870917.z5": {
+    "bytes": 261900,
+    "checksum": "24d6",
+    "hint": "Beyond Zork",
+    "release": 49,
+    "serial": "870917",
+    "sha256": "0d72a8eb1274e58386d0280f60bf121dffece364f275310fc45b8307641c8286",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/beyondzork-r51-s870923.z5": {
+    "bytes": 261548,
+    "checksum": "0cbe",
+    "hint": "Beyond Zork",
+    "release": 51,
+    "serial": "870923",
+    "sha256": "bee643ecebc2a45952b8f69fee75f8fc125a5bb9fd9179915321301c726fc6a8",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/beyondzork-r57-s871221.z5": {
+    "bytes": 261388,
+    "checksum": "c5ad",
+    "hint": "Beyond Zork",
+    "release": 57,
+    "serial": "871221",
+    "sha256": "ca553e4d2c1f1127928beb7a0af3af066fab4d2c42f2297fd35c96b51a7ad6da",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/beyondzork-r60-s880610.z5": {
+    "bytes": 261444,
+    "checksum": "a49d",
+    "hint": "Beyond Zork",
+    "release": 60,
+    "serial": "880610",
+    "sha256": "523f40e8ef3bf9a97830e25e8632f1dc108677bbaf5587962bfaa12341139210",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/borderzone-r9-s871008.z5": {
+    "bytes": 178372,
+    "checksum": "2b37",
+    "hint": "Border Zone",
+    "release": 9,
+    "serial": "871008",
+    "sha256": "58bee822373119873a42d4a074ebbf495c4834365c27b0426561324ec505897e",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/bureaucracy-r116-s870602.z4": {
+    "bytes": 243340,
+    "checksum": "fc65",
+    "hint": "Bureaucracy",
+    "release": 116,
+    "serial": "870602",
+    "sha256": "9acf66291e83f1b8b728dfcbd90484c60b57040380eac4d894857b7ea6ad5629",
+    "version": 4
+  },
+  "https://eblong.com/infocom/gamefiles/bureaucracy-r160-s880521.z4": {
+    "bytes": 243524,
+    "checksum": "07f0",
+    "hint": "Bureaucracy",
+    "release": 160,
+    "serial": "880521",
+    "sha256": "6ddac3223c22a56283b7b739ce892f10a6cc692372e1b0f94a40da8e688cc1cd",
+    "version": 4
+  },
+  "https://eblong.com/infocom/gamefiles/bureaucracy-r86-s870212.z4": {
+    "bytes": 243144,
+    "checksum": "e024",
+    "hint": "Bureaucracy",
+    "release": 86,
+    "serial": "870212",
+    "sha256": "e715c0779ec4256f3027c766bcbd4747b0166fdeee046773d79b3422b958d7a8",
+    "version": 4
+  },
+  "https://eblong.com/infocom/gamefiles/cutthroats-r23-s840809.z3": {
+    "bytes": 112558,
+    "checksum": "a5a0",
+    "hint": "Cutthroats",
+    "release": 23,
+    "serial": "840809",
+    "sha256": "7b163a675a494a6373fc98742d02c11dc11d6e4178c3caeaadf6f250c90c5e1a",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/cutthroats-r25-s840917.z3": {
+    "bytes": 112538,
+    "checksum": "33dc",
+    "hint": "Cutthroats",
+    "release": 25,
+    "serial": "840917",
+    "sha256": "076689b963181f8e017f4fae164be97adece242940bb29963d7d4049780f6510",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/deadline-r18-s820311.z3": {
+    "bytes": 111342,
+    "checksum": "0000",
+    "hint": "Deadline",
+    "release": 18,
+    "serial": "820311",
+    "sha256": "9149c879bb82dd28d9423d1a17c8de22533bdb91bdc28aad6801516899576475",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/deadline-r19-s820427.z3": {
+    "bytes": 111420,
+    "checksum": "0000",
+    "hint": "Deadline",
+    "release": 19,
+    "serial": "820427",
+    "sha256": "d0881c6e5c6d42c103afc125c803d1fb651dd2d5e566d4ce5d5c4eac4227de80",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/deadline-r21-s820512.z3": {
+    "bytes": 111706,
+    "checksum": "0000",
+    "hint": "Deadline",
+    "release": 21,
+    "serial": "820512",
+    "sha256": "be2f0b52ca51a4bc8ae9c4a40920a5a631443c5b33213bdff8b29386b7f5e0c5",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/deadline-r22-s820809.z3": {
+    "bytes": 111782,
+    "checksum": "df73",
+    "hint": "Deadline",
+    "release": 22,
+    "serial": "820809",
+    "sha256": "7066c9f5b03cee14d3caabaed5619a8ad339abfa9b6619fa6a672a8db4ee8c5e",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/deadline-r26-s821108.z3": {
+    "bytes": 108372,
+    "checksum": "548d",
+    "hint": "Deadline",
+    "release": 26,
+    "serial": "821108",
+    "sha256": "339c3690da8cdcdb8a0e8f8c35326f98ab60b118ca47e9c96e6d2b52941b4f97",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/deadline-r27-s831005.z3": {
+    "bytes": 108454,
+    "checksum": "54fc",
+    "hint": "Deadline",
+    "release": 27,
+    "serial": "831005",
+    "sha256": "df14b33428bff5057b6569427da5d9be3ccb92497b6d2d0ea7b1d3821739d629",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/deadline-r28-s850129.z3": {
+    "bytes": 108420,
+    "checksum": "168b",
+    "hint": "Deadline",
+    "release": 28,
+    "serial": "850129",
+    "sha256": "babcab2c5bfa337cecf5793f2d93af4516c2c45baf28385e308eef1a9cd79f62",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/enchanter-mac-r16-s840518.z3": {
+    "bytes": 109332,
+    "checksum": "7372",
+    "hint": "Enchanter",
+    "release": 16,
+    "serial": "840518",
+    "sha256": "4b3f1ae98cccd83948dd0deda6fd6cee63b94a4eb5346ed6095ad57c72c9e553",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/enchanter-r10-s830810.z3": {
+    "bytes": 109126,
+    "checksum": "6db4",
+    "hint": "Enchanter",
+    "release": 10,
+    "serial": "830810",
+    "sha256": "6ca4a0b4a2d9906bf97267853f4de7f6fe882135ebc1a2d90fd2f2664175b5a1",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/enchanter-r15-s831107.z3": {
+    "bytes": 109230,
+    "checksum": "5087",
+    "hint": "Enchanter",
+    "release": 15,
+    "serial": "831107",
+    "sha256": "aeade3ea1bc7d2860b1d1c0de57013a3d58661cdbe3ba8394a2bcac8c0c26b46",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/enchanter-r15-s999999.z3": {
+    "bytes": 109230,
+    "checksum": "5087",
+    "hint": "Enchanter",
+    "release": 15,
+    "serial": "999999",
+    "sha256": "71fb72abe1f7e35cd56972d7aaa4e45a06f43bb148baf18dbc0caee0e1a97ce4",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/enchanter-r16-s831118.z3": {
+    "bytes": 109234,
+    "checksum": "58f5",
+    "hint": "Enchanter",
+    "release": 16,
+    "serial": "831118",
+    "sha256": "965a823a2ec8f44b3b062f61f9d46faf7fb0aee365e272862de2f51729eaef7e",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/enchanter-r24-s851118.z3": {
+    "bytes": 108638,
+    "checksum": "fc8f",
+    "hint": "Enchanter",
+    "release": 24,
+    "serial": "851118",
+    "sha256": "78645d1fa00856e14eb452f7b54ea2954b329cd77bf3852fd511797c29a1be5d",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/enchanter-r29-s860820.z3": {
+    "bytes": 111126,
+    "checksum": "2547",
+    "hint": "Enchanter",
+    "release": 29,
+    "serial": "860820",
+    "sha256": "bc9b99be980a1aa67c1aef89d4e5878f1f03edab62fe43ae23b2f7e2c41b1dc8",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/generic-r3-s851007.z3": {
+    "bytes": 26438,
+    "checksum": "75e2",
+    "hint": "Generic",
+    "release": 3,
+    "serial": "851007",
+    "sha256": "b311ab6044e8a7678ee8a7cce4cc44786588a4893bd2445577c50201bd632932",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/generic-r5-s870612.z3": {
+    "bytes": 30852,
+    "checksum": "4769",
+    "hint": "Generic",
+    "release": 5,
+    "serial": "870612",
+    "sha256": "156d0cdf41576e3cba6d0ce16c9fa6ade700c97e9ad2165a1750b6e2e231dfa5",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/generic-r6-s850705.z4": {
+    "bytes": 31772,
+    "checksum": "6bc0",
+    "hint": "Generic",
+    "release": 6,
+    "serial": "850705",
+    "sha256": "abc1a5819348d9589863e1a07c26ce86adc7d9d91b4916af56287cc4deb038d4",
+    "version": 4
+  },
+  "https://eblong.com/infocom/gamefiles/hitchhiker-beta1-r108-s840809.z3": {
+    "bytes": 107452,
+    "checksum": "f7fa",
+    "hint": "Hitchhiker's Guide",
+    "release": 108,
+    "serial": "840809",
+    "sha256": "ab144cc80d8ae4af7fc3b27ce0726bf4a5e13878c488100f1bedb86f40e54ef6",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/hitchhiker-beta2-r119-s840822.z3": {
+    "bytes": 110982,
+    "checksum": "0a11",
+    "hint": "Hitchhiker's Guide",
+    "release": 119,
+    "serial": "840822",
+    "sha256": "3248ec87a7d69d66c528fedefec62179a462967f38d30048368a9689b1c96d80",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/hitchhiker-invclues-r31-s871119.z5": {
+    "bytes": 158412,
+    "checksum": "410d",
+    "hint": "Hitchhiker's Guide",
+    "release": 31,
+    "serial": "871119",
+    "sha256": "48b69acc2c93b8b49a199eeed7d3123712cd1f78e8023d733c555a9c067b3682",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/hitchhiker-r42-s850323.z3": {
+    "bytes": 113444,
+    "checksum": "9235",
+    "hint": "Hitchhiker's Guide",
+    "release": 42,
+    "serial": "850323",
+    "sha256": "b6ef939df87687d1f04f9e870545b3650e23ab3963061d8a7c269e814a86a87c",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/hitchhiker-r47-s840914.z3": {
+    "bytes": 112622,
+    "checksum": "2235",
+    "hint": "Hitchhiker's Guide",
+    "release": 47,
+    "serial": "840914",
+    "sha256": "a24be4442cf640a323583b14836dc47c0320b5cbc4777f22833d356864adc070",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/hitchhiker-r56-s841221.z3": {
+    "bytes": 113444,
+    "checksum": "9235",
+    "hint": "Hitchhiker's Guide",
+    "release": 56,
+    "serial": "841221",
+    "sha256": "27905a47672e25a15f408b988b36a348a697bfb082ba9660e930c1ba08f2133b",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/hitchhiker-r58-s851002.z3": {
+    "bytes": 113332,
+    "checksum": "7052",
+    "hint": "Hitchhiker's Guide",
+    "release": 58,
+    "serial": "851002",
+    "sha256": "436cfd3e653618ad54a6b0b6d24b1cdcad8940818c64903243c9e28793c43175",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/hitchhiker-r59-s851108.z3": {
+    "bytes": 113664,
+    "checksum": "7378",
+    "hint": "Hitchhiker's Guide",
+    "release": 59,
+    "serial": "851108",
+    "sha256": "88b968cb0ab1f564fa40183e4e5fe93c41157fe7883a802ca31ae3095769acf6",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/hitchhiker-r60-s861002.z3": {
+    "bytes": 113330,
+    "checksum": "8427",
+    "hint": "Hitchhiker's Guide",
+    "release": 60,
+    "serial": "861002",
+    "sha256": "579599e82e2c0d1cef73ec8db9d74ded1d7868f8d85d88d65c2fbe6abd979421",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/hollywoodhijinx-gamma-r235-s861118.z3": {
+    "bytes": 118626,
+    "checksum": "69db",
+    "hint": "Hollywood Hijinx",
+    "release": 235,
+    "serial": "861118",
+    "sha256": "76dee4f03b68d700b5e0f0282b9f8e512ae347baea92994bb2ba5c6650d3ede5",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/hollywoodhijinx-r37-s861215.z3": {
+    "bytes": 109650,
+    "checksum": "f507",
+    "hint": "Hollywood Hijinx",
+    "release": 37,
+    "serial": "861215",
+    "sha256": "39845a4c71ed6fd97be3fec337bc49545c8ac7ddd33547128a94bc53ae6c958f",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/hypochondriac-r1-s840427.z3": {
+    "bytes": 122624,
+    "checksum": "96d8",
+    "hint": "Hypochondriac",
+    "release": 1,
+    "serial": "840427",
+    "sha256": "dfa70a844ddba26925444ea6f3865bb47e014c7303eedbb949c58cf2378b1c88",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/hypochondriac-r10-s840826.z3": {
+    "bytes": 100592,
+    "checksum": "f148",
+    "hint": "Hypochondriac",
+    "release": 10,
+    "serial": "840826",
+    "sha256": "fef64715e19f1b0d39f5de01f05de2b569400889c009d4617654dbfda6c524c5",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/hypochondriac-r11-s870225.z3": {
+    "bytes": 52376,
+    "checksum": "43e6",
+    "hint": "Hypochondriac",
+    "release": 11,
+    "serial": "870225",
+    "sha256": "6f8996c5b8a86851a813fdf1ad43eb6c447573b499e4d4b89f767fbde1210071",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/hypochondriac-r2-s840505.z3": {
+    "bytes": 123294,
+    "checksum": "7540",
+    "hint": "Hypochondriac",
+    "release": 2,
+    "serial": "840505",
+    "sha256": "a3556065149393ea7609f29bcad6599c3c062f05273986e0963c4d4f50590577",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/infidel-mac-r22-s840522.z3": {
+    "bytes": 94144,
+    "checksum": "e176",
+    "hint": "Infidel",
+    "release": 22,
+    "serial": "840522",
+    "sha256": "2fe062a0e39fd519b9d9c0d5bb915bd9efec3278725d208b074377af44d85d36",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/infidel-r22-s830916.z3": {
+    "bytes": 93556,
+    "checksum": "4122",
+    "hint": "Infidel",
+    "release": 22,
+    "serial": "830916",
+    "sha256": "739570dd8c998a7e9bc9fd4e016139e2c5679e47d6feab2daeb1bca0bc0c23b7",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/journey-dev-r142-s890205.z6": {
+    "bytes": 281088,
+    "checksum": "7efe",
+    "hint": "Journey",
+    "release": 142,
+    "serial": "890205",
+    "sha256": "bba4fd6778d094ed4ddc9365f7fe47ad19b08c11394af1a48de07fc1fccadea0",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/journey-dev-r46-s880603.z5": {
+    "bytes": 229948,
+    "checksum": "9c20",
+    "hint": "Journey",
+    "release": 46,
+    "serial": "880603",
+    "sha256": "99cac77606b724cbe8ef76958a877ac1a4382fbf8751f813b460ff8bab305ab6",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/journey-r10-s890313.z6": {
+    "bytes": 279792,
+    "checksum": "5eec",
+    "hint": "Journey",
+    "release": 10,
+    "serial": "890313",
+    "sha256": "a1992a1f307e9ceb4961c445d1504fa81958486f14665cbc839eb0838d515496",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/journey-r11-s890304.z6": {
+    "bytes": 281632,
+    "checksum": "6a56",
+    "hint": "Journey",
+    "release": 11,
+    "serial": "890304",
+    "sha256": "ade697b27073eab17deee7acab4356c2dde4f8a4c37112560a1ff8727a603414",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/journey-r2-s890303.z6": {
+    "bytes": 280936,
+    "checksum": "d773",
+    "hint": "Journey",
+    "release": 2,
+    "serial": "890303",
+    "sha256": "a4245798c1fe28c10810b46c02a1b3677d910ca84bb31377985371928965c6da",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/journey-r26-s890316.z6": {
+    "bytes": 279872,
+    "checksum": "27cc",
+    "hint": "Journey",
+    "release": 26,
+    "serial": "890316",
+    "sha256": "76c13da980dccf0a34ec8299e85a666cf8b5db3ad6c1e06c0b32d6c192541e6e",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/journey-r3-s890310.z6": {
+    "bytes": 281376,
+    "checksum": "01f8",
+    "hint": "Journey",
+    "release": 3,
+    "serial": "890310",
+    "sha256": "e2ead02155416875c0a48e6292af96a6107c79fd1bceeddfc563c68b0e3289f3",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/journey-r30-s890322.z6": {
+    "bytes": 280472,
+    "checksum": "985b",
+    "hint": "Journey",
+    "release": 30,
+    "serial": "890322",
+    "sha256": "c477e3e0edaf1a3b701a50d980c82a145764158fc0494a5f8c835e363d98d0a4",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/journey-r5-s890310.z6": {
+    "bytes": 281896,
+    "checksum": "ff2a",
+    "hint": "Journey",
+    "release": 5,
+    "serial": "890310",
+    "sha256": "c442195e87dd78efda0afacd98d05e4a865a720a2c6e481ae4ce46ca3500be8a",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/journey-r51-s890522.z6": {
+    "bytes": 281600,
+    "checksum": "4f59",
+    "hint": "Journey",
+    "release": 51,
+    "serial": "890522",
+    "sha256": "c8317270d00e726f798c385987c9c8efe66e07376f37a37b5cd372cbff9a42b5",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/journey-r54-s890526.z6": {
+    "bytes": 281600,
+    "checksum": "5707",
+    "hint": "Journey",
+    "release": 54,
+    "serial": "890526",
+    "sha256": "dff80f1e2f7e4b01248339bc689773bce755097d4e2f19e522410a413107d5e7",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/journey-r76-s890615.z6": {
+    "bytes": 282152,
+    "checksum": "a4d3",
+    "hint": "Journey",
+    "release": 76,
+    "serial": "890615",
+    "sha256": "b4f91a50f10cd1305bddd5597532df8f1d3a450da0de020a3529acb4916ea487",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/journey-r77-s890616.z6": {
+    "bytes": 282176,
+    "checksum": "b136",
+    "hint": "Journey",
+    "release": 77,
+    "serial": "890616",
+    "sha256": "d032ba243ea8b9513d6d196260b6432c1c7f0e042dbb949b59506d970b30ad3c",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/journey-r79-s890627.z6": {
+    "bytes": 282624,
+    "checksum": "ff04",
+    "hint": "Journey",
+    "release": 79,
+    "serial": "890627",
+    "sha256": "ab74a96387d8993007b71c8422f0b04233aa2941908aa2bc762e3bc8bbacb1e6",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/journey-r83-s890706.z6": {
+    "bytes": 282624,
+    "checksum": "d2b8",
+    "hint": "Journey",
+    "release": 83,
+    "serial": "890706",
+    "sha256": "cd3cbaca2dd8d8afcd7dfe24f12fa8636b181d8676ac7254f42ace331e54d77f",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/leathergoddesses-alpha-r57-s860121.z3": {
+    "bytes": 99484,
+    "checksum": "6ea6",
+    "hint": "Leather Goddesses of Phobos",
+    "release": 57,
+    "serial": "860121",
+    "sha256": "57ffc77953f6c9ee00d98b6a50b39d2a2212f19ab7b9694168116db6e402ff32",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/leathergoddesses-beta-r118-s860325.z3": {
+    "bytes": 129012,
+    "checksum": "5afd",
+    "hint": "Leather Goddesses of Phobos",
+    "release": 118,
+    "serial": "860325",
+    "sha256": "6580660a8ac6af880e24f915ee2bf223d79568e009826eea832e63941d2350fe",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/leathergoddesses-first-r1-s851008.z3": {
+    "bytes": 30804,
+    "checksum": "ca9a",
+    "hint": "Leather Goddesses of Phobos",
+    "release": 1,
+    "serial": "851008",
+    "sha256": "348524af18b8aff6a3a9b61839be5e9e26e477fda72f74060b580ae03a09e834",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/leathergoddesses-gamma-r160-s860521.z3": {
+    "bytes": 128998,
+    "checksum": "c0f8",
+    "hint": "Leather Goddesses of Phobos",
+    "release": 160,
+    "serial": "860521",
+    "sha256": "27899ef8cfb7a029631957edd6e8a93b397f94292a9e7f446377b881a9e90051",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/leathergoddesses-invclues-r4-s880405.z5": {
+    "bytes": 159928,
+    "checksum": "efe4",
+    "hint": "Leather Goddesses of Phobos",
+    "release": 4,
+    "serial": "880405",
+    "sha256": "033b447b5e2d5c36aa0cb2e2f7a4e4c79dc4d939021f89cfe4329d122895e8c3",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/leathergoddesses-r0-sXXXXXX.z3": {
+    "bytes": 128998,
+    "checksum": "c15c",
+    "hint": "Leather Goddesses of Phobos",
+    "release": 0,
+    "serial": "c2eceff7eea1",
+    "sha256": "616e58d222d5e05a5b5fd2bf8e7d8d6e6521ea0b796ea43424388662b853e198",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/leathergoddesses-r50-s860711.z3": {
+    "bytes": 128998,
+    "checksum": "c15c",
+    "hint": "Leather Goddesses of Phobos",
+    "release": 50,
+    "serial": "860711",
+    "sha256": "b314bfc4fa9a74bfb41becbc2f974061f98bbae7210844aecf7dfc1423c74c19",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/leathergoddesses-r59-s000001.z3": {
+    "bytes": 129022,
+    "checksum": "d070",
+    "hint": "Leather Goddesses of Phobos",
+    "release": 59,
+    "serial": "000001",
+    "sha256": "7954bb6e20ddb7e462042c78a5becd43171f55e6f7ab18c7ea623e3ab6a277c5",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/leathergoddesses-r59-s860730.z3": {
+    "bytes": 129022,
+    "checksum": "d070",
+    "hint": "Leather Goddesses of Phobos",
+    "release": 59,
+    "serial": "860730",
+    "sha256": "0528b5117c26b59e258542bbb7cf10910d9b3b260db9dc59dcde2e9028fbf901",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/lurkinghorror-r203-s870506.z3": {
+    "bytes": 128986,
+    "checksum": "fb9c",
+    "hint": "The Lurking Horror",
+    "release": 203,
+    "serial": "870506",
+    "sha256": "91b04fe00b61e33ae0d8b31b9a85e1a3a86f098d50fcf7a2d240af670c472c53",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/lurkinghorror-r219-s870912.z3": {
+    "bytes": 129704,
+    "checksum": "747a",
+    "hint": "The Lurking Horror",
+    "release": 219,
+    "serial": "870912",
+    "sha256": "79f06726be1683509501ec0d31415baa9789b2ff2a4c9993659de2bc21e6bfd7",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/lurkinghorror-r221-s870918.z3": {
+    "bytes": 129944,
+    "checksum": "a24e",
+    "hint": "The Lurking Horror",
+    "release": 221,
+    "serial": "870918",
+    "sha256": "1862ef7ce4c25abd32d442392fe7eaba9c1595ed5411df75e99b06f43af6f5af",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/minizork-r2-s840207.z3": {
+    "bytes": 47676,
+    "checksum": "1ff0",
+    "hint": "Mini-Zork 1",
+    "release": 2,
+    "serial": "840207",
+    "sha256": "b318c4cb26ae3b05def2c0115c344c2b0b79fd162f818c26c82a4c5011dc8d29",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/minizork-r34-s871124.z3": {
+    "bytes": 52216,
+    "checksum": "d870",
+    "hint": "Mini-Zork 1",
+    "release": 34,
+    "serial": "871124",
+    "sha256": "c74f01a232e8df4b05d7ebcba14870143f49b3c9a25f194f7a7d2c69e31ea4a6",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/minizork2-r2-s871123.z3": {
+    "bytes": 55690,
+    "checksum": "3ae9",
+    "hint": "Mini-Zork 2",
+    "release": 2,
+    "serial": "871123",
+    "sha256": "29fb04d8c2cc76ff43a137258c691a59b6e9c01cf593e5f0818d24222c79eeae",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/moonmist-beta-r65-s86082X.z3": {
+    "bytes": 128986,
+    "checksum": "1e40",
+    "hint": "Moonmist",
+    "release": 65,
+    "serial": "86082?",
+    "sha256": "7f939a5d85917dacda1975a8ba41da321031a79579266acb60ddbd214ef37ea9",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/moonmist-beta-r65-sXXXXXX.z3": {
+    "bytes": 128986,
+    "checksum": "1e40",
+    "hint": "Moonmist",
+    "release": 65,
+    "serial": "c2f2efebe5ee",
+    "sha256": "f3176eae0d591a0d243d4e5d89c043ed3edf93d6fb8178dc4f04f64183a24a24",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/moonmist-r13-s880501.z3": {
+    "bytes": 128828,
+    "checksum": "8e42",
+    "hint": "Moonmist",
+    "release": 13,
+    "serial": "880501",
+    "sha256": "29267e084d7f228e4f02eb8ad03d7f9db2f7c5e3716cf0b0abba889e9a1fca61",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/moonmist-r4-s860918.z3": {
+    "bytes": 129002,
+    "checksum": "b5af",
+    "hint": "Moonmist",
+    "release": 4,
+    "serial": "860918",
+    "sha256": "c524690c935eb961cca8c8c2677a70525ba9b42693c8042f876ecce75eecd646",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/moonmist-r9-s861022.z3": {
+    "bytes": 128866,
+    "checksum": "1d20",
+    "hint": "Moonmist",
+    "release": 9,
+    "serial": "861022",
+    "sha256": "fef340b8dbbdf86a699285806f99b3ae00dd8d44f0394de31811256ead69d539",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/nordandbert-r19-s870722.z4": {
+    "bytes": 170284,
+    "checksum": "4986",
+    "hint": "Nord and Bert Couldn't Make Head or Tail of It",
+    "release": 19,
+    "serial": "870722",
+    "sha256": "da4f072f7ba694b237cbc0969842919a53b79d4d7f1568c3b222483d3a1369ec",
+    "version": 4
+  },
+  "https://eblong.com/infocom/gamefiles/nordandbert-r20-s870722.z4": {
+    "bytes": 170300,
+    "checksum": "4b55",
+    "hint": "Nord and Bert Couldn't Make Head or Tail of It",
+    "release": 20,
+    "serial": "870722",
+    "sha256": "638f2124b06e4514f50570bd169fc863149fe5549a90cda9bdfad0683c4e2f86",
+    "version": 4
+  },
+  "https://eblong.com/infocom/gamefiles/planetfall-beta-r1-s830517.z3": {
+    "bytes": 105158,
+    "checksum": "07b1",
+    "hint": "Planetfall",
+    "release": 1,
+    "serial": "830517",
+    "sha256": "aec531079e555af271ce2c20175d81d23527e2ed36b11e9fa8351a0b625837b0",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/planetfall-invclues-r10-s880531.z5": {
+    "bytes": 136560,
+    "checksum": "d208",
+    "hint": "Planetfall",
+    "release": 10,
+    "serial": "880531",
+    "sha256": "69567066cc8fcf925c05be8b08933d9b5d6052cfd2c868eb1c87eedaaf8da966",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/planetfall-r20-s830708.z3": {
+    "bytes": 107958,
+    "checksum": "13f4",
+    "hint": "Planetfall",
+    "release": 20,
+    "serial": "830708",
+    "sha256": "821531de9f3641c63b41b29d7dcb3fa37443d3f9b244a7efb4425335f902b983",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/planetfall-r26-s831014.z3": {
+    "bytes": 108674,
+    "checksum": "4bd8",
+    "hint": "Planetfall",
+    "release": 26,
+    "serial": "831014",
+    "sha256": "3dca783eded8efa863a18aa897d881d9d3973ff2bb99345ac858c9288d30c428",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/planetfall-r29-s840118.z3": {
+    "bytes": 109052,
+    "checksum": "842e",
+    "hint": "Planetfall",
+    "release": 29,
+    "serial": "840118",
+    "sha256": "495239678b48cf1b7f2662e4aca2f5412064a9d1ec782f1d2977324dfabd7926",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/planetfall-r37-s851003.z3": {
+    "bytes": 109398,
+    "checksum": "02d6",
+    "hint": "Planetfall",
+    "release": 37,
+    "serial": "851003",
+    "sha256": "fb6023561fd4a15aba5d921fc9213bacc2d99c513927a96aaa96e03ea86d9ca6",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/planetfall-r39-s880501.z3": {
+    "bytes": 109282,
+    "checksum": "a083",
+    "hint": "Planetfall",
+    "release": 39,
+    "serial": "880501",
+    "sha256": "94add8ed336846aad0130cd3db08a83f6e38f0a2180412b25432b6cfb8ccf80e",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/plunderedhearts-r26-s870730.z3": {
+    "bytes": 128962,
+    "checksum": "406d",
+    "hint": "Plundered Hearts",
+    "release": 26,
+    "serial": "870730",
+    "sha256": "3ca0810d1132de6fcd41ecb2c616f5f60c029ee1264e8757fcc274972af069b2",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/restaurant-r15-s880512.z5": {
+    "bytes": 62928,
+    "checksum": "8201",
+    "hint": "Restaurant at the End of the Universe",
+    "release": 15,
+    "serial": "880512",
+    "sha256": "769893e1ba5306b139feb35f557fcd59bb5d38eaade8768b12f5f6fac7ac1fd9",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/restaurant-r184-s890412.z6": {
+    "bytes": 79152,
+    "checksum": "26c4",
+    "hint": "Restaurant at the End of the Universe",
+    "release": 184,
+    "serial": "890412",
+    "sha256": "79b279ec3b14fe1ab35b0353047115261c64b154ed0917272db669f1924d9787",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/sampler-1b-r8-s870119.z3": {
+    "bytes": 55472,
+    "checksum": "340a",
+    "hint": "Infocom Sampler",
+    "release": 8,
+    "serial": "870119",
+    "sha256": "90c3c0a89134c3db927c33d316e5f53cfa0195586794be84b70cbe9100a108d8",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/sampler-1z-r15-s840330.z3": {
+    "bytes": 62326,
+    "checksum": "d0f1",
+    "hint": "Infocom Sampler",
+    "release": 15,
+    "serial": "840330",
+    "sha256": "bd2792c0ddde0d0bca4eba3b3780c444683d4c1d665fe3fb68f555ab12d2d996",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/sampler-2zt-r8-s870601.z3": {
+    "bytes": 106094,
+    "checksum": "f199",
+    "hint": "Infocom Sampler",
+    "release": 8,
+    "serial": "870601",
+    "sha256": "37411ba2f001f943dd1dea22468dd31bcda6da96581d6fcea4e29fd050419c55",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/sampler-3zpi-r5-s840512.z3": {
+    "bytes": 105196,
+    "checksum": "5127",
+    "hint": "Infocom Sampler",
+    "release": 5,
+    "serial": "840512",
+    "sha256": "d04dcc6c50680f6dc782627193a27f1c9dbd144a57162a0637c1fd2d14a9e0d1",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/sampler-3ztl-r97-s870601.z3": {
+    "bytes": 125314,
+    "checksum": "a057",
+    "hint": "Infocom Sampler",
+    "release": 97,
+    "serial": "870601",
+    "sha256": "7ab731bcba8dc5b3e28f825a45a6aa09097dcd79b4dd8077da7f155ce724faa1",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/sampler-4zpiw-r24-s840627.z3": {
+    "bytes": 112478,
+    "checksum": "841e",
+    "hint": "Infocom Sampler",
+    "release": 24,
+    "serial": "840627",
+    "sha256": "9d000ca10ae9475787b3ffb6a5e447633e17381b063e975822ae11487e6f1c54",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/sampler-4zpiw-r26-s840731.z3": {
+    "bytes": 112610,
+    "checksum": "a3e9",
+    "hint": "Infocom Sampler",
+    "release": 26,
+    "serial": "840731",
+    "sha256": "8a333e2381095439acb66db43385f4f94ba5fe63c478c95079ae764bacd2942b",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/sampler-4zpiw-r52-s850402.z3": {
+    "bytes": 126976,
+    "checksum": "7bda",
+    "hint": "Infocom Sampler",
+    "release": 52,
+    "serial": "850402",
+    "sha256": "ed2c75188b4a20d4b9b8ec499d9fa4f913999b15bfacdf2fa7a2af513e5efda4",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/sampler-4zpiw-r53-s850407.z3": {
+    "bytes": 126708,
+    "checksum": "7f9c",
+    "hint": "Infocom Sampler",
+    "release": 53,
+    "serial": "850407",
+    "sha256": "ed2d8edd2084cfa38762c9e834c7958b7ed5f2ac666f6d7c40c8948397a8e943",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/sampler-4zpiw-r55-s850823.z3": {
+    "bytes": 126902,
+    "checksum": "6f21",
+    "hint": "Infocom Sampler",
+    "release": 55,
+    "serial": "850823",
+    "sha256": "7a2e5b7698f42a83e73dab5d9c5fbead294cf7b407f6daa8fe57caa429bd35bf",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/seastalker-atari-r15-s840522.z3": {
+    "bytes": 117728,
+    "checksum": "e083",
+    "hint": "Seastalker",
+    "release": 15,
+    "serial": "840522",
+    "sha256": "7d7955587bb392c909f200d6bb505cadfe67084d1409959d369a468d3b8fe13a",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/seastalker-atari-r17-s850208.z3": {
+    "bytes": 117180,
+    "checksum": "4235",
+    "hint": "Seastalker",
+    "release": 17,
+    "serial": "850208",
+    "sha256": "343bcb5640dec9639c38296a6f341b5d32298a6b5298f9a1ab995eeda7add997",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/seastalker-beta-r86-s840320.z3": {
+    "bytes": 116456,
+    "checksum": "63fa",
+    "hint": "Seastalker",
+    "release": 86,
+    "serial": "840320",
+    "sha256": "027836f768d1607f7769f506b438a9058afed1836e69da34268fe70a229e6e5a",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/seastalker-coco-r15-s840612.z3": {
+    "bytes": 117736,
+    "checksum": "6b67",
+    "hint": "Seastalker",
+    "release": 15,
+    "serial": "840612",
+    "sha256": "c562746b16abdf765acf3d24771962e35453475d8d9fdf1e0fdb600f7b2b5e05",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/seastalker-mac-r15-s840522.z3": {
+    "bytes": 117728,
+    "checksum": "e083",
+    "hint": "Seastalker",
+    "release": 15,
+    "serial": "840522",
+    "sha256": "7d7955587bb392c909f200d6bb505cadfe67084d1409959d369a468d3b8fe13a",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/seastalker-nonatari-r17-s850208.z3": {
+    "bytes": 117180,
+    "checksum": "4235",
+    "hint": "Seastalker",
+    "release": 17,
+    "serial": "850208",
+    "sha256": "a8fd61017392dd304283c5eac4e21f0fd4a139ac2b82f7175f1aff3e34ff9906",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/seastalker-r15-s840501.z3": {
+    "bytes": 117738,
+    "checksum": "1db4",
+    "hint": "Seastalker",
+    "release": 15,
+    "serial": "840501",
+    "sha256": "2a10ce6abf3a8627101179d6f5d1f55176c0817e316ee9e8892c6422c178485d",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/seastalker-r16-s850515.z3": {
+    "bytes": 117752,
+    "checksum": "3fa8",
+    "hint": "Seastalker",
+    "release": 16,
+    "serial": "850515",
+    "sha256": "8345a7e11f8a739af98459bf6daa33a238e01802ff773ea061671685ca04457a",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/seastalker-r16-s850603.z3": {
+    "bytes": 117763,
+    "checksum": "5890",
+    "hint": "Seastalker",
+    "release": 16,
+    "serial": "850603",
+    "sha256": "502e5c8e4cb82726ab61683f4d92afbb31f90fcb98b9b3dc3dbd4f97841c5582",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/seastalker-r18-s850919.z3": {
+    "bytes": 116802,
+    "checksum": "99fc",
+    "hint": "Seastalker",
+    "release": 18,
+    "serial": "850919",
+    "sha256": "822c3b5565f90979278772079f55ed7900143df6d343ad694afca0af48335df5",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/seastalker-reg-r16-s850603.z3": {
+    "bytes": 117762,
+    "checksum": "5890",
+    "hint": "Seastalker",
+    "release": 16,
+    "serial": "850603",
+    "sha256": "f17bddf0f767150c727c082c086df4ffb0788d02d28dda77fa5298ad8d5ae692",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/seastalker-tandy-r15-s840716.z3": {
+    "bytes": 117752,
+    "checksum": "4226",
+    "hint": "Seastalker",
+    "release": 15,
+    "serial": "840716",
+    "sha256": "dfae7fb46f68b2efd8c6dfbaae6b39162e603b54957ffc1bbb7ba9ac72d97542",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/sherlock-dev-r97-s871026.z5": {
+    "bytes": 199248,
+    "checksum": "4dc7",
+    "hint": "Sherlock",
+    "release": 97,
+    "serial": "871026",
+    "sha256": "ae2d0f91a848591a89ab597a774a5e02becc343c2cc63d79cdeb8ab2674bba77",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/sherlock-nosound-r21-s871214.z5": {
+    "bytes": 188444,
+    "checksum": "79b2",
+    "hint": "Sherlock",
+    "release": 21,
+    "serial": "871214",
+    "sha256": "3486bdf73d906ed1ba0959a997fb2763c4884c7e4adb5bbd26448569c3171746",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/sherlock-nosound-r4-s880324.z5": {
+    "bytes": 189220,
+    "checksum": "7086",
+    "hint": "Sherlock",
+    "release": 4,
+    "serial": "880324",
+    "sha256": "cb0daa7ce641f46fdcd9257ec47bf227c1883e7472e49c5724b45b7d1fbca7c9",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/sherlock-r22-s880112.z5": {
+    "bytes": 189016,
+    "checksum": "cb96",
+    "hint": "Sherlock",
+    "release": 22,
+    "serial": "880112",
+    "sha256": "0a5c47f3d0d444ec22520e211c87f523ad16001b78a770de5798fba1659e7da8",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/sherlock-r26-s880127.z5": {
+    "bytes": 190180,
+    "checksum": "26ba",
+    "hint": "Sherlock",
+    "release": 26,
+    "serial": "880127",
+    "sha256": "1ef017bf8895620586bb6000d18f1c39fcf22e136e1364260ec8974fb5255315",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r278-s890209.z6": {
+    "bytes": 334248,
+    "checksum": "5e9f",
+    "hint": "Shogun",
+    "release": 278,
+    "serial": "890209",
+    "sha256": "011c1b0dfe14a99bc33bc4e47b773126852f661ccd1d1a0eb892389b92514ccd",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r278-s890211.z6": {
+    "bytes": 332688,
+    "checksum": "f3f4",
+    "hint": "Shogun",
+    "release": 278,
+    "serial": "890211",
+    "sha256": "3ad06c938063c4e477c20b9708458e93a5619aec741ff2ee8c5e9eef5d64412e",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r279-s890217.z6": {
+    "bytes": 333896,
+    "checksum": "9886",
+    "hint": "Shogun",
+    "release": 279,
+    "serial": "890217",
+    "sha256": "ccfc0ad9b3fc06184ad6cdd32e29808a771b97935b3ffb8811a421541c1adef1",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r280-s890217.z6": {
+    "bytes": 333992,
+    "checksum": "7e5e",
+    "hint": "Shogun",
+    "release": 280,
+    "serial": "890217",
+    "sha256": "91187f8d806ff91f59094e80fd5b634eddeb9d8350ee5e56643d5f96c8927c18",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r281-s890222.z6": {
+    "bytes": 335024,
+    "checksum": "20a7",
+    "hint": "Shogun",
+    "release": 281,
+    "serial": "890222",
+    "sha256": "16f01648ae399afda6be09355581be6ac52e10c8d4858c035e1e3d85f8988cfb",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r282-s890224.z6": {
+    "bytes": 338128,
+    "checksum": "525f",
+    "hint": "Shogun",
+    "release": 282,
+    "serial": "890224",
+    "sha256": "52ab6a328badf363f28e9e2a6561c8ae5f35777676e7529a292e4024ed203839",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r283-s890228.z6": {
+    "bytes": 339104,
+    "checksum": "cbe5",
+    "hint": "Shogun",
+    "release": 283,
+    "serial": "890228",
+    "sha256": "26284edfd76e091b5a2bc84258a50ffae020fabdaca9c960723083ae12cbe9c6",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r284-s890302.z6": {
+    "bytes": 340080,
+    "checksum": "f8b3",
+    "hint": "Shogun",
+    "release": 284,
+    "serial": "890302",
+    "sha256": "c7c68dad5ba2c4d3aa28568da3fd6c42289deaa0bdc1375321b2adb957043cbc",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r286-s890306.z6": {
+    "bytes": 341224,
+    "checksum": "f631",
+    "hint": "Shogun",
+    "release": 286,
+    "serial": "890306",
+    "sha256": "e073db451df60849e70c318e4a5d50563cc04da49f1f0f4866c224864cf9b316",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r288-s890308.z6": {
+    "bytes": 341712,
+    "checksum": "fde2",
+    "hint": "Shogun",
+    "release": 288,
+    "serial": "890308",
+    "sha256": "dda6fda0c8d6e79ecd9a573c1d98a3325abf121b4dcd9485bb5789b905faf3eb",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r289-s890309.z6": {
+    "bytes": 342272,
+    "checksum": "4e6c",
+    "hint": "Shogun",
+    "release": 289,
+    "serial": "890309",
+    "sha256": "36f7f72097f48c4a575e82d29e2cab17c5157b0de86a11fd880dc461419ed55f",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r290-s890311.z6": {
+    "bytes": 341312,
+    "checksum": "c838",
+    "hint": "Shogun",
+    "release": 290,
+    "serial": "890311",
+    "sha256": "245fa3416615e248f8cafcdbe47043ac4f5fad514fcfb18d819e6ff3b8b8ba5d",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r291-s890313.z6": {
+    "bytes": 341440,
+    "checksum": "f1c7",
+    "hint": "Shogun",
+    "release": 291,
+    "serial": "890313",
+    "sha256": "0af8a8eb9157f40b971905d0e5e549141dccd929c8a19d77c31448f61750d4e6",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r292-s890314.z6": {
+    "bytes": 341416,
+    "checksum": "69b8",
+    "hint": "Shogun",
+    "release": 292,
+    "serial": "890314",
+    "sha256": "226781276079418dc290e60551e6fe8be19443af49f52d1023ff05da3384df30",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r295-s890321.z6": {
+    "bytes": 341912,
+    "checksum": "5c0b",
+    "hint": "Shogun",
+    "release": 295,
+    "serial": "890321",
+    "sha256": "67d63151b57f59596b12cc04eb0255dec4368f909084bf945aa9f1776a295332",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r311-s890510.z6": {
+    "bytes": 344224,
+    "checksum": "e200",
+    "hint": "Shogun",
+    "release": 311,
+    "serial": "890510",
+    "sha256": "f272ffccb9b3d4b9fb916e9d6218775da60cc0c31c88057054176f3b010b7a41",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r320-s890627.z6": {
+    "bytes": 345088,
+    "checksum": "1331",
+    "hint": "Shogun",
+    "release": 320,
+    "serial": "890627",
+    "sha256": "1a58b5a251634b6fddeaca430e47b82e7100a551a29cac2ab36d61340558b712",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r321-s890629.z6": {
+    "bytes": 345088,
+    "checksum": "46db",
+    "hint": "Shogun",
+    "release": 321,
+    "serial": "890629",
+    "sha256": "a0e5c009fdfc0debccc9d9b87be5e086cf5710f18d0b565eb86603c9c5980de5",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/shogun-r322-s890706.z6": {
+    "bytes": 345088,
+    "checksum": "5c88",
+    "hint": "Shogun",
+    "release": 322,
+    "serial": "890706",
+    "sha256": "775b2013f7a698aa51111f0ec4fe6fa70ad2d3fdfa147565ce044273ebb7df18",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/sorcerer-beta-r67-s000000.z3": {
+    "bytes": 107096,
+    "checksum": "c6cc",
+    "hint": "Sorcerer",
+    "release": 67,
+    "serial": "000000",
+    "sha256": "4aea786a8b4db99c03a417b7e129d69f95fd19ca4e8af93866fbe075953e9525",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/sorcerer-beta-r67-s831208.z3": {
+    "bytes": 107096,
+    "checksum": "c6cc",
+    "hint": "Sorcerer",
+    "release": 67,
+    "serial": "831208",
+    "sha256": "52849e8d933b794289df6ce4aa863561233e56a047233f4d3d803533598dd782",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/sorcerer-gamma-r85-s840106.z3": {
+    "bytes": 108520,
+    "checksum": "d0c4",
+    "hint": "Sorcerer",
+    "release": 85,
+    "serial": "840106",
+    "sha256": "9723bcaaa1abe4e4a970dd4a9c718caf9fca71eb012981c5592149ee3bf2e13f",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/sorcerer-r13-s851021.z3": {
+    "bytes": 108692,
+    "checksum": "33d7",
+    "hint": "Sorcerer",
+    "release": 13,
+    "serial": "851021",
+    "sha256": "1330f7a94d403535f6f4a0f8a8af5998dea46c98b133be042bf60ee4c7267e8b",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/sorcerer-r15-s851108.z3": {
+    "bytes": 109056,
+    "checksum": "28e3",
+    "hint": "Sorcerer",
+    "release": 15,
+    "serial": "851108",
+    "sha256": "8f8522b06a97414d9f682a6c531cdf868b53518693429310a4089446b6012654",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/sorcerer-r18-s860904.z3": {
+    "bytes": 111052,
+    "checksum": "4fe6",
+    "hint": "Sorcerer",
+    "release": 18,
+    "serial": "860904",
+    "sha256": "f7e1030b54059826196354ff3af09f69b3884af3ee55bd471ea5586e826ba5bf",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/sorcerer-r4-s840131.z3": {
+    "bytes": 109734,
+    "checksum": "2e36",
+    "hint": "Sorcerer",
+    "release": 4,
+    "serial": "840131",
+    "sha256": "7ff27162cefe844ef8165ae8970af47af012558e1aca1c107fda8ac68996ed46",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/sorcerer-r6-s840508.z3": {
+    "bytes": 109482,
+    "checksum": "e7ac",
+    "hint": "Sorcerer",
+    "release": 6,
+    "serial": "840508",
+    "sha256": "c971e037db71b4f6b04bce3353a50af1a72faa2629fd39bc41bf10f4d916f15b",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/spellbreaker-r63-s850916.z3": {
+    "bytes": 128480,
+    "checksum": "6c0a",
+    "hint": "Spellbreaker",
+    "release": 63,
+    "serial": "850916",
+    "sha256": "7680fe943cb2cea2ff2faf47cac6fcd38212e9d8e3652a51da9a6fd69a79870a",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/spellbreaker-r63-sXXXXXX.z3": {
+    "bytes": 128480,
+    "checksum": "6c0a",
+    "hint": "Spellbreaker",
+    "release": 63,
+    "serial": "c7cdbcbec4c7",
+    "sha256": "d3aa2c71370b793e07990da3bf6e8bdcd17de608e6ffa8b63e6104244412b135",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/spellbreaker-r86-s860829.z3": {
+    "bytes": 128928,
+    "checksum": "1375",
+    "hint": "Spellbreaker",
+    "release": 86,
+    "serial": "860829",
+    "sha256": "7e2cbab6a7d741f10bf7617bee48aeea1dd08b73806f7861d8d9cb0205d45292",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/spellbreaker-r87-s860904.z3": {
+    "bytes": 128916,
+    "checksum": "09dc",
+    "hint": "Spellbreaker",
+    "release": 87,
+    "serial": "860904",
+    "sha256": "e274e4ea6da1224eeb1ad2050bf55c3998426b4de49daa2d04f0fccbd9f987ae",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/starcross-r15-s820901.z3": {
+    "bytes": 84984,
+    "checksum": "5e70",
+    "hint": "Starcross",
+    "release": 15,
+    "serial": "820901",
+    "sha256": "6f3f68461b95542b4cd724ac9b912928049d443c3b3a016abc7f71b1a437a36d",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/starcross-r17-s821021.z3": {
+    "bytes": 83968,
+    "checksum": "e34b",
+    "hint": "Starcross",
+    "release": 17,
+    "serial": "821021",
+    "sha256": "50e595b07f563318a312b5dd05e7491e4d8bb5fe77786d0f09e909b7eaf846c3",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/starcross-r17-sXXXXXX.z3": {
+    "bytes": 83792,
+    "checksum": "e34b",
+    "hint": "Starcross",
+    "release": 17,
+    "serial": "      ",
+    "sha256": "5810ad7056443c506c9d619dc2c442873cc7fd99260112fe979ff834193485e5",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/starcross-r18-s830114.z3": {
+    "bytes": 84740,
+    "checksum": "a459",
+    "hint": "Starcross",
+    "release": 18,
+    "serial": "830114",
+    "sha256": "c7dac463c3a51170f82d68e389202a9ab7cc385ebf2239b83e721986e9522768",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/stationfall-beta-r63-s870218.z3": {
+    "bytes": 121724,
+    "checksum": "1151",
+    "hint": "Stationfall",
+    "release": 63,
+    "serial": "870218",
+    "sha256": "4868b2240c7c07d84de12fc44ff24f4599be0ab279e344445c9dc5d759da4d99",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/stationfall-first-r1-s861017.z3": {
+    "bytes": 41718,
+    "checksum": "410f",
+    "hint": "Stationfall",
+    "release": 1,
+    "serial": "861017",
+    "sha256": "51e2743403d7d84d4fd2889554d1911d2e157c6fa0cd0638568ef213e8e599ce",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/stationfall-gamma-r87-s870326.z3": {
+    "bytes": 127400,
+    "checksum": "71ae",
+    "hint": "Stationfall",
+    "release": 87,
+    "serial": "870326",
+    "sha256": "a51896775c9f42fbc271f4a9925421ff03e73139b5e551a99bdbac6c1cc0606d",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/stationfall-r107-s870430.z3": {
+    "bytes": 128934,
+    "checksum": "2871",
+    "hint": "Stationfall",
+    "release": 107,
+    "serial": "870430",
+    "sha256": "55983c43da044e4b49206012c0fe536fbcd9aa1f291f60431d02b836e8cc9094",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/suspect-atari-r14-s841005.z3": {
+    "bytes": 118692,
+    "checksum": "d04e",
+    "hint": "Suspect",
+    "release": 14,
+    "serial": "841005",
+    "sha256": "33b220dc262ad38be2bca35534ac33690b4855679299b178abb2c87b598349a2",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/suspect-i189-r18-s850222.z3": {
+    "bytes": 118746,
+    "checksum": "5d3c",
+    "hint": "Suspect",
+    "release": 18,
+    "serial": "850222",
+    "sha256": "a971530af1aa27f5ad784003b8290d0b24a17eaf5a0783a0a9eb544e3732cc86",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/suspect-i190-r18-s850222.z3": {
+    "bytes": 118746,
+    "checksum": "5d3d",
+    "hint": "Suspect",
+    "release": 18,
+    "serial": "850222",
+    "sha256": "93653ad7a8097cb0cc96c36709a59e1a4ceefadceb23879e25a002da7819cb28",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/suspect-r14-s000000.z3": {
+    "bytes": 118692,
+    "checksum": "d0ec",
+    "hint": "Suspect",
+    "release": 14,
+    "serial": "000000",
+    "sha256": "9a63b218d2924566db8ccaafeca29bfdeb8b3d3115d139499a504bb8dc46e8a0",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/suspect-r14-s841005.z3": {
+    "bytes": 118692,
+    "checksum": "d0ec",
+    "hint": "Suspect",
+    "release": 14,
+    "serial": "841005",
+    "sha256": "cdfc32fc1512f2fa89410656d7015204e94efff8aeda93a0c60cbda6eedfc30b",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/suspended-alt-r8-s840521.z3": {
+    "bytes": 105584,
+    "checksum": "c123",
+    "hint": "Suspended",
+    "release": 8,
+    "serial": "840521",
+    "sha256": "702fe4d04b6a3f7b8ddb02966d2d96e20edc9e2b5270ad2fc23fc0cd2529662d",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/suspended-mac-r8-s840521.z3": {
+    "bytes": 105584,
+    "checksum": "c123",
+    "hint": "Suspended",
+    "release": 8,
+    "serial": "840521",
+    "sha256": "7deefcd1e4f335dfd7b446f0d6a1dd7e8cd40d71f135fe7c5b788ecbd4749b19",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/suspended-r5-s830222.z3": {
+    "bytes": 105418,
+    "checksum": "26d4",
+    "hint": "Suspended",
+    "release": 5,
+    "serial": "830222",
+    "sha256": "df433809f9ee4ec329da45b5ad9e0c916b241c8fcb6d74a01aa6a6f0a04bc865",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/suspended-r5-sXXXXXX.z3": {
+    "bytes": 105418,
+    "checksum": "26d4",
+    "hint": "Suspended",
+    "release": 5,
+    "serial": "c4cacbd2c1cb",
+    "sha256": "5e4ab5e09b1046c6d2156c1e0143c6b59b74a459456ee214e813f0d22e8bd860",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/suspended-r7-s830419.z3": {
+    "bytes": 105500,
+    "checksum": "947b",
+    "hint": "Suspended",
+    "release": 7,
+    "serial": "830419",
+    "sha256": "fa4a9ee91a9b2e5410552c926bed258906f67b7d6817f318a4d0ee0287cf6023",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/suspended-r8-s830521.z3": {
+    "bytes": 105492,
+    "checksum": "8cf5",
+    "hint": "Suspended",
+    "release": 8,
+    "serial": "830521",
+    "sha256": "e499cef6be2af274937591bf05ba275f4b383fb35ee8f0e1e9f47b940275d655",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/trinity-alpha-r1-s851202.z4": {
+    "bytes": 154460,
+    "checksum": "2a74",
+    "hint": "Trinity",
+    "release": 1,
+    "serial": "851202",
+    "sha256": "2b379e3a8c56267c670648fb578f641fa8085b3abfef9c9c83f064007c25c481",
+    "version": 4
+  },
+  "https://eblong.com/infocom/gamefiles/trinity-beta-r1-s860221.z4": {
+    "bytes": 230484,
+    "checksum": "e32e",
+    "hint": "Trinity",
+    "release": 1,
+    "serial": "860221",
+    "sha256": "a95c074bd8158045ff601d36f300597c85f42ce35b243ceeab221b5f8ef0f365",
+    "version": 4
+  },
+  "https://eblong.com/infocom/gamefiles/trinity-beta-r14-s860313.z4": {
+    "bytes": 241564,
+    "checksum": "9bfd",
+    "hint": "Trinity",
+    "release": 14,
+    "serial": "860313",
+    "sha256": "50f13e7665c12ee1d1e653c2612b757051b79f8ac8d4e4601cd9277953a93150",
+    "version": 4
+  },
+  "https://eblong.com/infocom/gamefiles/trinity-r11-s860509.z4": {
+    "bytes": 262016,
+    "checksum": "faae",
+    "hint": "Trinity",
+    "release": 11,
+    "serial": "860509",
+    "sha256": "c7d669ab7b54565ce1061cea43073c84e1a026cd519697367c1b7ee00a2f91fd",
+    "version": 4
+  },
+  "https://eblong.com/infocom/gamefiles/trinity-r12-s860926.z4": {
+    "bytes": 262064,
+    "checksum": "16ab",
+    "hint": "Trinity",
+    "release": 12,
+    "serial": "860926",
+    "sha256": "cb3e868ac0d06e41ccd2522ba8e49842134146d822dec23b47dedd39070588d6",
+    "version": 4
+  },
+  "https://eblong.com/infocom/gamefiles/trinity-r15-s870628.z4": {
+    "bytes": 261484,
+    "checksum": "f112",
+    "hint": "Trinity",
+    "release": 15,
+    "serial": "870628",
+    "sha256": "8a647c645eee603ff469cd364277508a15f7b7f1c1363a0028ff28f6837d6149",
+    "version": 4
+  },
+  "https://eblong.com/infocom/gamefiles/wishbringer-invclues-r23-s880706.z5": {
+    "bytes": 164712,
+    "checksum": "4222",
+    "hint": "Wishbringer",
+    "release": 23,
+    "serial": "880706",
+    "sha256": "a9f5b3b3266c96b97ada128124a28dd9ade5f3fa6e2108f9e0987ff0ded783da",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/wishbringer-r68-s850501.z3": {
+    "bytes": 129024,
+    "checksum": "81a5",
+    "hint": "Wishbringer",
+    "release": 68,
+    "serial": "850501",
+    "sha256": "632c4687dba17fe2bc0fced72d499a27ee3e2a95e320fc587f82501f2be9cb40",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/wishbringer-r69-s850920.z3": {
+    "bytes": 128904,
+    "checksum": "00dc",
+    "hint": "Wishbringer",
+    "release": 69,
+    "serial": "850920",
+    "sha256": "aced63a8dcaddc64119ce871ba0170fcdbfb07bf0fdb0eeec2b770f0b279fba1",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/wishbringer-r70-s880609.z3": {
+    "bytes": 127980,
+    "checksum": "d738",
+    "hint": "Wishbringer",
+    "release": 32933,
+    "serial": "880609",
+    "sha256": "9b263a5f1e8feea4b542f35745ae9fbf923c276fc3609f15473c44a289900f79",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/wishbringer-recon-r70-s880609.z3": {
+    "bytes": 128540,
+    "checksum": "1823",
+    "hint": "Wishbringer",
+    "release": 70,
+    "serial": "880609",
+    "sha256": "8ad5703e1dcefe014056108bd27a0a0bc9b1310796aa2c072f8b4b87afc702de",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/witness-r13-s830524.z3": {
+    "bytes": 102608,
+    "checksum": "1334",
+    "hint": "The Witness",
+    "release": 13,
+    "serial": "830524",
+    "sha256": "e1e2c7f819587a0d171eca55f09d9df2969f9c81d90c32f7ed866993193d3f4e",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/witness-r18-s830910.z3": {
+    "bytes": 103728,
+    "checksum": "db11",
+    "hint": "The Witness",
+    "release": 18,
+    "serial": "830910",
+    "sha256": "c13b0eacc7e0517531f296347945a1d1aeb4129e20562259d375ecd05ee14b29",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/witness-r20-s831119.z3": {
+    "bytes": 104740,
+    "checksum": "b8e8",
+    "hint": "The Witness",
+    "release": 20,
+    "serial": "831119",
+    "sha256": "74af6f2d4c9c2e24bf85e961d0e5c4c69bab9e06f48f86146795d2df00cf7a27",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/witness-r21-s831208.z3": {
+    "bytes": 104704,
+    "checksum": "92c9",
+    "hint": "The Witness",
+    "release": 21,
+    "serial": "831208",
+    "sha256": "aefb9d21343f992c6a25348127bf206981e343df3b9dbaa9ac537f262cf6d3eb",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/witness-r22-s840924.z3": {
+    "bytes": 104664,
+    "checksum": "d5b7",
+    "hint": "The Witness",
+    "release": 22,
+    "serial": "840924",
+    "sha256": "f9114633540afa98c3bb97d1b07ffafd0c0aa20ce179d48aa7e5f46953e0904d",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/witness-r23-s840925.z3": {
+    "bytes": 104260,
+    "checksum": "36fe",
+    "hint": "The Witness",
+    "release": 23,
+    "serial": "840925",
+    "sha256": "7863e642157f95fd1ca0495724571285ffa43590a3cabfa96c43d263f17f665e",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/ziptest-r12-s890607.z6": {
+    "bytes": 16896,
+    "checksum": "482b",
+    "hint": "ZipTest",
+    "release": 12,
+    "serial": "890607",
+    "sha256": "e5c362b92dc0aea1e4442ffb60a22a821da7b4bf4ecb9ef33ee7a82e56463be1",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/ziptest-r13-s890619.z6": {
+    "bytes": 16896,
+    "checksum": "4eca",
+    "hint": "ZipTest",
+    "release": 13,
+    "serial": "890619",
+    "sha256": "9f8acf034835b207426760048a6e52138e7035ef08c0ecd9e2f6afd8a203145b",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/ziptest-r40-s840613.z3": {
+    "bytes": 3998,
+    "checksum": "dabe",
+    "hint": "ZipTest",
+    "release": 40,
+    "serial": "840613",
+    "sha256": "c1a7db6b578bcc74d9389ab687fdc28f02768d12b719faf3d2529ab8cc8c50d2",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork0-alpha-r96-s880224.z5": {
+    "bytes": 201496,
+    "checksum": "8f9a",
+    "hint": "Zork Zero",
+    "release": 96,
+    "serial": "880224",
+    "sha256": "6c0d0fb818a595d40cdc1480b431f47439f0f90bf2abe0bd2a6c1db493aab875",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/zork0-beta-r242-s880830.z6": {
+    "bytes": 269536,
+    "checksum": "bf47",
+    "hint": "Zork Zero",
+    "release": 242,
+    "serial": "880830",
+    "sha256": "d8fca5f330232bd5beea19d3859ca378c32abfdb9efd7327ac42e1b44d1c3fc5",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/zork0-demo-r366-s890323.z6": {
+    "bytes": 296376,
+    "checksum": "c5ce",
+    "hint": "Zork Zero",
+    "release": 366,
+    "serial": "890323",
+    "sha256": "b4722041698529cad7f1a272bf901fed190dfb5eb29bad9d4f50c08561a3055c",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/zork0-demo-r393-s890714.z6": {
+    "bytes": 299968,
+    "checksum": "791d",
+    "hint": "Zork Zero",
+    "release": 393,
+    "serial": "890714",
+    "sha256": "5d5a025ef8540bf30c6f32ddf3873ecde1df51969f32d33a46563dbd886b5deb",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/zork0-first-r0-s870831.z5": {
+    "bytes": 50144,
+    "checksum": "9e2a",
+    "hint": "Zork Zero",
+    "release": 0,
+    "serial": "870831",
+    "sha256": "85305cf9537fadbd9dba8cbe152a7108d5b3c0a3a8a67092ad3ab97dc238d54f",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/zork0-ibm-r392-s890714.z6": {
+    "bytes": 300032,
+    "checksum": "66f8",
+    "hint": "Zork Zero",
+    "release": 392,
+    "serial": "890714",
+    "sha256": "5e1b59ef83e743d415e1cfcb514e3a146f15e2ad75733f5371c4a2cc2a552374",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/zork0-oldparser-r1-s871030.z5": {
+    "bytes": 133796,
+    "checksum": "3010",
+    "hint": "Zork Zero",
+    "release": 1,
+    "serial": "871030",
+    "sha256": "66543e77e6be893f59ef2ba91b719e38fdb51dacc9dfb66e876d08ac389a8383",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/zork0-prealpha-r74-s880114.z5": {
+    "bytes": 183740,
+    "checksum": "958e",
+    "hint": "Zork Zero",
+    "release": 74,
+    "serial": "880114",
+    "sha256": "419241b7a56de053d2e28279199b187184a868a95d758fb05ced4f7178712ab6",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/zork0-r153-s880510.z5": {
+    "bytes": 245600,
+    "checksum": "5c68",
+    "hint": "Zork Zero",
+    "release": 153,
+    "serial": "880510",
+    "sha256": "6bb88124806f55c3bbf407c3085f6f48f6f6057a478aaeb2ec6bad993637f668",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/zork0-r242-s880901.z6": {
+    "bytes": 269528,
+    "checksum": "bbab",
+    "hint": "Zork Zero",
+    "release": 242,
+    "serial": "880901",
+    "sha256": "37a151fccfcdbf65bed561c06378c17067988b1be6871e18ef13c47dc86d5837",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/zork0-r296-s881019.z6": {
+    "bytes": 295536,
+    "checksum": "8c61",
+    "hint": "Zork Zero",
+    "release": 296,
+    "serial": "881019",
+    "sha256": "4b2bdc23d7df1c4e00264baee4e7a8eef0b713286f6c881f0a8c57f65a69e9ce",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/zork0-r343-s890217.z6": {
+    "bytes": 297152,
+    "checksum": "d8b9",
+    "hint": "Zork Zero",
+    "release": 343,
+    "serial": "890217",
+    "sha256": "aa34c3691a7c1b07989a68f7ca8e2574ef7c0df7e6018aa209c44bc22185bc44",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/zork0-r366-s890323.z6": {
+    "bytes": 296376,
+    "checksum": "c5cd",
+    "hint": "Zork Zero",
+    "release": 366,
+    "serial": "890323",
+    "sha256": "14a37267399b41f1217ef526dd7a19e76f559acfdc9d83998961688164ba6bcd",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/zork0-r383-s890602.z6": {
+    "bytes": 299392,
+    "checksum": "6f7f",
+    "hint": "Zork Zero",
+    "release": 383,
+    "serial": "890602",
+    "sha256": "cf2359a569f223709c73295d2659965d4093d2730d731bd2b64bd405f42cf9a2",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/zork0-r387-s890612.z6": {
+    "bytes": 300032,
+    "checksum": "3d30",
+    "hint": "Zork Zero",
+    "release": 387,
+    "serial": "890612",
+    "sha256": "767c3ce1a4cc106fda252026359bbe82ff0b12ec0adef18a858493b0ed919df4",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/zork0-r393-s890714.z6": {
+    "bytes": 300032,
+    "checksum": "791c",
+    "hint": "Zork Zero",
+    "release": 393,
+    "serial": "890714",
+    "sha256": "a89c38f0072c8b2aaf9d2ce61c613d81ac79fcdec66419dfa92bda8db25affc1",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/zork0-r66-s890111.z6": {
+    "bytes": 299440,
+    "checksum": "a8b5",
+    "hint": "Zork Zero",
+    "release": 66,
+    "serial": "890111",
+    "sha256": "720f56dc497899573349f1f672b7e0e68ce413c7269489bcb747f8caf388d034",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/zork1-german-beta-r3-s880113.z5": {
+    "bytes": 116216,
+    "checksum": "d63d",
+    "hint": "Zork 1",
+    "release": 3,
+    "serial": "880113",
+    "sha256": "faf3feb9f45a1fbd9b5bb35f8f05e660236168c1ac26cf164fb055c2a4c4f8ad",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/zork1-german-r15-s890613.z6": {
+    "bytes": 131072,
+    "checksum": "98bc",
+    "hint": "Zork 1",
+    "release": 15,
+    "serial": "890613",
+    "sha256": "ab663a9183f9aa8f53da6df5ebf256de412e586971c6c2ce282dde542b1c7a23",
+    "version": 6
+  },
+  "https://eblong.com/infocom/gamefiles/zork1-invclues-r52-s871125.z5": {
+    "bytes": 105264,
+    "checksum": "4b37",
+    "hint": "Zork 1",
+    "release": 52,
+    "serial": "871125",
+    "sha256": "07ba90fc9f214fba9532228a3c0ba1230eeeacf5b8dfad5d9d721762aaa5f9b4",
+    "version": 5
+  },
+  "https://eblong.com/infocom/gamefiles/zork1-r119-s880429.z3": {
+    "bytes": 86838,
+    "checksum": "bf44",
+    "hint": "Zork 1",
+    "release": 119,
+    "serial": "880429",
+    "sha256": "37084966477dff679282de42974b2077156b1bd68fad92a65d4ea94d8eb64d79",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork1-r15-sUG3AU5.z2": {
+    "bytes": 78566,
+    "checksum": "0000",
+    "hint": "Zork 1",
+    "release": 15,
+    "serial": "UG3AU5",
+    "sha256": "c500586e6c68299acf345560fad574c80ae9cbf2ea37b2366d3a955dcca4b113",
+    "version": 2
+  },
+  "https://eblong.com/infocom/gamefiles/zork1-r15-sXXXXXX.z2": {
+    "bytes": 78566,
+    "checksum": "0000",
+    "hint": "Zork 1",
+    "release": 15,
+    "serial": "bfbfbfbfbfbf",
+    "sha256": "fe3058c5cb4e17e9fc2680673fd897bd1c86dab2f6d45bf5b119db92d14aff24",
+    "version": 2
+  },
+  "https://eblong.com/infocom/gamefiles/zork1-r2-sAS000C.z1": {
+    "bytes": 82944,
+    "checksum": "0000",
+    "hint": "Zork 1",
+    "release": 2,
+    "serial": "AS000C",
+    "sha256": "b06d8b87c1a4f59008b25df3889616d0cdb1292cc93d21dd1aabd9b8d25e4528",
+    "version": 1
+  },
+  "https://eblong.com/infocom/gamefiles/zork1-r20-sXXXXXX.z3": {
+    "bytes": 75734,
+    "checksum": "0000",
+    "hint": "Zork 1",
+    "release": 20,
+    "serial": "000000000000",
+    "sha256": "9e16f514e103252914f1e7e1ef00deceb5e3e003e627a7fae84a9b67da60e270",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork1-r23-s820428.z3": {
+    "bytes": 75780,
+    "checksum": "0000",
+    "hint": "Zork 1",
+    "release": 23,
+    "serial": "820428",
+    "sha256": "2a8c9c1ac63e6c266683aee9c8e968c46157bbf64b60df03ecb1dee175e9b563",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork1-r25-s820515.z3": {
+    "bytes": 75808,
+    "checksum": "0000",
+    "hint": "Zork 1",
+    "release": 25,
+    "serial": "820515",
+    "sha256": "c444d3b8d772fcb22f00dbd2a127a8dae5b14f2afc2b0d8640ed89dc3d7e57c5",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork1-r26-s820803.z3": {
+    "bytes": 75964,
+    "checksum": "05c5",
+    "hint": "Zork 1",
+    "release": 26,
+    "serial": "820803",
+    "sha256": "8d8c199f338421984e3c21ba7f880d0a7c5366b6b4c378058cae41924a797606",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork1-r28-s821013.z3": {
+    "bytes": 76018,
+    "checksum": "2a49",
+    "hint": "Zork 1",
+    "release": 28,
+    "serial": "821013",
+    "sha256": "9c5d4d132e940ebb8516250b23d9c57286c504679b071c0303a362c7591ceab2",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork1-r30-s830330.z3": {
+    "bytes": 76324,
+    "checksum": "808b",
+    "hint": "Zork 1",
+    "release": 30,
+    "serial": "830330",
+    "sha256": "e64d51927e884de15376876527880a7395767805a3d20cd17be907451870bb3f",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork1-r5-sXXXXXX.z1": {
+    "bytes": 82836,
+    "checksum": "0000",
+    "hint": "Zork 1",
+    "release": 5,
+    "serial": "000000000000",
+    "sha256": "da1bcf1d47ab0f697b895bc38eaf8f0cafdc4d0534d11a2c4ad2fd57551cfb78",
+    "version": 1
+  },
+  "https://eblong.com/infocom/gamefiles/zork1-r75-s830929.z3": {
+    "bytes": 84868,
+    "checksum": "a386",
+    "hint": "Zork 1",
+    "release": 75,
+    "serial": "830929",
+    "sha256": "9f6599dafb923aa3a7c037d55cd3e96c15375361de00c9878813d6b75bbce874",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork1-r76-s840509.z3": {
+    "bytes": 84874,
+    "checksum": "9efc",
+    "hint": "Zork 1",
+    "release": 76,
+    "serial": "840509",
+    "sha256": "48bf25b1070c8a4938e64a971184a89040062788c5b3d08764364807e35fa51c",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork1-r88-s840726.z3": {
+    "bytes": 84876,
+    "checksum": "a129",
+    "hint": "Zork 1",
+    "release": 88,
+    "serial": "840726",
+    "sha256": "158f1f63b1302591bbce30e1ec23b17909d2a66e39403ed14593a75280b1e7f9",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork2-mac-r22-s840518.z3": {
+    "bytes": 83128,
+    "checksum": "e669",
+    "hint": "Zork 2",
+    "release": 22,
+    "serial": "840518",
+    "sha256": "f8790716f16fc28be0a80620f97d91432501137b9d4620b6e4d73884a2f03836",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork2-r15-s820308.z3": {
+    "bytes": 82110,
+    "checksum": "0000",
+    "hint": "Zork 2",
+    "release": 15,
+    "serial": "820308",
+    "sha256": "60d2e9edb2b9cd9c6cbcc6d08e095a967f72dd398050cb915a2bc6780a51540d",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork2-r17-s820427.z3": {
+    "bytes": 82368,
+    "checksum": "0000",
+    "hint": "Zork 2",
+    "release": 17,
+    "serial": "820427",
+    "sha256": "678e8d9ef99b59b76db65811c2b39b2c5f4cbf1bb11da4ab1d285f364af3f934",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork2-r18-s820512.z3": {
+    "bytes": 82422,
+    "checksum": "0000",
+    "hint": "Zork 2",
+    "release": 18,
+    "serial": "820512",
+    "sha256": "92f84804d2da4e6d7e2cd6c7019dd2595a3bfe402ee42f66fd2a88330e9a2e17",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork2-r18-s820517.z3": {
+    "bytes": 82422,
+    "checksum": "0000",
+    "hint": "Zork 2",
+    "release": 18,
+    "serial": "820517",
+    "sha256": "2e8694a678b8f670334f68ef9775fa9e491839dd6921939832de3dde44e70c07",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork2-r19-s820721.z3": {
+    "bytes": 82586,
+    "checksum": "32f6",
+    "hint": "Zork 2",
+    "release": 19,
+    "serial": "820721",
+    "sha256": "6ca521bb3d1c1025b054040a9ff5424bcc367ccc2513a7f23fa0e36cf9616a7e",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork2-r22-s830331.z3": {
+    "bytes": 82920,
+    "checksum": "7514",
+    "hint": "Zork 2",
+    "release": 22,
+    "serial": "830331",
+    "sha256": "c28e53f8df0e10c081df922faea2802f74db5222d9ee45e5dd9d479dea8894a9",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork2-r23-s830411.z3": {
+    "bytes": 81876,
+    "checksum": "563d",
+    "hint": "Zork 2",
+    "release": 23,
+    "serial": "830411",
+    "sha256": "acb9b89d326873b520fb3835a4f801a8b04db7230be31fd857f7ebd99b9dc6a8",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork2-r48-s840904.z3": {
+    "bytes": 89912,
+    "checksum": "d899",
+    "hint": "Zork 2",
+    "release": 48,
+    "serial": "840904",
+    "sha256": "39e3a8bda879e9296ac05c8bdcdae12a1a6fb447a1ef531838e82cfa2db210ac",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork2-r63-s860811.z3": {
+    "bytes": 92524,
+    "checksum": "4492",
+    "hint": "Zork 2",
+    "release": 63,
+    "serial": "860811",
+    "sha256": "3ae7d5558943e9721f3e4b273c8a7faec1a03a604e1ae4ee1cde472c21cb24ac",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork2-r7-sUG3AU5.z2": {
+    "bytes": 85260,
+    "checksum": "0000",
+    "hint": "Zork 2",
+    "release": 7,
+    "serial": "UG3AU5",
+    "sha256": "279ed9950bf5b261fc0fa01a265d88061bd603a45578d819d68a5a77f0ef0ccb",
+    "version": 2
+  },
+  "https://eblong.com/infocom/gamefiles/zork3-mac-r15-s840518.z3": {
+    "bytes": 82642,
+    "checksum": "1678",
+    "hint": "Zork 3",
+    "release": 15,
+    "serial": "840518",
+    "sha256": "3e7619cc85dc2003694dcb2fab4620dd529aac6c8e2cf28ca7e2e13d7ad1429d",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork3-r10-s820818.z3": {
+    "bytes": 82334,
+    "checksum": "01e3",
+    "hint": "Zork 3",
+    "release": 10,
+    "serial": "820818",
+    "sha256": "df0c784f4c1f35764ecf952b8f71ffdb098021e5d224d18152d69c96bb675f82",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork3-r12-s821025.z3": {
+    "bytes": 82396,
+    "checksum": "0608",
+    "hint": "Zork 3",
+    "release": 12,
+    "serial": "821025",
+    "sha256": "e9209f5855cf26068c2915b4abd30f20cc7531580a82cee4417aae6a929b0ef4",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork3-r15-s830331.z3": {
+    "bytes": 82558,
+    "checksum": "e7cf",
+    "hint": "Zork 3",
+    "release": 15,
+    "serial": "830331",
+    "sha256": "0441e6fe6e049e9aa5debd3af729f4c09f14c79dae2c18f649193f47c9c9b06b",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork3-r16-s830410.z3": {
+    "bytes": 81626,
+    "checksum": "c06c",
+    "hint": "Zork 3",
+    "release": 16,
+    "serial": "830410",
+    "sha256": "b32f173ce1bfd252c72beec4938ea4b551a578102e79c99ffa6eecdfd5b8f795",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork3-r17-s840727.z3": {
+    "bytes": 82714,
+    "checksum": "2e7a",
+    "hint": "Zork 3",
+    "release": 17,
+    "serial": "840727",
+    "sha256": "62ced461c650265ea55b17e7f0e368724e0b43bf92af6f1a3d566e82c7608be2",
+    "version": 3
+  },
+  "https://eblong.com/infocom/gamefiles/zork3-r25-s860811.z3": {
+    "bytes": 87984,
+    "checksum": "f645",
+    "hint": "Zork 3",
+    "release": 25,
+    "serial": "860811",
+    "sha256": "b637a242865d059890184164ce8dec28554cc80901dcbf26c740b2d1ed0d4eb8",
+    "version": 3
+  }
+}

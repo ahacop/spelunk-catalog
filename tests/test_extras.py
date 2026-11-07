@@ -10,8 +10,8 @@ class Classify(unittest.TestCase):
     def test_slots(self):
         self.assertEqual(classify({"title": "Manual"}), "manual")
         self.assertEqual(classify({"title": "InvisiClues hint booklet"}), "hints")
-        self.assertEqual(classify({"title": "Map"}), "map")
-        self.assertEqual(classify({"title": "Feelies"}), "feelies")
+        self.assertIsNone(classify({"title": "Map"}))
+        self.assertIsNone(classify({"title": "Feelies"}))
         self.assertIsNone(classify({"title": "Walkthrough"}))
         self.assertIsNone(classify({"title": "Story file", "isGame": True}))
 

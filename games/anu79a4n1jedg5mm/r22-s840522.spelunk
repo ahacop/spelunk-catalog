@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Infidel",
+  "game": "anu79a4n1jedg5mm",
+  "story": {
+    "ifid": "ZCODE-22-840522",
+    "release": 22,
+    "serial": "840522",
+    "checksum": "e176",
+    "label": "Macintosh · Release 22 (840522)",
+    "type": "z3",
+    "sha256": "2fe062a0e39fd519b9d9c0d5bb915bd9efec3278725d208b074377af44d85d36",
+    "bytes": 94144,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/infidel-mac-r22-s840522.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=anu79a4n1jedg5mm"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "c64276cbfff9100c383320208dc46f69fa67893be12a22ab7679d99e7bc7ec00",
+    "bytes": 93357,
+    "sources": [
+      "https://ifdb.org/coverart?id=anu79a4n1jedg5mm&version=14"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "9fc673b1a3b40ffd9d3871c0523b1fecf04cddff77a35cc473d402c3c6a515e4",
+    "bytes": 4740848,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/infidel.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "002d113797bf01861c6de8540b6158550a7625c32bc6465f91ae3dd3c8cdffb7",
+      "bytes": 29184,
+      "sources": [
+        "https://infodoc.plover.net/hints/infidel.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "cf0b4c9b0d49f9a4be44311aea44cc4215522e0a806ec21cd0866ff27b9ad9f5",
+      "bytes": 6719594,
+      "sources": [
+        "https://infodoc.plover.net/maps/infidel.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "d68a5f99452fc86aa33490f6f86cbcc74264c05c8c27603929951ca4f10e01ee",
+      "bytes": 58814,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/infidel.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

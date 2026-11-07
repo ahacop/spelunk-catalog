@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Zork II",
+  "game": "yzzm4puxyjakk8c4",
+  "story": {
+    "ifid": "ZCODE-63-860811",
+    "release": 63,
+    "serial": "860811",
+    "checksum": "4492",
+    "label": "Release 63 (860811)",
+    "type": "z3",
+    "sha256": "3ae7d5558943e9721f3e4b273c8a7faec1a03a604e1ae4ee1cde472c21cb24ac",
+    "bytes": 92524,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/zork2-r63-s860811.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=yzzm4puxyjakk8c4"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "dd82547b53eaa02abe6baef862f651cc06e254a1a6467e4563b6d879ddb6d7e0",
+    "bytes": 105940,
+    "sources": [
+      "https://ifdb.org/coverart?id=yzzm4puxyjakk8c4&version=32"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "df6de57736aed2819e7fb720658240e34aa2fc17a545925e759474d9c71c3a94",
+    "bytes": 3714309,
+    "sources": [
+      "https://infodoc.plover.net/manuals/zork2.pdf"
+    ],
+    "title": "Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "66d840dc59f555c6cd0822c794b123a17060aa8a0d25aea7cd13def2a7d54e67",
+      "bytes": 31232,
+      "sources": [
+        "https://infodoc.plover.net/hints/zork2.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "d6f8a5f6206a3933dc692e3962035031f321b734566fed093228405e410e3d47",
+      "bytes": 985824,
+      "sources": [
+        "https://infodoc.plover.net/maps/zork2.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "63099e1cd264585f438fde2e572d4094acbddc31351d047df75e9bd9c8081255",
+      "bytes": 63871,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/zork2.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "spelunk": 1,
+  "title": "Four-In-One Sampler II",
+  "game": "p00ucaayobrt2paz",
+  "story": {
+    "ifid": "ZCODE-8-870119",
+    "release": 8,
+    "serial": "870119",
+    "checksum": "340a",
+    "label": "1b · Release 8 (870119)",
+    "type": "z3",
+    "sha256": "90c3c0a89134c3db927c33d316e5f53cfa0195586794be84b70cbe9100a108d8",
+    "bytes": 55472,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/sampler-1b-r8-s870119.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=p00ucaayobrt2paz"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "93508589be40bd08e13673a75a45709ebf7a10e062b19546c9cfcdd5f2b4b8e6",
+    "bytes": 82020,
+    "sources": [
+      "https://ifdb.org/coverart?id=p00ucaayobrt2paz&version=6"
+    ],
+    "credit": "Cover art from IFDB"
+  }
+}

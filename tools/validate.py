@@ -49,7 +49,7 @@ def check_file(path: Path) -> tuple[list[str], dict | None]:
 
 
 def parts(m: dict):
-    for key in ("story", "cover", "manual", "map"):
+    for key in ("story", "cover", "manual"):
         if key in m:
             yield key, m[key]
     for key in ("feelies", "hints"):

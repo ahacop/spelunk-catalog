@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Sherlock: The Riddle of the Crown Jewels",
+  "game": "j8lmspy4iz73mx26",
+  "story": {
+    "ifid": "ZCODE-4-880324",
+    "release": 4,
+    "serial": "880324",
+    "checksum": "7086",
+    "label": "Without sound · Release 4 (880324)",
+    "type": "z5",
+    "sha256": "cb0daa7ce641f46fdcd9257ec47bf227c1883e7472e49c5724b45b7d1fbca7c9",
+    "bytes": 189220,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/sherlock-nosound-r4-s880324.z5"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=j8lmspy4iz73mx26"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "fcc1fa55056734a78fe2e1dcd5591b47de7d473234444584916fb6fe12d40534",
+    "bytes": 87338,
+    "sources": [
+      "https://ifdb.org/coverart?id=j8lmspy4iz73mx26&version=23"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "1a1bcd5f5d2e987a3bce758f6079ab692f7a8be1091214b641529c413ffde569",
+    "bytes": 3164590,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/sherlock.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "fff4a66a990592bdffa9cecf174ee67ae3259522e973fc2203f2893ee59cd082",
+      "bytes": 26624,
+      "sources": [
+        "https://infodoc.plover.net/hints/sherlock.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "cc956723c8033173069992b4da64638aac1cd75c77e9590f0fcc3864a1f5d49b",
+      "bytes": 768072,
+      "sources": [
+        "https://infodoc.plover.net/maps/sherlock.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "d8fc5ce8e489f7fc96d6374c9df124195dcecf6ebac9ca4312acd28b12164bc7",
+      "bytes": 56297,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/sherlock.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

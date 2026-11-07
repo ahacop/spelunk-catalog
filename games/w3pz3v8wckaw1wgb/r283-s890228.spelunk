@@ -1,0 +1,50 @@
+{
+  "spelunk": 1,
+  "title": "Shogun",
+  "game": "w3pz3v8wckaw1wgb",
+  "story": {
+    "ifid": "ZCODE-283-890228",
+    "release": 283,
+    "serial": "890228",
+    "checksum": "cbe5",
+    "label": "Release 283 (890228)",
+    "type": "z6",
+    "sha256": "26284edfd76e091b5a2bc84258a50ffae020fabdaca9c960723083ae12cbe9c6",
+    "bytes": 339104,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/shogun-r283-s890228.z6"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=w3pz3v8wckaw1wgb"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "ebce9b70e1b8ea017d99b164dd1ae5ad9335762fae64854b83443353ec3b79f7",
+    "bytes": 81896,
+    "sources": [
+      "https://ifdb.org/coverart?id=w3pz3v8wckaw1wgb&version=15"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "f665f0d41d1efbac7d00b581086eaad26c64933589c7c73fd125767a344f03ea",
+      "bytes": 36352,
+      "sources": [
+        "https://infodoc.plover.net/hints/shogun.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "1c6ac52bf18de1cb10da1ec76bfb8aeda160cdd0230aac9cfdbc6f2a4b69452e",
+      "bytes": 84022,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/shogun.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

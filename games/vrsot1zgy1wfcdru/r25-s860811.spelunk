@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Zork III",
+  "game": "vrsot1zgy1wfcdru",
+  "story": {
+    "ifid": "ZCODE-25-860811",
+    "release": 25,
+    "serial": "860811",
+    "checksum": "f645",
+    "label": "Release 25 (860811)",
+    "type": "z3",
+    "sha256": "b637a242865d059890184164ce8dec28554cc80901dcbf26c740b2d1ed0d4eb8",
+    "bytes": 87984,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/zork3-r25-s860811.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=vrsot1zgy1wfcdru"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "be03d257898af7d79ecbd6de0fb76f7e3a8a6e2eaf4c81b45afe5d8d1fdf34a8",
+    "bytes": 135636,
+    "sources": [
+      "https://ifdb.org/coverart?id=vrsot1zgy1wfcdru&version=24"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "07982b64b070d98e1b86e774eeda22356d03ff330194206ace5d6faebd680767",
+    "bytes": 2890471,
+    "sources": [
+      "https://infodoc.plover.net/manuals/zork3.pdf"
+    ],
+    "title": "Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "3d046c64622f94dc33b10497d07bcf2918838cb381c41b4d3cc68da0cd98d476",
+      "bytes": 30720,
+      "sources": [
+        "https://infodoc.plover.net/hints/zork3.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "e270604f66abbd36d813075c022b2f7cb4fdc99eb01986c8b1169c6e6cae90f8",
+      "bytes": 853006,
+      "sources": [
+        "https://infodoc.plover.net/maps/zork3.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "94cce97f8ef60b7e5c3c85725c2eb9cfc18bf0a4f922844a73a910ea5c3e75f7",
+      "bytes": 61508,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/zork3.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

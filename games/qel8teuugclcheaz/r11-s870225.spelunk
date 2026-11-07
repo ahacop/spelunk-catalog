@@ -1,0 +1,21 @@
+{
+  "spelunk": 1,
+  "title": "Hypochondriac (or Outcast)",
+  "game": "qel8teuugclcheaz",
+  "story": {
+    "ifid": "ZCODE-11-870225",
+    "release": 11,
+    "serial": "870225",
+    "checksum": "43e6",
+    "label": "Release 11 (870225)",
+    "type": "z3",
+    "sha256": "6f8996c5b8a86851a813fdf1ad43eb6c447573b499e4d4b89f767fbde1210071",
+    "bytes": 52376,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/hypochondriac-r11-s870225.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=qel8teuugclcheaz"
+  }
+}

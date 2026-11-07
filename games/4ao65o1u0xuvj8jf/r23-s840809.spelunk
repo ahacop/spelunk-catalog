@@ -1,0 +1,68 @@
+{
+  "spelunk": 1,
+  "title": "Cutthroats",
+  "game": "4ao65o1u0xuvj8jf",
+  "story": {
+    "ifid": "ZCODE-23-840809",
+    "release": 23,
+    "serial": "840809",
+    "checksum": "a5a0",
+    "label": "Release 23 (840809)",
+    "type": "z3",
+    "sha256": "7b163a675a494a6373fc98742d02c11dc11d6e4178c3caeaadf6f250c90c5e1a",
+    "bytes": 112558,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/cutthroats-r23-s840809.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=4ao65o1u0xuvj8jf"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "4358283cadf76e2ed810c4b66791bb8f5f4d0bd790953a6d9d63b36780804996",
+    "bytes": 66998,
+    "sources": [
+      "https://ifdb.org/coverart?id=4ao65o1u0xuvj8jf&version=15"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "manual": {
+    "type": "pdf",
+    "sha256": "fbf631886df1d37c83e7f2e3c52604d672aa707f626845be48afb2db9d6c3d0a",
+    "bytes": 6357628,
+    "sources": [
+      "https://infodoc.plover.net/manuals/temp/cutthroa.pdf"
+    ],
+    "title": "User's Manual"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "e7bf2b22a8c5c2cb4b82d7a88ac063b2cf67b0fbb6b6216bf4e850128af02657",
+      "bytes": 34816,
+      "sources": [
+        "https://infodoc.plover.net/hints/cutthroa.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "pdf",
+      "sha256": "b77f26267e95b9ab0b9d4a9b922d991f17bf89a49b23a8e73c22ba682b72c536",
+      "bytes": 630466,
+      "sources": [
+        "https://infodoc.plover.net/maps/cutthroa.pdf"
+      ],
+      "title": "InvisiClues map"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "12ccde019f0aaf564c9080db3b9eddd9455a9af9de0ea78f816ae2d18beb26ee",
+      "bytes": 92777,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/cutthroa.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "spelunk": 1,
+  "title": "The Hitchhiker's Guide to the Galaxy",
+  "game": "ouv80gvsl32xlion",
+  "story": {
+    "ifid": "ZCODE-119-840822",
+    "release": 119,
+    "serial": "840822",
+    "checksum": "0a11",
+    "label": "Beta 2 · Release 119 (840822)",
+    "type": "z3",
+    "sha256": "3248ec87a7d69d66c528fedefec62179a462967f38d30048368a9689b1c96d80",
+    "bytes": 110982,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/hitchhiker-beta2-r119-s840822.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=ouv80gvsl32xlion"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "d70cf07b5c59f0fade323ecbc46f4e3d63917bfc4a6c624b3a42aeeb4ec205f2",
+    "bytes": 18699,
+    "sources": [
+      "https://ifdb.org/coverart?id=ouv80gvsl32xlion&version=36"
+    ],
+    "credit": "Cover art from IFDB"
+  },
+  "hints": [
+    {
+      "type": "z5",
+      "sha256": "ea712df2d9f9f1757688cfe55c38f84f437b3f4e8cd12413904136f06e27931f",
+      "bytes": 69632,
+      "sources": [
+        "https://infodoc.plover.net/hints/hhgg.z5"
+      ],
+      "title": "InvisiClues"
+    },
+    {
+      "type": "hints-json",
+      "sha256": "dc61c6705c8ca3b4eb1cfc4f276902088217d61fa424eb65e8106df41f288d13",
+      "bytes": 139604,
+      "sources": [
+        "https://raw.githubusercontent.com/dfabulich/infocom-hints-html/1f52d6ac86bf31214b5411de2a08f6777fb50a8a/scraped-json/hhgg.json"
+      ],
+      "title": "InvisiClues"
+    }
+  ]
+}

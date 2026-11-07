@@ -1,0 +1,30 @@
+{
+  "spelunk": 1,
+  "title": "Four-In-One Sampler II",
+  "game": "p00ucaayobrt2paz",
+  "story": {
+    "ifid": "ZCODE-15-840330",
+    "release": 15,
+    "serial": "840330",
+    "checksum": "d0f1",
+    "label": "1z · Release 15 (840330)",
+    "type": "z3",
+    "sha256": "bd2792c0ddde0d0bca4eba3b3780c444683d4c1d665fe3fb68f555ab12d2d996",
+    "bytes": 62326,
+    "sources": [
+      "https://eblong.com/infocom/gamefiles/sampler-1z-r15-s840330.z3"
+    ]
+  },
+  "links": {
+    "ifdb": "https://ifdb.org/viewgame?id=p00ucaayobrt2paz"
+  },
+  "cover": {
+    "type": "jpeg",
+    "sha256": "93508589be40bd08e13673a75a45709ebf7a10e062b19546c9cfcdd5f2b4b8e6",
+    "bytes": 82020,
+    "sources": [
+      "https://ifdb.org/coverart?id=p00ucaayobrt2paz&version=6"
+    ],
+    "credit": "Cover art from IFDB"
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "hint": "The Abyss",
+    "ifid": "ZCODE-1-890320",
+    "url": "https://eblong.com/infocom/gamefiles/abyss-r1-s890320.z6"
+  },
+  {
+    "hint": "Generic",
+    "ifid": "ZCODE-6-850705",
+    "url": "https://eblong.com/infocom/gamefiles/generic-r6-s850705.z4"
+  },
+  {
+    "hint": "Mini-Zork 2",
+    "ifid": "ZCODE-2-871123",
+    "url": "https://eblong.com/infocom/gamefiles/minizork2-r2-s871123.z3"
+  },
+  {
+    "hint": "Restaurant at the End of the Universe",
+    "ifid": "ZCODE-184-890412",
+    "url": "https://eblong.com/infocom/gamefiles/restaurant-r184-s890412.z6"
+  },
+  {
+    "hint": "ZipTest",
+    "ifid": "ZCODE-40-840613",
+    "url": "https://eblong.com/infocom/gamefiles/ziptest-r40-s840613.z3"
+  },
+  {
+    "hint": "Generic",
+    "ifid": "ZCODE-3-851007",
+    "url": "https://eblong.com/infocom/gamefiles/generic-r3-s851007.z3"
+  },
+  {
+    "hint": "Generic",
+    "ifid": "ZCODE-5-870612",
+    "url": "https://eblong.com/infocom/gamefiles/generic-r5-s870612.z3"
+  },
+  {
+    "hint": "Restaurant at the End of the Universe",
+    "ifid": "ZCODE-15-880512",
+    "url": "https://eblong.com/infocom/gamefiles/restaurant-r15-s880512.z5"
+  },
+  {
+    "hint": "ZipTest",
+    "ifid": "ZCODE-12-890607",
+    "url": "https://eblong.com/infocom/gamefiles/ziptest-r12-s890607.z6"
+  },
+  {
+    "hint": "ZipTest",
+    "ifid": "ZCODE-13-890619",
+    "url": "https://eblong.com/infocom/gamefiles/ziptest-r13-s890619.z6"
+  }
+]
